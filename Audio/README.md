@@ -114,3 +114,7 @@ Used to access booth equipment for configuration or management.
 [TA4F Cable](https://a.co/d/4TPs0uS) for Headset Microphone
 
 Shure SM58 (Wireless Handheld)
+
+## Audio Tuning
+
+[Tuning and Configuration Guide](AUDIO_TUNING.md)

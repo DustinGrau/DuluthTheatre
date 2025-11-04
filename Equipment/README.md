@@ -16,6 +16,28 @@ UpRight X26N
 * Supports up to 8GB (4GBx2)
 * A1321 Battery
 
+## Theatre Fog Machine
+
+[ADJ Mister Kool II](https://www.adj.com/mister-kool-ii)
+
+* 700W heater
+* Uses standard water-based fog juice and ice cubes
+* [ADJ Kool Fog](https://smile.amazon.com/ADJ-Products-Juice-Lying-Machine/dp/B01DUBUI70/) uses Demineralized (Distilled) Water (64-68%), Propylene Glycol (<30%), Triethylene Glycol (<6%)
+* Output Port: 140mm x 20mm
+* Top of port 78mm from base
+
+[Froggy’s Fog - Bog Fog](https://www.froggysfog.com/bog-fog-extreme-hdf-high-density-fog-juice-machine-fluid.html)
+
+* Uses De-ionized/Distilled Water, Propylene Glycol, Triethylene Glycol (ratios are proprietary, noted as a trade secret)
+
+
+[Chauvet High Performance Haze Fluid (HFG)](https://www.chauvetdj.com/products/haze-fluid-gallon/)
+
+* Contents only described as “osmozed water and glycol derivatives”
+
+[Vegetable Glycerine & Propylene Glycol Base VGPG 70-30](https://smile.amazon.com/gp/product/B06XKBXSC6/)
+
+
 
 ## Replacements
 
