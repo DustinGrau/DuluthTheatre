@@ -32,7 +32,7 @@ Countryman Headsets
 	Pin 4: Bias return - 20 k Ohm resistor to ground or equivalent active bias management circuit
 	(Jumpered to pin 3 when used with most condenser microphones)
 
-![](ta4f.jpg)
+![](images/ta4f.jpg)
 
 The pictorial shows the pin layout of a TA4F connector, as viewed from the wiring side. If you use a bright light and look at the female connector (TA4F) used for the cable, you will see numbers next to each hole. The TA4F cable end connector can be purchased as Shure Part #WA330.  ### Applications:
  Condenser Microphones - Shure WH30, PG30, WL18x, WL50, WL51, WL93, etc. 
@@ -54,7 +54,7 @@ Look at [Microphone Madness](https://www.microphonemadness.com/mm-dual-ear-psm-p
 * [https://www.digikey.com/en/products/detail/texas-instruments/TLE2426CLP/276234](https://www.digikey.com/en/products/detail/texas-instruments/TLE2426CLP/276234)
 * [https://www.digikey.com/en/products/detail/texas-instruments/TL072CP/277421](https://www.digikey.com/en/products/detail/texas-instruments/TL072CP/277421)
 
-![](lav-tester-shure.jpg)
+![](images/lav-tester-shure.jpg)
 
 
 ## Room EQ Wizard

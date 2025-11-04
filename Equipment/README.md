@@ -66,12 +66,12 @@ PL7S/41/eco - 2-Pin Compact Flourescent
 * 26W Bulb x2
 * DTT 26 G24Q-3 4-Pin
 
-![](blues1.jpg)
+![](images/blues1.jpg)
 
-![](blues2.jpg)
+![](images/blues2.jpg)
 
-![](blues3.jpg)
+![](images/blues3.jpg)
 
-![](blues4.jpg)
+![](images/blues4.jpg)
 
-![](blues5.jpg)
+![](images/blues5.jpg)
