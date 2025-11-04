@@ -1,2 +1,3 @@
-# DuuthTheatre
+# Duluth Theatre
+
 Equipment Notes and Configurations
