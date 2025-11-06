@@ -49,7 +49,7 @@ plugins:
 
 # Define the navigation structure
 nav:
-  - Home: readme.md
+  - Home: index.md
   - Sound: sound.md
   - Lighting: lighting.md
   - Accessories: accessories.md
