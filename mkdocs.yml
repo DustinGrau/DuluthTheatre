@@ -47,9 +47,6 @@ plugins:
       minify_js: true
       minify_css: true
 
-# Ensures clean URLs (no .html suffix)
-use_directory_urls: true
-
 # Define the navigation structure
 nav:
   - Home: readme.md
