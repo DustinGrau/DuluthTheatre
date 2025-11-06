@@ -117,4 +117,4 @@ Shure SM58 (Wireless Handheld)
 
 ## Audio Tuning
 
-[Tuning and Configuration Guide](AUDIO_TUNING.md)
+[Tuning and Configuration Guide](audio_tuning.md)

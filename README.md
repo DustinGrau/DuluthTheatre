@@ -1,9 +1,3 @@
 # Duluth Theatre
 
-Equipment Notes and Configurations
-
-[Audio](Audio/README.md)
-
-[Lighting](Lighting/README.md)
-
-[Equipment](Equipment/README.md)
+Go to the documentation on Github at [https://DustinGrau.github.io/DuluthTheatre/](https://DustinGrau.github.io/DuluthTheatre/)

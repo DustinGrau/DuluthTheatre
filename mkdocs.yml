@@ -1,0 +1,58 @@
+
+# ---------------------------------------------------------
+# MkDocs Configuration File
+# https://www.mkdocs.org/
+#
+# Quick Installation  (Python)
+#  python -m pip install --upgrade pip
+#  pip install mkdocs mkdocs-material mkdocs-mermaid2-plugin mkdocs-minify-plugin
+#
+# Update (When Necessary)
+#  pip install --upgrade mkdocs mkdocs-material mkdocs-mermaid2-plugin mkdocs-minify-plugin
+#
+# Run a local web server to view output:
+#  mkdocs serve
+# ---------------------------------------------------------
+
+# General information for the generated documentation
+site_name: Duluth Wildcat Theatre
+site_description: Equipment Documentation for the DHS Wildcat Theatre
+
+# The directory where your Markdown files live
+docs_dir: docs
+
+# The directory where the static site will be generated
+site_dir: site
+
+theme:
+  name: readthedocs
+  logo: images/WildcatTheatre.png
+
+extra_css:
+  - css/custom.css
+
+markdown_extensions:
+  - attr_list
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+'
+      prebuild_index: true
+  - mermaid2:
+      arguments:
+        theme: default # or dark, forest, neutral
+        securityLevel: strict
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+
+# Ensures clean URLs (no .html suffix)
+use_directory_urls: true
+
+# Define the navigation structure
+nav:
+  - Home: readme.md
+  - Sound: sound.md
+  - Lighting: lighting.md
+  - Accessories: accessories.md
