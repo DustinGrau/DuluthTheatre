@@ -109,7 +109,11 @@ Network IP: 192.168.1.3
 * CH1 - House Wall Left
 * CH2 - House Wall Right
 * CH3 - House Floor Left
+  * Low Pass: Butterworth/6dB @ 4000Hz
+  * EQ1: Parametric @ 94Hz
 * CH4 - House Floor Right
+  * Low Pass: Butterworth/6dB @ 4000Hz
+  * EQ1: Parametric @ 94Hz
 
 ## House Speakers
 
