@@ -1,45 +1,4 @@
-# Audio Equipment
-
-## Tech Booth Equipment
-
-### House Mixer
-
-[Yamaha TF5](https://usa.yamaha.com/products/proaudio/mixers/tf/index.html) - IP: 192.168.1.2
-
-### House Amplifier
-
-[LEA Connect 704 Amplifier](https://leaprofessional.com/products/network-connect/704n/) - IP: 192.168.1.3
-
-### Lobby Amplifier
-* [TOA 900 Series II Amplifier A-903MK2](https://www.toaelectronics.com/product/A-903MK2)
-* [M-01 Balanced Mic Input Module](https://www.toaelectronics.com/product/M-01S)
-
-### Tall Rack (Corner)
-
-| QTY | Equipment | Usage | Product Link |
-|-----|-----------|-------|--------------|
-| 6	 | Shure SLX4	 | WMIC1-17 (Belt Packs) | [https://www.shure.com/en-US/products/wireless-systems/slx_wireless/slx4?variant=SLX4%3D-G4](https://www.shure.com/en-US/products/wireless-systems/slx_wireless/slx4?variant=SLX4%3D-G4) |
-| 3 | 	Shure UA844+SWB | Active Antenna Distribution | [https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB ]() |
-| 1	 | Denon DN-300Z | CD Player + Aux Input | [https://www.denonpro.com/index.php/products/view3/dn-300z](https://www.denonpro.com/index.php/products/view3/dn-300z) |
-| 1	 | Clear-Com DX410 | Headset Communication | [https://www.clearcom.com/product-family/hme-dx410-wireless/](https://www.clearcom.com/product-family/hme-dx410-wireless/) |
-| 1 | 	Listen LT-800 FM | Assistive Listening | [https://www.listentech.com/shop/product/stationary-rf-transmitter-72mhz/](https://www.listentech.com/shop/product/stationary-rf-transmitter-72mhz/) |
-| 1 | 	Furman M-8Lx | Power Distribution | [https://www.amazon.com/Furman-M-8X2-Outlet-Conditioner-Protector/dp/B003BQ91Y6](https://www.amazon.com/Furman-M-8X2-Outlet-Conditioner-Protector/dp/B003BQ91Y6) |
-
-### WiFi Router
-
-**Netgear R7000**
-
-Used to access booth equipment for configuration or management.
-
-* SSID: DHS_Theatre
-* PWD: -REDACTED-
-* IP: 192.168.1.1
-* Web: admin / -REDACTED-
-* DHCP: 192.168.1.10 - 192.168.1.254
-* DNS: 1.1.1.1 / 1.0.0.1
-* Asuswrt-Merlin Xwrt-Vortex 386.7_2
-
-## Mobile Cart
+# Mobile Carts
 
 | QTY | Equipment | Usage | Product Link |
 |-----|-----------|-------|--------------|
@@ -81,12 +40,6 @@ Used to access booth equipment for configuration or management.
 | 1 | Avlex PAHS-2460B | 2 Channel Amplifier |
 | 2 | Sennheiser EW 100 G3 | Wireless Mics (Handheld) |
 
-## Peavey PV215 (Floor Speakers)
-
-* 4ohms 700W Max
-* 58Hz-17kHz
-* 15” Woofers
-
 ## Portable Mixers
 
 * [Mackie 1604VLZ4](https://mackie.com/en/products/mixers/vlz4-series/1604VLZ4.html)
@@ -114,7 +67,3 @@ Used to access booth equipment for configuration or management.
 [TA4F Cable](https://a.co/d/4TPs0uS) for Headset Microphone
 
 Shure SM58 (Wireless Handheld)
-
-## Audio Tuning
-
-[Tuning and Configuration Guide](audio_tuning.md)

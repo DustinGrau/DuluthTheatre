@@ -50,6 +50,10 @@ plugins:
 # Define the navigation structure
 nav:
   - Home: index.md
-  - Sound: sound.md
+  - Sound:
+    - House Audio: house_audio.md
+    - Mobile Crates: mobile_crates.md
+    - Audio Tuning: audio_tuning.md
   - Lighting: lighting.md
   - Accessories: accessories.md
+  - Networking: networking.md

@@ -2,8 +2,4 @@
 
 Equipment Notes and Configurations
 
-[Sound](sound.md)
-
-[Lighting](lighting.md)
-
-[Accessories](accessories.md)
+Use the menu at the left to navigate
