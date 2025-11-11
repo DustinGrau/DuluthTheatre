@@ -51,9 +51,9 @@ plugins:
 nav:
   - Home: index.md
   - Sound:
-    - House Audio: house_audio.md
-    - Mobile Crates: mobile_crates.md
-    - Audio Tuning: audio_tuning.md
+    - House Audio: house-audio.md
+    - Mobile Crates: mobile-crates.md
+    - Audio Tuning: audio-tuning.md
   - Lighting:
     - House Lighting: lighting.md
     - Followspots: spotlights.md
