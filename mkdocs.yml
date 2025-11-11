@@ -54,6 +54,9 @@ nav:
     - House Audio: house_audio.md
     - Mobile Crates: mobile_crates.md
     - Audio Tuning: audio_tuning.md
-  - Lighting: lighting.md
-  - Accessories: accessories.md
-  - Networking: networking.md
+  - Lighting:
+    - House Lighting: lighting.md
+    - Followspots: spotlights.md
+  - Other Equipment:
+    - Accessories: accessories.md
+    - Networking: networking.md

@@ -1,9 +1,6 @@
 # Equipment
 
-## Scissor Lift
-
-UpRight X26N
-
+## UpRight X26N Scissor Lift
 
 ## Theatre MacBook Pro
 
@@ -16,9 +13,9 @@ UpRight X26N
 * Supports up to 8GB (4GBx2)
 * A1321 Battery
 
-## Theatre Fog Machine
+## [ADJ Mister Kool II](https://www.adj.com/mister-kool-ii)
 
-[ADJ Mister Kool II](https://www.adj.com/mister-kool-ii)
+2x Fog Machines
 
 * 700W heater
 * Uses standard water-based fog juice and ice cubes
@@ -26,20 +23,17 @@ UpRight X26N
 * Output Port: 140mm x 20mm
 * Top of port 78mm from base
 
-[Froggy’s Fog - Bog Fog](https://www.froggysfog.com/bog-fog-extreme-hdf-high-density-fog-juice-machine-fluid.html)
+**Fog Fluids**
 
-* Uses De-ionized/Distilled Water, Propylene Glycol, Triethylene Glycol (ratios are proprietary, noted as a trade secret)
+* [Froggy’s Fog - Bog Fog](https://www.froggysfog.com/bog-fog-extreme-hdf-high-density-fog-juice-machine-fluid.html)
+	* Uses De-ionized/Distilled Water, Propylene Glycol, Triethylene Glycol
+	* Ratios are proprietary, noted as a trade secret
+* [Chauvet High Performance Haze Fluid (HFG)](https://www.chauvetdj.com/products/haze-fluid-gallon/)
+	* Contents only described as "osmozed water and glycol derivatives"
+* [Vegetable Glycerine & Propylene Glycol Base VGPG 70-30](https://smile.amazon.com/gp/product/B06XKBXSC6/)
+	* More "traditional" and DIY approach
 
-
-[Chauvet High Performance Haze Fluid (HFG)](https://www.chauvetdj.com/products/haze-fluid-gallon/)
-
-* Contents only described as “osmozed water and glycol derivatives”
-
-[Vegetable Glycerine & Propylene Glycol Base VGPG 70-30](https://smile.amazon.com/gp/product/B06XKBXSC6/)
-
-
-
-## Replacements
+## Replacement Parts
 
 ### Ear Pads for Stage Crew Headsets
 
@@ -50,7 +44,6 @@ Need 6 total: 3x 2-Packs
 
 PL7S/41/eco - 2-Pin Compact Flourescent
 
-
 ### Blues Lights
 
 * “Blues” Fixtures in Wings
@@ -58,7 +51,7 @@ PL7S/41/eco - 2-Pin Compact Flourescent
 * Philips PL-C 26 W 835 4P Alto
 	* The value 835 means 3500K color temperature. 841 would be 4100K.
 
-**Luminaire:**
+**Luminaire Fixture:**
 
 * ZE1-DTT-(2)26-277-EB-BK
 * 12.5” Square

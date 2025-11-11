@@ -2,27 +2,30 @@
 
 ## Theatre Audio Settings
 
-High Pass Filter
-Men: 80-100Hz
-Women: 100-150Hz
+**Yamaha TF5 - High Pass Filters**
 
-1-Knob EQ - Vocal Mode
-Automatic EQ w/ HPF for vocal ranges (40-100)
+* Men: 80-100Hz
+* Women: 100-150Hz
 
-* [https://www.youtube.com/watch?v=VXWoM0M9XKg](https://www.youtube.com/watch?v=VXWoM0M9XKg)
-* [https://www.youtube.com/watch?v=SSSA7HPvC1g](https://www.youtube.com/watch?v=SSSA7HPvC1g)
+**Yamaha TF5 - EQ**
 
-1-Knob EQ - Intensity Mode
-Affects amount of effect for any set EQ points
+* 1-Knob EQ - Vocal Mode
+  * Automatic EQ w/ HPF for vocal ranges (40-100)
+  * [Video Resource 1](https://www.youtube.com/watch?v=VXWoM0M9XKg)
+  * [Video Resource 2](https://www.youtube.com/watch?v=SSSA7HPvC1g)
+* 1-Knob EQ - Intensity Mode
+  * Affects amount of effect for any set EQ points
 
-1-Knob Compressor
-Keep subtle to remove peaks and boost lows (~50, 2.0:1-2.5:1)
-[https://www.youtube.com/watch?v=6KDhgoDUyAw](https://www.youtube.com/watch?v=6KDhgoDUyAw)
+**Yamaha TF5 - Compressor**
+
+* 1-Knob Compressor
+  * Keep subtle to remove peaks and boost lows (~50, 2.0:1-2.5:1)
+  * [Video Resource](https://www.youtube.com/watch?v=6KDhgoDUyAw)
 
 
 ## Shure SLX1 Wireless Mics
 
-Countryman Headsets
+### Countryman Headsets
 
 [TA4F Connector](https://service.shure.com/s/article/pin-out-for-shure-bodypack-transmitters-and-preamps-ta4m-ta4f?language=en_US) - Mini XLR 4 Pin
 
@@ -34,9 +37,11 @@ Countryman Headsets
 
 ![](images/ta4f.jpg)
 
-The pictorial shows the pin layout of a TA4F connector, as viewed from the wiring side. If you use a bright light and look at the female connector (TA4F) used for the cable, you will see numbers next to each hole. The TA4F cable end connector can be purchased as Shure Part #WA330.  ### Applications:
- Condenser Microphones - Shure WH30, PG30, WL18x, WL50, WL51, WL93, etc. 
-* Connect audio lead (black) to pins 3 and 4 * Connect bias lead (red) to pin 2 * Connect shield to pin 1 and connector body (use cable clamp insert piece as the connector body terminal)
+The pictorial shows the pin layout of a TA4F connector, as viewed from the wiring side. If you use a bright light and look at the female connector (TA4F) used for the cable, you will see numbers next to each hole. The TA4F cable end connector can be purchased as Shure Part WA330.
+
+Applications:
+* Condenser Microphones - Shure WH30, PG30, WL18x, WL50, WL51, WL93, etc.
+* Connect audio lead (black) to pins 3 and 4* Connect bias lead (red) to pin 2* Connect shield to pin 1 and connector body (use cable clamp insert piece as the connector body terminal)
 
 [Replacement cable for countryman mics](https://www.sweetwater.com/store/detail/E6CableT1SL--countryman-isomax-e6-replacement-cable-for-shure-tan-1mm-cable) (threaded mic end, TA4F connector to transmitter)
 
@@ -57,7 +62,7 @@ Look at [Microphone Madness](https://www.microphonemadness.com/mm-dual-ear-psm-p
 ![](images/lav-tester-shure.jpg)
 
 
-## Room EQ Wizard
+## Using [Room EQ Wizard](https://www.roomeqwizard.com)
 
 **Preferences**
 

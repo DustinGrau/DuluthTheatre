@@ -1,17 +1,18 @@
-# Theatre Lighting
+# Lighting Equipment
 
-## Console
+## [ETC Ion XE 20](https://www.etcconnect.com/Products/Consoles/Eos-Consoles/Ion-Xe/Features.aspx?LangType=1033)
 
-ETC Ion XE 20
-https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en-us/Default.htm
-https://www.etcconnect.com/Products/Consoles/Eos-Consoles/Ion-Xe/Features.aspx?LangType=1033
-https://www.etcconnect.com/WorkArea/DownloadAsset.aspx?id=10737492144
+[Online Manual](https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en-us/Default.htm)
 
-## Lights
+[EOS Remote](https://apps.apple.com/us/app/eos-remote/id1479413314)
 
-[ETC ColorSource Spot V](https://www.etcconnect.com/Products/Entertainment-Fixtures/ColorSource-Spot-V/Features.aspx?LangType=1033)
+[Eos Video Learning Series](https://youtu.be/4joUizLBXAg?feature=shared)
+
+## Stage Lights
 
 In-House: 9 Spots, 4 Movers, ? Pars
+
+[ETC ColorSource Spot V](https://www.etcconnect.com/Products/Entertainment-Fixtures/ColorSource-Spot-V/Features.aspx?LangType=1033)
 
 ## Accessories
 
@@ -19,78 +20,58 @@ In-House: 9 Spots, 4 Movers, ? Pars
 
 The Soft Focus Diffuser is a diffuser that is an accessory for Source Four LED fixtures. The Soft Focus Diffuser fits into a standard A-size pattern holder and delivers beautiful homogenized light when not in sharp focus. Also, use with patterns for dappled and blurry projects.
 
-**Canto 1200 MSR Followspot MK2**
-
-* 120V @ 15 Amp Service
-* https://cantousa.com/followspots/
-* https://cantousa.com/followspots/msr-followspots/
-* https://dy9zop0zwp6br.cloudfront.net/2020/06/Canto_1200MSR_040125_V01_3.pdf
-* https://dy9zop0zwp6br.cloudfront.net/2021/02/EzWCKeYc-CantoUSA_1200_MSRFF_120V_MK2_Followspot_User_Manual_022521_V01.pdf
-
-Replacement Bulb:
-Per the manual, 1200W 6000K Philips 1200 MSR Gold FastFit PGJX50 750 hrs lamp
-Philips 28688-0 1200W
-
 ## Resources
 
-https://apps.apple.com/us/app/eos-remote/id1479413314
+### Patching DMX Addresses to Channels
 
-[Eos Video Learning Series](https://youtu.be/4joUizLBXAg?feature=shared)
+**Terminology**
 
+* PSD = Playback Status Display
+* CIA = Central Information Area
+* Universe 1 = Stage Lights
+* Universe 2 = On-Stage Lights
 
-## Patching DMX Addresses to Channels
+**Enter Patch Menu**
 
-### Terminology
+1. New Tab -> Select Patch
+2. Press "Format" button to switch between channel/address views
+3. Press "Data" button to cycle through address view by universe
 
-PSD = Playback Status Display
-CIA = Central Information Area
+**For the Chauvet DMX 4-Channel Dimmer:**
 
-### Processes
+2. Patch channels 180-183 directly to addresses 2/180-183
+3. Labeled as Chauvet Ch#
 
-New Tab -> Select Patch
-Press “Format” button to switch between channel/address views
-Press “Data” button to cycle through address view by universe
+**For the Conventional Lights (Spot 4's):**
 
-Stage Lights: Universe 1
-On-Stage Lights: Universe 2
+1. Patch channels 156-160 to addresses as listed:
+    * 156: 1/10
+    * 157: 1/8
+    * 158: 1/6
+    * 159: 1/1
+    * 160: 1/3
 
-Chauvet DMX 4-Channel Dimmer
-Patch channels 180-183 directly to addresses 2/180-183
-Labeled as Chauvet Ch#
-
-Conventional Lights (Spot 4’s)
-Patch channels 156-160 to addresses as listed:
-156: 1/10
-157: 1/8
-158: 1/6
-159: 1/1
-160: 1/3
-
-
-**Modify Lights in Live Area**
+### Modify Lights in Live Area
 
 [Live]
 
+### Go to Top of Show
 
-**Go to Top of Show**
-
-[Go to Cue] [Out] [Enter] - Will set all non-intensity parameters to 0 (re-home movers)
-[Go to Cue] [0] [Enter] - Will leave all non-intensity parameters alone (no re-home)
-[Go/Play] to begin at Cue 1
+1. [Go to Cue] [Out] [Enter] - Will set all non-intensity parameters to 0 (re-home movers)
+2. [Go to Cue] [0] [Enter] - Will leave all non-intensity parameters alone (no re-home)
+3. [Go/Play] to begin at Cue 1
 
 [Go to Cue] [Enter] - Resets the current cue
 [Go to Cue] <number> [Enter] - Go directly to cue, using set timing
 
+### Update a Cue
 
-**Update a Cue**
+1. [Go to Cue] <number> [Enter] - Go to desired cue
+2. <make any changes>
+3. [Update] [Enter] - Modifies current and future cues
+4. [Update] [CueOnly] [Enter] - Modifies only the current cue
 
-[Go to Cue] <number> [Enter] - Go to desired cue
-<make any changes>
-[Update] [Enter] - Modifies current and future cues
-[Update] [CueOnly] [Enter] - Modifies only the current cue
+### Park Lights - Locks the value of a channel
 
-
-**Park Lights - Locks the value of a channel**
-
-<channel number, combo, or thru> [At] [Out] [Park] [Enter]
-[Park] [Enter] - Prompts to un-park any parked channels
+* <channel number, combo, or thru> [At] [Out] [Park] [Enter]
+* [Park] [Enter] - Prompts to un-park any parked channels
