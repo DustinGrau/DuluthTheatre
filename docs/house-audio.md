@@ -13,7 +13,7 @@
 * 34 x 34 digital record/playback channels via USB 2.0 + 2 x 2 via a USB storage device
 * 1 expansion slot with NY64-D audio interface card for Dante support
 
-Network IP: 192.168.1.2
+**Network IP:** 192.168.1.2
 
 **Optional Software**
 
@@ -24,14 +24,14 @@ Network IP: 192.168.1.2
 
 | Fader | Source | Notes |
 |-------|--------|-------|
-| 1  | Input 1  | WMIC 9 |
-| 2  | Input 2  | WMIC 10 |
-| 3  | Input 3  | WMIC 11 |
-| 4  | Input 4  | BLX4R |
+| 1  | Input 1  | WMIC 9 (17) |
+| 2  | Input 2  | WMIC 10 (18) |
+| 3  | Input 3  | WMIC 11 (19) |
+| 4  | Input 4  | BLX4R (20) |
 | 5  | Input 5  |  |
-| 6  | Slot 1 | Tio1608 Input 1 |
-| 7  | Slot 2 | Tio1608 Input 2 |
-| 8  | Slot 3 | Tio1608 Input 3 |
+| 6  | Slot 1 | Tio1608 Input 15 (Stage L) |
+| 7  | Slot 2 | Tio1608 Input 16 (Stage C) |
+| 8  | Slot 3 | Tio1608 Input 17 (Stage R) |
 | 9  | Input 9  |  |
 | 10 | Input 10 |  |
 | 11 | Input 11 |  |
@@ -40,14 +40,14 @@ Network IP: 192.168.1.2
 | 14 | Input 14 |  |
 | 15 | Input 15 |  |
 | 16 | Input 16 |  |
-| 17 | Input 17 | WMIC 1 |
-| 18 | Input 18 | WMIC 2 |
-| 19 | Input 19 | WMIC 3 |
-| 20 | Input 20 | WMIC 4 |
-| 21 | Input 21 | WMIC 5 |
-| 22 | Input 22 | WMIC 6 |
-| 23 | Input 23 | WMIC 7 |
-| 24 | Input 24 | WMIC 8 |
+| 17 | Input 17 | WMIC 1 (1) |
+| 18 | Input 18 | WMIC 2 (2) |
+| 19 | Input 19 | WMIC 3 (3) |
+| 20 | Input 20 | WMIC 4 (4) |
+| 21 | Input 21 | WMIC 5 (5) |
+| 22 | Input 22 | WMIC 6 (6) |
+| 23 | Input 23 | WMIC 7 (7) |
+| 24 | Input 24 | WMIC 8 (8) |
 | 25 | Input 25 |  |
 | 26 | Input 26 |  |
 | 27 | Input 27 |  |
@@ -91,13 +91,64 @@ Network IP: 192.168.1.2
 | 15 | Main L | House Left |
 | 16 | Main R | House Right |
 
+
+## [Yamaha Tio1608-D Stagebox](https://usa.yamaha.com/products/proaudio/interfaces/tio1608-d2/index.html)
+
+Thsi is a Dante-equipped audio I/O rack, located in the stage-right wing in a wall-mounted equipment rack which includes an amplifier for the dressing room speakers. This provides 16 inputs and 8 outputs direct to the Yamaha TF5 mixer in the booth. This uses ethernet (network) cabling which is labelled in the booth on a wall jack, and connects to the Dante expansion card on the TF5. Patching is controlled by software automatically thanks to a Quick Config feature of these Yamaha devices, and can be configured to any fader or output available to the mixing console.
+
+[User Manual](https://usa.yamaha.com/files/download/other_assets/6/1628076/tio1608d2_en_om_b0.pdf)
+
+**Front Panel Switches**
+
+```
+Quick Config: ON
+Unit ID: 1
++48V Master: ON
+```
+
+This device uses [Dante](https://www.getdante.com/meet-dante/what-is-dante/) ([Digital Audio Network Through Ethernet](https://en.wikipedia.org/wiki/Dante_(networking))) is capable of working directly with the Yamaha TF5 without any special configuration by using the Quick Config option. When enabled and set to Unit ID #1, the Tio1608 will automtically appear to the Yamaha TF5 as inputs named "Slot" 1-16.
+
+**Inputs**
+
+| Fader | Source | Notes |
+|-------|--------|-------|
+| 1  | Input 1  |  |
+| 2  | Input 2  |  |
+| 3  | Input 3  |  |
+| 4  | Input 4  |  |
+| 5  | Input 5  |  |
+| 6  | Input 6  |  |
+| 7  | Input 7  |  |
+| 8  | Input 8  |  |
+| 9  | Input 9  |  |
+| 10 | Input 10 |  |
+| 11 | Input 11 |  |
+| 12 | Input 12 |  |
+| 13 | Input 13 |  |
+| 14 | Input 14 | Condenser Mic (Stage L) |
+| 15 | Input 15 | Condenser Mic (Stage C) |
+| 16 | Input 16 | Condenser Mic (Stage R) |
+
+**Outputs**
+
+| Output | Source | Notes |
+|--------|--------|-------|
+| 1  | Aux 1 | Floor Monitors |
+| 2  | - |  |
+| 3  | Aux 3 | Wing Monitors |
+| 4  | - |  |
+| 5  | - |  |
+| 6  | - |  |
+| 7  | Main L | Dressing Rooms |
+| 8  | Main R | Dressing Rooms |
+
 ## [LEA Connect 704 Amplifier](https://leaprofessional.com/products/network-connect/704n/)
 
 Networked 4-channel amplifier with 700 watts per channel.
 
 [User Manual](https://leaprofessional.com/wp-content/uploads/2021/09/Network-Connect-Series-Manual-7-25.pdf)
 
-Network IP: 192.168.1.3
+**Network IP:** 192.168.1.3
 
 **Inputs**
 
@@ -121,11 +172,15 @@ Network IP: 192.168.1.3
 
 ??
 
-**Floor Speakers - Peavey PV215**
+**Floor Speakers - [Peavey PV215](https://assets.peavey.com/literature/specs/114378_18647.pdf)**
 
 * 4ohms 700W Max
 * 58Hz-17kHz
 * 15” Woofers
+
+**Stage & Wing Monitors**
+
+[ElectroVoice ZLX12BT](https://products.electrovoice.com/na/pt/zlx-12bt)
 
 ## Lobby Amplifier
 
@@ -146,56 +201,3 @@ Standard 19" rackmount case with wireless microphone receivers and antenna distr
 | 1 | [Furman M-8Lx](https://www.amazon.com/Furman-M-8X2-Outlet-Conditioner-Protector/dp/B003BQ91Y6) | Power Distribution |
 | 1	| [Clear-Com DX410](https://www.clearcom.com/product-family/hme-dx410-wireless/) | Headset Communication |
 | 1 | [Listen LT-800 FM](https://www.listentech.com/shop/product/stationary-rf-transmitter-72mhz/) | Assistive Listening |
-
-## [Yamaha Tio1608-D Stagebox](https://usa.yamaha.com/products/proaudio/interfaces/tio1608-d2/index.html)
-
-Located in the stage right wing.
-
-[User Manual](https://usa.yamaha.com/files/download/other_assets/6/1628076/tio1608d2_en_om_b0.pdf)
-
-* Dante-equipped Network Audio I/O Rack
-* 16 Inputs / 8 Outputs
-
-**Front Panel Switches**
-
-```
-Quick Config: ON
-Unit ID: 1
-+48V Master: ON
-```
-
-This device uses [Dante](https://www.getdante.com/meet-dante/what-is-dante/) ([Digital Audio Network Through Ethernet](https://en.wikipedia.org/wiki/Dante_(networking))) is capable of working directly with the Yamaha TF5 without any special configuration by using the Quick Config option. When enabled and set to Unit ID #1, the Tio1608 will automtically appear to the Yamaha TF5 as inputs named "Slot" 1-16.
-
-**Inputs**
-
-| Fader | Source | Notes |
-|-------|--------|-------|
-| 1  | Input 1 | Stage L |
-| 2  | Input 2 | Stage C |
-| 3  | Input 3 | Stage R |
-| 4  | Input 4  |  |
-| 5  | Input 5  |  |
-| 6  | Input 6  |  |
-| 7  | Input 7  |  |
-| 8  | Input 8  |  |
-| 9  | Input 9  |  |
-| 10 | Input 10 |  |
-| 11 | Input 11 |  |
-| 12 | Input 12 |  |
-| 13 | Input 13 |  |
-| 14 | Input 14 |  |
-| 15 | Input 15 |  |
-| 16 | Input 16 |  |
-
-**Outputs**
-
-| Output | Source | Notes |
-|--------|--------|-------|
-| 1  | Aux 1 | Floor Monitors |
-| 2  | - |  |
-| 3  | Aux 3 | Wing Monitors |
-| 4  | - |  |
-| 5  | - |  |
-| 6  | - |  |
-| 7  | Main L | Dressing Rooms |
-| 8  | Main R | Dressing Rooms |

@@ -8,6 +8,12 @@
 
 [Eos Video Learning Series](https://youtu.be/4joUizLBXAg?feature=shared)
 
+## Network
+
+**Port 1 IP:** 10.101.100.30 - Touchscreen controls (booth/backstage)
+
+**Port 2 IP:** 192.168.1.4 - Theatre network control via ETCNomad
+
 ## Stage Lights
 
 In-House: 9 Spots, 4 Movers, ? Pars
