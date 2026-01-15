@@ -40,12 +40,12 @@ plugins:
       prebuild_index: true
   - mermaid2:
       arguments:
-        theme: default # or dark, forest, neutral
+        theme: forest # Either of default, dark, forest, neutral
         securityLevel: strict
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
+        flowchart:
+          curve: linear     # Straight lines by default
+          useMaxWidth: true # Responsive diagrams
+          htmlLabels: true  # Allow HTML in labels
 
 # Define the navigation structure
 nav:
@@ -53,7 +53,8 @@ nav:
   - Sound:
     - House Audio: house-audio.md
     - Mobile Crates: mobile-crates.md
-    - Audio Tuning: audio-tuning.md
+    - Room Tuning: room-tuning.md
+    - Vocal Tuning: vocal-tuning.md
   - Lighting:
     - House Lighting: lighting.md
     - Followspots: spotlights.md

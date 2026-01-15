@@ -1,6 +1,7 @@
-# Audio Tuning
+# Vocal Tuning
 
-## Theatre Audio Settings
+
+## Mixer Audio Settings
 
 **Yamaha TF5 - High Pass Filters**
 
@@ -24,6 +25,8 @@
 
 
 ## Shure SLX1 Wireless Mics
+
+Check wiring and connections before each use.
 
 ### Countryman Headsets
 
@@ -60,41 +63,3 @@ Look at [Microphone Madness](https://www.microphonemadness.com/mm-dual-ear-psm-p
 * [https://www.digikey.com/en/products/detail/texas-instruments/TL072CP/277421](https://www.digikey.com/en/products/detail/texas-instruments/TL072CP/277421)
 
 ![](images/lav-tester-shure.jpg)
-
-
-## Using [Room EQ Wizard](https://www.roomeqwizard.com)
-
-**Preferences**
-
-* Output: Headphones
-* Input: Umik-1 USB Mic
-* Sweep Level: -12dBFS (for test tones)
-
-**Process**
-
-1. Set up reference mic at 90-degrees at ear level for listening space.
-2. Open the SPL Meter, Generator (to Noise tab), and Levels Meter.
-3. Turn down speakers first, connect audio output to system.
-4. Set generator to white (random) noise at -12dBFS, press Play.
-5. Slowly raise the speaker levels until reaches at least 76dB(A) on the SPL Meter (and not clipping on Levels Meter).
-6. Close the Generator, and SPL/Levels Meter windows.
-7. Click on the Measure button at top left to open Measurements Window.
-    * Type: SPL
-    * Method: Sweep
-    * Settings: 512k Length / 2 Iterations
-    * Range: 15-20,000Hz
-    * Level: -12dBFS
-    * Output: Line Out (should measure L, R, and both together)
-    * Press the Start button to begin sweeps and measurement
-8. Observe the output in the respective displays
-    1. SPL (Graph -> 1/6 Smoothing) - Shows which frequencies are over/under-pronounced at listening position
-        * Can optionally check the Phase response by checking box below the graph
-        * Ideally should have +/-5dB of difference between frequency responses
-    2. Waterfall - Decay times of sound waves (shows those that “linger” or have a “null” in the room)
-        * Emphasize select ranges, such as 20-300Hz:
-            * Limits: 20Hz (left) - 300Hz (right)
-            * Controls: 30ms (window) 500ms (time range)
-    3. Spectrogram - Shows the waterfall view from above
-        * Colors: SPL for frequencies
-        * Axis: decay times over frequency
-

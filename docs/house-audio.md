@@ -158,25 +158,34 @@ Networked 4-channel amplifier with 700 watts per channel.
 **Outputs**
 
 * CH1 - House Wall Left
+  * High Pass Filter: 100Hz, Linkwitz-Riley @ 24dB/oct
 * CH2 - House Wall Right
+  * High Pass Filter: 100Hz, Linkwitz-Riley @ 24dB/oct
 * CH3 - House Floor Left
-  * Low Pass: Butterworth/6dB @ 4000Hz
-  * EQ1: Parametric @ 94Hz
+  * Low Pass Filter: Linkwitz-Riley, 120Hz @ 24dB/oct, Trim -4db
+  * Parametric EQ: -6dB @ 94Hz
+  * Delay: ~6-8ms
 * CH4 - House Floor Right
-  * Low Pass: Butterworth/6dB @ 4000Hz
-  * EQ1: Parametric @ 94Hz
+  * Low Pass Filter: Linkwitz-Riley, 120Hz @ 24dB/oct, Trim -4db
+  * Parametric EQ: -6dB @ 94Hz
+  * Delay: ~6-8ms
 
 ## House Speakers
 
-**Wall Speakers - ??**
+**Wall Mains - [Model Unknown]**
 
-??
+
 
 **Floor Speakers - [Peavey PV215](https://assets.peavey.com/literature/specs/114378_18647.pdf)**
 
 * 4ohms 700W Max
 * 58Hz-17kHz
 * 15” Woofers
+
+| Speaker        | Role                    | Frequency Range     | Notes                 |
+| -------------- | ----------------------- | ------------------- | --------------------- |
+| Wall Mains     | Primary Coverage        | 100 Hz – Full Range | Speech & Localization |
+| Floor Speakers | Low-Freq. Reinforcement | 50–120 Hz           | Delayed & Trimmed     |
 
 **Stage & Wing Monitors**
 
