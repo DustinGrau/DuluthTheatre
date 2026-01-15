@@ -13,52 +13,52 @@ Download & Install: [Room EQ Wizard (REW)](https://www.roomeqwizard.com)
 
 1. **Set up reference microphone:**
 
-  - Orientation: **90 degrees (vertical)**  
-  - Height: **Ear level**  
-  - Location: **Primary listening area**
+    - Orientation: **90 degrees (vertical)**  
+    - Height: **Ear level**  
+    - Location: **Primary listening area**
 
 2. **Open the following REW tools:**
 
-  - SPL Meter  
-  - Signal Generator (Noise tab)  
-  - Levels Meter
+    - SPL Meter  
+    - Signal Generator (Noise tab)  
+    - Levels Meter
 
 3. **Turn down the PA system first**, then connect the REW audio output to the system input.
 
 4. **In the Signal Generator:**
 
-  - Select **Pink Noise**  
-  - Level: **–12 dBFS**  
-  - Press **Play**
+    - Select **Pink Noise**  
+    - Level: **–12 dBFS**  
+    - Press **Play**
 
 5. Slowly raise the PA system level until the SPL Meter reads:
 
-  - **76–80 dB(C)**  
-  - Confirm no clipping on the Levels Meter
+    - **76–80 dB(C)**  
+    - Confirm no clipping on the Levels Meter
 
 6. Stop playback and close:
 
-  - Signal Generator  
-  - SPL Meter  
-  - Levels Meter
+    - Signal Generator  
+    - SPL Meter  
+    - Levels Meter
 
 ## Measurement Sweeps
 
 1. Click **Measure** (top left) to open the Measurements Window and configure:
 
-  - **Type:** SPL  
-  - **Method:** Sweep  
-  - **Length:** 512k  
-  - **Iterations:** 2  
-  - **Frequency Range:**  
-      - Preferred: **20–18,000 Hz**  
-      - Optional: 15–20,000 Hz  
-  - **Level:** –12 dBFS  
-  - **Output:** Line Out  
-  - Measure channels separately when possible:  
-      - Left only  
-      - Right only  
-      - Left + Right (summed)
+    - **Type:** SPL
+    - **Method:** Sweep  
+    - **Length:** 512k  
+    - **Iterations:** 2  
+    - **Frequency Range:**  
+        - Preferred: **20–18,000 Hz**  
+        - Optional: 15–20,000 Hz  
+    - **Level:** –12 dBFS  
+    - **Output:** Line Out  
+    - Measure channels separately when possible:  
+        - Left only  
+        - Right only  
+        - Left + Right (summed)
 
 2. Press **Start** to begin the sweep and capture measurements.
 
@@ -77,12 +77,12 @@ Download & Install: [Room EQ Wizard (REW)](https://www.roomeqwizard.com)
 
 - Displays decay time of frequencies (“ringing” or lingering energy)  
 - Recommended focus for auditorium tuning:
-  - **Frequency limits:** 20–300 Hz  
-  - **Window:** ~30 ms  
-  - **Time range:** 300–500 ms  
+    - **Frequency limits:** 20–300 Hz  
+    - **Window:** ~30 ms  
+    - **Time range:** 300–500 ms  
 - Look for:
-  - Low-frequency energy lingering >250 ms  
-  - Improvements after delay or crossover adjustments  
+    - Low-frequency energy lingering >250 ms  
+    - Improvements after delay or crossover adjustments  
 
 ### 3. Spectrogram
 
@@ -90,15 +90,15 @@ Download & Install: [Room EQ Wizard (REW)](https://www.roomeqwizard.com)
 - **Color scale:** SPL  
 - **Axis:** Time (decay) vs frequency  
 - Useful for:
-  - Visualizing low-frequency buildup  
-  - Comparing before/after system changes  
+    - Visualizing low-frequency buildup  
+    - Comparing before/after system changes  
 
 ## Multiple Measurement Positions
 
 - Repeat measurements at additional listener locations:
-  - 1 position: **1/2 back, center**  
-  - 1 position: **2/3 back, center**  
-  - 1 position: **2/3 back, slight left/right**  
+    - 1 position: **1/2 back, center**  
+    - 1 position: **2/3 back, center**  
+    - 1 position: **2/3 back, slight left/right**  
 
 > Use multiple positions to identify **consistent trends**.  
 > Act on broad peaks seen across measurements, not isolated nulls.  
