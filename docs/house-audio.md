@@ -158,17 +158,25 @@ Networked 4-channel amplifier with 700 watts per channel.
 **Outputs**
 
 * CH1 - House Wall Left
-  * High Pass Filter: 100Hz, Linkwitz-Riley @ 24dB/oct
+  * High Pass Filter<sup>1</sup>: 100Hz, Linkwitz-Riley @ 24dB/oct
 * CH2 - House Wall Right
-  * High Pass Filter: 100Hz, Linkwitz-Riley @ 24dB/oct
+  * High Pass Filter<sup>1</sup>: 100Hz, Linkwitz-Riley @ 24dB/oct
 * CH3 - House Floor Left
-  * Low Pass Filter: Linkwitz-Riley, 120Hz @ 24dB/oct, Trim -4db
-  * Parametric EQ: -6dB @ 94Hz
-  * Delay: ~6-8ms
+  * Low Pass Filter<sup>2</sup>: Linkwitz-Riley, 120Hz @ 24dB/oct, Trim -3db
+  * Parametric EQ<sup>3</sup>: -4dB @ 94Hz
+  * Delay<sup>4</sup>: 9.8ms
 * CH4 - House Floor Right
-  * Low Pass Filter: Linkwitz-Riley, 120Hz @ 24dB/oct, Trim -4db
-  * Parametric EQ: -6dB @ 94Hz
-  * Delay: ~6-8ms
+  * Low Pass Filter<sup>2</sup>: Linkwitz-Riley, 120Hz @ 24dB/oct, Trim -3db
+  * Parametric EQ<sup>3</sup>: -4dB @ 94Hz
+  * Delay<sup>4</sup>: 9.8ms
+
+<sup>1</sup> The house needs a high-pass filter at 100Hz to avoid attempting to handle frequencies they are not designed to manage. This ensures the house can still deliver sufficient range even without the floor speakers in use.
+
+<sup>2</sup> The primary purpose of the floor speakers is to reinforce low-end frequencies which are missing from the house speakers. Therefore, a low-pass filter at 120Hz ensures they avoid competing with the house audio.
+
+<sup>3</sup> Due to a mild spike around 94Hz in the theatre a minor reduction in that frequency is necessary to avoid reverberation.
+
+<sup>4</sup> The distance between the house speakers (on-wall) and the floor speakers (on the apron) is approximately 10ft. This equates to a needed delay of ~9.8ms to ensure proper timing.
 
 ## House Speakers
 
