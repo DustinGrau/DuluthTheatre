@@ -91,6 +91,7 @@
 | 15 | Main L | House Left |
 | 16 | Main R | House Right |
 
+> 💡 Everything is just signal routing. The mixer just gets audio from point A to point B.
 
 ## [Yamaha Tio1608-D Stagebox](https://usa.yamaha.com/products/proaudio/interfaces/tio1608-d2/index.html)
 
@@ -142,9 +143,12 @@ This device uses [Dante](https://www.getdante.com/meet-dante/what-is-dante/) ([D
 | 7  | Main L | Dressing Rooms |
 | 8  | Main R | Dressing Rooms |
 
+
 ## [LEA Connect 704 Amplifier](https://leaprofessional.com/products/network-connect/704n/)
 
 Networked 4-channel amplifier with 700 watts per channel.
+
+> 💡 Let the amplifier handle physics; the mixer will handle the blending of sources.
 
 [User Manual](https://leaprofessional.com/wp-content/uploads/2021/09/Network-Connect-Series-Manual-7-25.pdf)
 
@@ -176,7 +180,9 @@ Networked 4-channel amplifier with 700 watts per channel.
 
 <sup>3</sup> Due to a mild spike around 94Hz in the theatre a minor reduction in that frequency is necessary to avoid reverberation.
 
-<sup>4</sup> The distance between the house speakers (on-wall) and the floor speakers (on the apron) is approximately 10ft. This equates to a needed delay of ~9.8ms to ensure proper timing.
+<sup>4</sup> The distance between the house speakers (on-wall) and the floor speakers (on the apron) is approximately 10ft. This equates to a needed delay of ~9.8ms to ensure proper timing. Should this change, take measurements using a laser measure from various locations on each side of the audience. Calculate the delay as ((Distance to Wall Speaker - Distance to Floor Speaker) / 1125) * 1000 where distance is in feet and 1,125 ft/sec. is the speed of sound. This will give you a delay in milliseconds. Average your calculations to get a suitable delay.
+
+> 💡 Mains handle mids and highs, floors handle low-end reinforcement.
 
 ## House Speakers
 
