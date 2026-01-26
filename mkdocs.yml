@@ -51,13 +51,15 @@ plugins:
 nav:
   - Home: index.md
   - Sound:
-    - House Audio: house-audio.md
-    - Mobile Crates: mobile-crates.md
-    - Room Tuning: room-tuning.md
-    - Vocal Tuning: vocal-tuning.md
+    - House Audio: audio-house.md
+    - Mobile Crates: audio-mobile.md
+    - Room Tuning: audio-room-tuning.md
+    - Vocal Tuning: audio-vocal-tuning.md
   - Lighting:
-    - House Lighting: lighting.md
-    - Followspots: spotlights.md
+    - House Lighting: lighting-house.md
+    - Followspots: lighting-spotlights.md
+  - Networking:
+    - General Network: network-general.md
+    - AV Network: network-av.md
   - Other Equipment:
     - Accessories: accessories.md
-    - Networking: networking.md
