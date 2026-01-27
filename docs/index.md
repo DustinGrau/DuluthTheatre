@@ -1,5 +1,5 @@
-# Duluth Theatre
+# Duluth Wildcat Theatre
 
-Equipment Notes and Configurations
+## Equipment Notes and Configurations
 
-Use the menu at the left to navigate
+Use the menu at the left to navigate between topics.

@@ -219,8 +219,8 @@ Standard 19" rackmount case with wireless microphone receivers and antenna distr
 | QTY | Equipment | Notes |
 |-----|-----------|-------|
 | 3 | [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB) | Active Antenna Distribution |
-| 6	| [Shure SLX4](https://www.shure.com/en-US/products/wireless-systems/slx_wireless/slx4?variant=SLX4%3D-G4) | WMIC1-17 (Belt Packs) |
-| 1	| [Denon DN-300Z](https://www.denonpro.com/index.php/products/view3/dn-300z) | CD Player + Aux Input |
+| 6	| [Shure SLX4](https://www.shure.com/en-US/docs/guide/SLX) | WMIC1-17 (Belt Packs) |
+| 1	| [Denon DN-300Z](https://www.denonpro.com/products/dn-300z.html) | CD Player + Aux Input |
 | 1 | [Furman M-8Lx](https://www.amazon.com/Furman-M-8X2-Outlet-Conditioner-Protector/dp/B003BQ91Y6) | Power Distribution |
 | 1	| [Clear-Com DX410](https://www.clearcom.com/product-family/hme-dx410-wireless/) | Headset Communication |
 | 1 | [Listen LT-800 FM](https://www.listentech.com/shop/product/stationary-rf-transmitter-72mhz/) | Assistive Listening |
