@@ -46,93 +46,101 @@ The only other way devices can talk across networks is to introduce a router or 
 
 **Special Note:** For our Dante Audio devices, these have a special fallback protocol called "Link-Local". In the absence of a static IP assignment, and no available DHCP server to dynamically assign an IP address, the devices will self-negotiate their IP address among themselves. This uses a special network range 169.254.0.0 through 169.254.255.255 and so this space must be kept clear of any other devices to avoid conflict.
 
+## WiFi Access
+
+For information about WiFi access, connections for the audio mixer and ETC console, please see the [General Network](network-general.md) page.
+
 
 ## Netgear GS748Tv4h2
 
 **Location:** Tech Booth
 
-**IP:** 192.168.1.6 (Management Network)
+**Switch IP:** 192.168.1.6 (VLAN 1: Management Network)
 
-| Port | VLAN 1 | VLAN 3 | VLAN 10 | PVID | Name/Description | Device IP     | Purpose/Notes     |
-|------|--------|--------|---------|------|------------------|---------------|-------------------|
-| 1    | U      | T      | T       | 1    | Trunk Port       |               | Uplink to GS716T  |
-| 2    | U      |        |         | 1    | LEA Connect 704  | 192.168.1.3   | House Amp Control |
-| 3    |        | U      |         | 3    | Yamaha NY64-D    | Link-Local    | Dante Audio       |
-| 4    |        | U      |         | 3    | Booth iMac       | 192.168.3.50  | OBS, Video Output |
-| 5    |        | U      |         | 3    | - Available -    |               |                   |
-| 6    |        | U      |         | 3    | - Available -    |               |                   |
-| 7    |        | U      |         | 3    | - Available -    |               |                   |
-| 8    |        | U      |         | 3    | - Available -    |               |                   |
-| 9    |        | U      |         | 3    | Tech Booth       | 192.168.3.110 | AVer PTZ310       |
-| 10   |        | U      |         | 3    | Stage View       | 192.168.3.120 | AVer PTZ300N      |
-| 11   |        | U      |         | 3    | - Available -    |               |                   |
-| 12   |        | U      |         | 3    | - Available -    |               |                   |
-| 13   |        | U      |         | 3    | - Available -    |               |                   |
-| 14   |        | U      |         | 3    | - Available -    |               |                   |
-| 15   |        | U      |         | 3    | - Available -    |               |                   |
-| 16   |        | U      |         | 3    | - Available -    |               |                   |
-| 17   |        | U      |         | 3    | - Available -    |               |                   |
-| 18   |        | U      |         | 3    | - Available -    |               |                   |
-| 19   |        | U      |         | 3    | - Available -    |               |                   |
-| 20   |        | U      |         | 3    | - Available -    |               |                   |
-| 21   |        | U      |         | 3    | - Available -    |               |                   |
-| 22   |        | U      |         | 3    | - Available -    |               |                   |
-| 23   |        | U      |         | 3    | - Available -    |               |                   |
-| 24   |        | U      |         | 3    | - Available -    |               |                   |
-| 25   |        | U      |         | 3    | - Available -    |               |                   |
-| 26   |        | U      |         | 3    | - Available -    |               |                   |
-| 27   |        | U      |         | 3    | - Available -    |               |                   |
-| 28   |        | U      |         | 3    | - Available -    |               |                   |
-| 29   |        | U      |         | 3    | - Available -    |               |                   |
-| 30   |        | U      |         | 3    | - Available -    |               |                   |
-| 31   |        | U      |         | 3    | - Available -    |               |                   |
-| 32   |        | U      |         | 3    | - Available -    |               |                   |
-| 33   |        | U      |         | 3    | - Available -    |               |                   |
-| 34   |        | U      |         | 3    | - Available -    |               |                   |
-| 35   |        | U      |         | 3    | - Available -    |               |                   |
-| 36   |        | U      |         | 3    | - Available -    |               |                   |
-| 37   |        | U      |         | 3    | - Available -    |               |                   |
-| 38   |        | U      |         | 3    | - Available -    |               |                   |
-| 39   |        | U      |         | 3    | - Available -    |               |                   |
-| 40   |        | U      |         | 3    | - Available -    |               |                   |
-| 41   |        | U      |         | 3    | - Available -    |               |                   |
-| 42   |        | U      |         | 3    | - Available -    |               |                   |
-| 43   |        |        | U       | 10   | Blackbird TX     | 192.168.10.10 | HDMI Signal Out   |
-| 44   |        |        | U       | 10   | HDMI over IP     |               |                   |
-| 45   |        |        | U       | 10   | HDMI over IP     |               |                   |
-| 46   |        |        | U       | 10   | HDMI over IP     |               |                   |
-| 47   | U      |        | T       | 1    | Admin Access     |               |                   |
-| 48   | U      |        | T       | 1    | Admin Access     |               |                   |
-| 49   |        |        |         |      | SFP - Not Used   |               |                   |
-| 50   |        |        |         |      | SFP - Not Used   |               |                   |
+**VLAN Tagging:** V# = [T]agged or [U]ntagged
+
+| Port | V1 | V3 | V10 | PVID | Name/Purpose     | Device IP     | Notes.            |
+|------|----|----|-----|------|------------------|---------------|-------------------|
+| 1    | U  | T  | T   | 1    | Trunk Port       |               | Uplink to GS716T  |
+| 2    | U  |    |     | 1    | LEA Connect 704  | 192.168.1.3   | House Amp Control |
+| 3    |    | U  |     | 3    | Yamaha NY64-D    | Link-Local    | Dante Audio       |
+| 4    |    | U  |     | 3    | Booth iMac       | 192.168.3.50  | OBS, Video Output |
+| 5    |    | U  |     | 3    | - Available -    |               |                   |
+| 6    |    | U  |     | 3    | - Available -    |               |                   |
+| 7    |    | U  |     | 3    | - Available -    |               |                   |
+| 8    |    | U  |     | 3    | - Available -    |               |                   |
+| 9    |    | U  |     | 3    | Booth (USB)      | 192.168.3.110 | AVer PTZ310       |
+| 10   |    | U  |     | 3    | Booth (NDI)      | 192.168.3.120 | AVer PTZ300N      |
+| 11   |    | U  |     | 3    | - Available -    |               |                   |
+| 12   |    | U  |     | 3    | - Available -    |               |                   |
+| 13   |    | U  |     | 3    | - Available -    |               |                   |
+| 14   |    | U  |     | 3    | - Available -    |               |                   |
+| 15   |    | U  |     | 3    | - Available -    |               |                   |
+| 16   |    | U  |     | 3    | - Available -    |               |                   |
+| 17   |    | U  |     | 3    | - Available -    |               |                   |
+| 18   |    | U  |     | 3    | - Available -    |               |                   |
+| 19   |    | U  |     | 3    | - Available -    |               |                   |
+| 20   |    | U  |     | 3    | - Available -    |               |                   |
+| 21   |    | U  |     | 3    | - Available -    |               |                   |
+| 22   |    | U  |     | 3    | - Available -    |               |                   |
+| 23   |    | U  |     | 3    | - Available -    |               |                   |
+| 24   |    | U  |     | 3    | - Available -    |               |                   |
+| 25   |    | U  |     | 3    | - Available -    |               |                   |
+| 26   |    | U  |     | 3    | - Available -    |               |                   |
+| 27   |    | U  |     | 3    | - Available -    |               |                   |
+| 28   |    | U  |     | 3    | - Available -    |               |                   |
+| 29   |    | U  |     | 3    | - Available -    |               |                   |
+| 30   |    | U  |     | 3    | - Available -    |               |                   |
+| 31   |    | U  |     | 3    | - Available -    |               |                   |
+| 32   |    | U  |     | 3    | - Available -    |               |                   |
+| 33   |    | U  |     | 3    | - Available -    |               |                   |
+| 34   |    | U  |     | 3    | - Available -    |               |                   |
+| 35   |    | U  |     | 3    | - Available -    |               |                   |
+| 36   |    | U  |     | 3    | - Available -    |               |                   |
+| 37   |    | U  |     | 3    | - Available -    |               |                   |
+| 38   |    | U  |     | 3    | - Available -    |               |                   |
+| 39   |    | U  |     | 3    | - Available -    |               |                   |
+| 40   |    | U  |     | 3    | - Available -    |               |                   |
+| 41   |    | U  |     | 3    | - Available -    |               |                   |
+| 42   |    | U  |     | 3    | - Available -    |               |                   |
+| 43   |    |    | U   | 10   | Blackbird TX     | 192.168.10.10 | HDMI Signal Out   |
+| 44   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
+| 45   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
+| 46   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
+| 47   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
+| 48   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
+| 49   |    |    |     |      | SFP - Not Used   |               |                   |
+| 50   |    |    |     |      | SFP - Not Used   |               |                   |
 
 
 ## Netgear GS716Tv3
 
-**Location:** Backstage
+**Location:** Backstage (Right)
 
-**IP:** 192.168.1.8 (Management Network)
+**Switch IP:** 192.168.1.8 (VLAN 1: Management Network)
 
-| Port | VLAN 1 | VLAN 3 | VLAN 10 | PVID | Name/Description | Device IP     | Purpose/Notes     |
-|------|--------|--------|---------|------|------------------|---------------|-------------------|
-| 1    | U      | T      | T       | 1    | Trunk Port       |               | Uplink to GS748T  |
-| 2    | U      | T      | T       | 1    | Future Uplink    |               |                   |
-| 3    |        | U      |         | 3    | Yamaha Tio1608-D | Link-Local    | Dante Audio       |
-| 4    |        | U      |         | 3    | - Available -    |               |                   |
-| 5    |        | U      |         | 3    | Wing - Right     | 192.168.3.130 | AVer PTZ300N      |
-| 6    |        | U      |         | 3    | Wing - Left      | 192.168.3.140 | AVer PTZ300N      |
-| 7    |        | U      |         | 3    | - Available -    |               |                   |
-| 8    |        | U      |         | 3    | - Available -    |               |                   |
-| 9    |        |        | U       | 10   | Blackbird RX     | 192.168.10.x  | HDMI Signal In    |
-| 10   |        |        | U       | 10   | Blackbird RX     | 192.168.10.x  | HDMI Signal In    |
-| 11   |        |        | U       | 10   | HDMI over IP     |               |                   |
-| 12   |        |        | U       | 10   | HDMI over IP     |               |                   |
-| 13   | U      |        | T       | 1    | Admin Access     |               |                   |
-| 14   | U      |        | T       | 1    | Admin Access     |               |                   |
-| 15   | U      |        | T       | 1    | Admin Access     |               |                   |
-| 16   | U      |        | T       | 1    | Admin Access     |               |                   |
-| 17   |        |        |         |      | SFP - Not Used   |               |                   |
-| 18   |        |        |         |      | SFP - Not Used   |               |                   |
+**VLAN Tagging:** V# = [T]agged or [U]ntagged
+
+| Port | V1 | V3 | V10 | PVID | Name/Purpose.    | Device IP     | Notes             |
+|------|----|----|-----|------|------------------|---------------|-------------------|
+| 1    | U  | T  | T   | 1    | Trunk Port       |               | Uplink to GS748T  |
+| 2    | U  | T  | T   | 1    | Future Uplink    |               |                   |
+| 3    |    | U  |     | 3    | Yamaha Tio1608-D | Link-Local    | Dante Audio       |
+| 4    |    | U  |     | 3    | - Available -    |               | Dante or IPcam    |
+| 5    |    | U  |     | 3    | Wing (Right)     | 192.168.3.130 | AVer PTZ300N      |
+| 6    |    | U  |     | 3    | Wing (Left)      | 192.168.3.140 | AVer PTZ300N      |
+| 7    |    | U  |     | 3    | - Available -    |               | Dante or IPcam    |
+| 8    |    | U  |     | 3    | - Available -    |               | Dante or IPcam    |
+| 9    |    |    | U   | 10   | Blackbird RX     | 192.168.10.x  | HDMI Signal In    |
+| 10   |    |    | U   | 10   | Blackbird RX     | 192.168.10.x  | HDMI Signal In    |
+| 11   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
+| 12   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
+| 13   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
+| 14   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
+| 15   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
+| 16   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
+| 17   |    |    |     |      | SFP - Not Used   |               |                   |
+| 18   |    |    |     |      | SFP - Not Used   |               |                   |
 
 
 ## Switch Settings
