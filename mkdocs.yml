@@ -61,5 +61,6 @@ nav:
   - Networking:
     - General Network: network-general.md
     - AV Network: network-av.md
+  - Video: video.md
   - Other Equipment:
     - Accessories: accessories.md

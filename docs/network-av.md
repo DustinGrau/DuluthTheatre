@@ -2,7 +2,15 @@
 
 This is the complete network configuration which links the tech booth to the backstage areas, providing dedicated network space for a management network, Dante audio equipment, a link to the lighting console, feeds from IP cameras, and video distribution. It connects to the general network hosted in the booth for the lighting and mixer consoles.
 
+
+## Bandwidth
+
 The network depends on a 1 gigabit (1Gbps) connection which should be more than sufficient for the expected number of IP cameras and Dante audio devices to be used. It uses Quality of Service (QoS) and Multicast (IGMP) management features to ensure data is delivered in a timely and organized manner.
+
+* Estimated 30Mbps or less for Dante Audio from the Tio1608-D stagebox
+* Estimated 8Mbps per IP camera at 1080p@60fps (NDI-HX, H.264)
+* Estimated 15Mbps for return stream at 1080p@30fps (H.265)
+* Estimated 5-10Mbps for control and overhead
 
 
 ## VLAN Assignments
@@ -29,6 +37,7 @@ These VLANs will be assigned within each network switch by either a Tagged (T) o
 
 In the following switch configurations, there are 2 `trunk ports` to allow the switches to connect to each other. By convention port #1 is used as the `uplink` between the tech booth switch and backstage switch.
 
+
 ## IP Addresses
 
 In order for devices to speak to each other they must also utilize an IP address which can be automatically assigned (DHCP) or manually assigned (Static), and these values use a specific prefix for common address space which identifies a network range consisting of 4 groups of numbers (quads). In continuing the analogy of vehicles and toll lanes, think of this as the license plate for a vehicle:
@@ -46,6 +55,7 @@ The only other way devices can talk across networks is to introduce a router or 
 
 **Special Note:** For our Dante Audio devices, these have a special fallback protocol called "Link-Local". In the absence of a static IP assignment, and no available DHCP server to dynamically assign an IP address, the devices will self-negotiate their IP address among themselves. This uses a special network range 169.254.0.0 through 169.254.255.255 and so this space must be kept clear of any other devices to avoid conflict.
 
+
 ## WiFi Access
 
 For information about WiFi access, connections for the audio mixer and ETC console, please see the [General Network](network-general.md) page.
@@ -59,58 +69,58 @@ For information about WiFi access, connections for the audio mixer and ETC conso
 
 **VLAN Tagging:** V# = [T]agged or [U]ntagged
 
-| Port | V1 | V3 | V10 | PVID | Name/Purpose     | Device IP     | Notes.            |
-|------|----|----|-----|------|------------------|---------------|-------------------|
-| 1    | U  | T  | T   | 1    | Trunk Port       |               | Uplink to GS716T  |
-| 2    | U  |    |     | 1    | LEA Connect 704  | 192.168.1.3   | House Amp Control |
-| 3    |    | U  |     | 3    | Yamaha NY64-D    | Link-Local    | Dante Audio       |
-| 4    |    | U  |     | 3    | Booth iMac       | 192.168.3.50  | OBS, Video Output |
-| 5    |    | U  |     | 3    | - Available -    |               |                   |
-| 6    |    | U  |     | 3    | - Available -    |               |                   |
-| 7    |    | U  |     | 3    | - Available -    |               |                   |
-| 8    |    | U  |     | 3    | - Available -    |               |                   |
-| 9    |    | U  |     | 3    | Booth (USB)      | 192.168.3.110 | AVer PTZ310       |
-| 10   |    | U  |     | 3    | Booth (NDI)      | 192.168.3.120 | AVer PTZ300N      |
-| 11   |    | U  |     | 3    | - Available -    |               |                   |
-| 12   |    | U  |     | 3    | - Available -    |               |                   |
-| 13   |    | U  |     | 3    | - Available -    |               |                   |
-| 14   |    | U  |     | 3    | - Available -    |               |                   |
-| 15   |    | U  |     | 3    | - Available -    |               |                   |
-| 16   |    | U  |     | 3    | - Available -    |               |                   |
-| 17   |    | U  |     | 3    | - Available -    |               |                   |
-| 18   |    | U  |     | 3    | - Available -    |               |                   |
-| 19   |    | U  |     | 3    | - Available -    |               |                   |
-| 20   |    | U  |     | 3    | - Available -    |               |                   |
-| 21   |    | U  |     | 3    | - Available -    |               |                   |
-| 22   |    | U  |     | 3    | - Available -    |               |                   |
-| 23   |    | U  |     | 3    | - Available -    |               |                   |
-| 24   |    | U  |     | 3    | - Available -    |               |                   |
-| 25   |    | U  |     | 3    | - Available -    |               |                   |
-| 26   |    | U  |     | 3    | - Available -    |               |                   |
-| 27   |    | U  |     | 3    | - Available -    |               |                   |
-| 28   |    | U  |     | 3    | - Available -    |               |                   |
-| 29   |    | U  |     | 3    | - Available -    |               |                   |
-| 30   |    | U  |     | 3    | - Available -    |               |                   |
-| 31   |    | U  |     | 3    | - Available -    |               |                   |
-| 32   |    | U  |     | 3    | - Available -    |               |                   |
-| 33   |    | U  |     | 3    | - Available -    |               |                   |
-| 34   |    | U  |     | 3    | - Available -    |               |                   |
-| 35   |    | U  |     | 3    | - Available -    |               |                   |
-| 36   |    | U  |     | 3    | - Available -    |               |                   |
-| 37   |    | U  |     | 3    | - Available -    |               |                   |
-| 38   |    | U  |     | 3    | - Available -    |               |                   |
-| 39   |    | U  |     | 3    | - Available -    |               |                   |
-| 40   |    | U  |     | 3    | - Available -    |               |                   |
-| 41   |    | U  |     | 3    | - Available -    |               |                   |
-| 42   |    | U  |     | 3    | - Available -    |               |                   |
-| 43   |    |    | U   | 10   | Blackbird TX     | 192.168.10.10 | HDMI Signal Out   |
-| 44   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
-| 45   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
-| 46   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
-| 47   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
-| 48   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
-| 49   |    |    |     |      | SFP - Not Used   |               |                   |
-| 50   |    |    |     |      | SFP - Not Used   |               |                   |
+| Port | V1 | V3 | V10 | PVID | Name/Purpose    | Device IP     | Notes.            |
+|------|----|----|-----|------|-----------------|---------------|-------------------|
+| 1    | U  | T  | T   | 1    | Trunk Port      |               | Uplink to GS716T  |
+| 2    | U  |    |     | 1    | Netgear Router  | 192.168.1.1   | Uplink to R7000   |
+| 3    |    | U  |     | 3    | Yamaha NY64-D   | Link-Local    | Dante Audio       |
+| 4    |    | U  |     | 3    | Booth iMac      | 192.168.3.50  | OBS, Video Output |
+| 5    |    | U  |     | 3    | - Available -   |               |                   |
+| 6    |    | U  |     | 3    | - Available -   |               |                   |
+| 7    |    | U  |     | 3    | - Available -   |               |                   |
+| 8    |    | U  |     | 3    | - Available -   |               |                   |
+| 9    |    | U  |     | 3    | Booth (USB)     | 192.168.3.110 | AVer PTZ310       |
+| 10   |    | U  |     | 3    | Booth (NDI)     | 192.168.3.120 | AVer PTZ300N      |
+| 11   |    | U  |     | 3    | - Available -   |               |                   |
+| 12   |    | U  |     | 3    | - Available -   |               |                   |
+| 13   |    | U  |     | 3    | - Available -   |               |                   |
+| 14   |    | U  |     | 3    | - Available -   |               |                   |
+| 15   |    | U  |     | 3    | - Available -   |               |                   |
+| 16   |    | U  |     | 3    | - Available -   |               |                   |
+| 17   |    | U  |     | 3    | - Available -   |               |                   |
+| 18   |    | U  |     | 3    | - Available -   |               |                   |
+| 19   |    | U  |     | 3    | - Available -   |               |                   |
+| 20   |    | U  |     | 3    | - Available -   |               |                   |
+| 21   |    | U  |     | 3    | - Available -   |               |                   |
+| 22   |    | U  |     | 3    | - Available -   |               |                   |
+| 23   |    | U  |     | 3    | - Available -   |               |                   |
+| 24   |    | U  |     | 3    | - Available -   |               |                   |
+| 25   |    | U  |     | 3    | - Available -   |               |                   |
+| 26   |    | U  |     | 3    | - Available -   |               |                   |
+| 27   |    | U  |     | 3    | - Available -   |               |                   |
+| 28   |    | U  |     | 3    | - Available -   |               |                   |
+| 29   |    | U  |     | 3    | - Available -   |               |                   |
+| 30   |    | U  |     | 3    | - Available -   |               |                   |
+| 31   |    | U  |     | 3    | - Available -   |               |                   |
+| 32   |    | U  |     | 3    | - Available -   |               |                   |
+| 33   |    | U  |     | 3    | - Available -   |               |                   |
+| 34   |    | U  |     | 3    | - Available -   |               |                   |
+| 35   |    | U  |     | 3    | - Available -   |               |                   |
+| 36   |    | U  |     | 3    | - Available -   |               |                   |
+| 37   |    | U  |     | 3    | - Available -   |               |                   |
+| 38   |    | U  |     | 3    | - Available -   |               |                   |
+| 39   |    | U  |     | 3    | - Available -   |               |                   |
+| 40   |    | U  |     | 3    | - Available -   |               |                   |
+| 41   |    | U  |     | 3    | - Available -   |               |                   |
+| 42   |    | U  |     | 3    | - Available -   |               |                   |
+| 43   |    |    | U   | 10   | Blackbird TX    | 192.168.10.10 | HDMI Signal Out   |
+| 44   |    |    | U   | 10   | HDMI over IP    |               | HDMI Stream Only  |
+| 45   |    |    | U   | 10   | HDMI over IP    |               | HDMI Stream Only  |
+| 46   |    |    | U   | 10   | HDMI over IP    |               | HDMI Stream Only  |
+| 47   | U  |    | T   | 1    | Admin Access    |               | Internet + Video  |
+| 48   | U  |    | T   | 1    | Admin Access    |               | Internet + Video  |
+| 49   |    |    |     |      | SFP - Not Used  |               |                   |
+| 50   |    |    |     |      | SFP - Not Used  |               |                   |
 
 
 ## Netgear GS716Tv3
@@ -133,8 +143,8 @@ For information about WiFi access, connections for the audio mixer and ETC conso
 | 8    |    | U  |     | 3    | - Available -    |               | Dante or IPcam    |
 | 9    |    |    | U   | 10   | Blackbird RX     | 192.168.10.x  | HDMI Signal In    |
 | 10   |    |    | U   | 10   | Blackbird RX     | 192.168.10.x  | HDMI Signal In    |
-| 11   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
-| 12   |    |    | U   | 10   | HDMI over IP     |               | HDMI Access Only  |
+| 11   |    |    | U   | 10   | HDMI over IP     |               | HDMI Stream Only  |
+| 12   |    |    | U   | 10   | HDMI over IP     |               | HDMI Stream Only  |
 | 13   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
 | 14   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
 | 15   | U  |    | T   | 1    | Admin Access     |               | Internet + Video  |
@@ -166,8 +176,8 @@ The following settings must be applied to both switches unless otherwise noted.
         * Enable for Ports 1, 3-46
         * Disable for Ports 2, 47-50
     * GS716T
-        * Enable for Ports 1-14
-        * Disable for Ports 15-18
+        * Enable for Ports 1-12
+        * Disable for Ports 13-18
 * IGMP Snooping VLAN Configuration (VLANs 3 and 10)
     * VLAN <id>
     * Disable Fast Leave Admin Mode
@@ -195,8 +205,8 @@ The following settings must be applied to both switches unless otherwise noted.
     * DSCP 46: Clock
     * DSCP 34: Audio
 * Scheduler Type: Strict
- 		* For GS748T: ports 1, 3-44
-		* For GS716T: ports 1-8
+    * For GS748T: ports 1, 3-44
+    * For GS716T: ports 1-8
     * Ensures that Dante traffic always wins
     * Sacrifices video if necessary
 * Do not specify per-port rate limiting (ingress or egress) on ports
