@@ -5,28 +5,7 @@ IP Cameras —> Network Switches —> OBS —> Network Switches —> HDMI over I
 
 ## AVer PTZ Camera Streaming
 
-AVer PTZ330N Streaming
-
-N = NDI - Network Device Interface
-
-AVer PTZ Manager (Windows-only)
-Requires Login: admin/admin
-
-For NDI streaming MDNS discovery will show cameras under the "_ndi._tcp." group:
-
-- AVER (PTZ330N)
-- AVer.local.
-- `<ip_address>:<port>` (eg. 10.1.0.188:5961)
-- groups=public
-- discovery=5960
-
-After locating the camera works, you can’t add it without an account and password.
-
-* Default: admin/admin
-* Current: wildcat/theatre
-
-For the AVer PTZ310, select a Media Source in OBS, uncheck “Local File” and use the device IP:
-`rtsp://<camera_ip>/live_st1`
+The AVer IP cameras are Pan-Tilt-Zoom (PTZ) models which can stream using either USB, RTSP, or NDI (NDI-HX). Only the AVer PTZ330N devices support native NDI output while the AVer PTZ310 can only stream using RTSP. The benefits of using NDI is a near-native, latency-free stream which can be accessed by any NDI-capable software. This avoids the need to decode the stream 
 
 ### Streaming Constraints
 
@@ -39,13 +18,18 @@ For the AVer PTZ310, select a Media Source in OBS, uncheck “Local File” and 
     - 16Mbps = ~2.9MB/sec.
     - 32Mbps = ~3.8MB/sec.
 
+For purposes of non-broadcast, close-range distribution using 8Mbps is sufficient and has been configured on a per-camera basis already.
 
-## Blackbird Streaming
+## HDMI Streaming/Distribution
+
+[Monoprice Blackbird H.265 Video Extender/Splitter over IP with HDMI](https://www.monoprice.com/product?p_id=43624)
 
 Using the VLC program open a Network stream to one of the following paths:
 
 * rtsp://192.168.10.10/live/main/av_stream
 * rtsp://192.168.10.10/live/sub/av_stream
+
+Receiver units will automatically assign themselves an IP address, typically starting at 192.168.10.11 and increments by 1 for each additional device.
 
 
 ## Streaming with OBS
@@ -71,7 +55,7 @@ brew install ffmpeg distroav
 brew install —-cask ndi-tools
 ```
 
-## Video Compositing
+### Video Compositing
 
 - Open OBS (after installing all libraries and runtime packages)
 - OBS main window -> Settings (lower right)
@@ -85,10 +69,19 @@ brew install —-cask ndi-tools
         - Color Range: Limited (or Partial)
     - Output [Advanced] -> Streaming
     - Save (OBS may need to restart)
-- OBS main window -> Sources (lower mid-left)
+- For NDI Sources: OBS main window -> Sources (lower mid-left)
     - Add Source [+]
     - Look for "NDI Source" in the list of sources
     - For “Source name” select the camera stream
+    - Use the highest quality/bandwidth
+    - Do not enable hardware acceleration
+    - Use the Low latency option
+    - Use limited YUV color space
+- For USB Sources: OBS main window -> Sources (lower mid-left)
+    - Add Source [+]
+    - Look for "Media Source" in the list of sources
+    - Uncheck "Local File" and use the device IP
+    - eg. `rtsp://<camera_ip>/live_st1`
     - Use the highest quality/bandwidth
     - Do not enable hardware acceleration
     - Use the Low latency option
@@ -102,17 +95,24 @@ brew install —-cask ndi-tools
         - Arrange as desired (dragging or using offset parameters via Transform)
 
 
-## Streaming Configuration (Advanced)
+### HDMI Video Output
 
-Enabling NDI Output
+In order to get a video feed from OBS you must use a Mini-DisplayPort to HDMI adapter with the iMac, and select Full Screen Projector from the OBS menu (right-click in the preview screen for options). This will treat the HDMI output as a second monitor with a full-screen preview of the live feed shown in the OBS interface.
+
+**Note:** HDMI output from the iMac typically adds HDCP (HD Copy Protection) to the signal which CANNOT be propagated through the Blackbird devices. In order to bypass this a special HDMI splitter is used to help "strip" the HDCP from the HDMI signal. This works by leveraging a known issue with some cheap splitters which improperly implement HDCP and therefore acts as a "HDCP Bypass" and allows the transcoding device to get a clean signal that it can propagate.
+
+
+### NDI Streaming Output
+
+If needed, the DistroAV plugin for OBS allows you to enable NDI output directly, without need for a separate streaming configuration. Once enabled, NDI output begins immediately.
 
 - OBS main menu -> Tools -> DistroAV NDI Settings
     - [X] Main Output
     - Main output name: obs
-    - OK to save (NDI output begins immediately)
+    - OK to save
 
 
-## OBS Clean Slate
+### OBS Clean Slate
 
 Should things go completely wrong with OBS use the following to uninstall and remove the program and any plugins installed.
 

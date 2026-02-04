@@ -2,16 +2,7 @@
 
 ## UpRight X26N Scissor Lift
 
-## Theatre MacBook Pro
-
-* MacBookPro6,2
-* MacOS 10.6.8 (Snow Leopard)
-* Supports up to 10.13.x (High Sierra)
-* 15” Mid-2010
-* Core i7 2.66 GHZ Dual-Core
-* 4GB RAM (PC3-8500 DDR3, 2GB x2)
-* Supports up to 8GB (4GBx2)
-* A1321 Battery
+Shop and Stage
 
 ## [ADJ Mister Kool II](https://www.adj.com/mister-kool-ii)
 

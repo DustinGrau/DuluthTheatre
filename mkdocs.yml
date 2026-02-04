@@ -1,4 +1,3 @@
-
 # ---------------------------------------------------------
 # MkDocs Configuration File
 # https://www.mkdocs.org/
@@ -61,6 +60,6 @@ nav:
   - Networking:
     - General Network: network-general.md
     - AV Network: network-av.md
-  - Video: video.md
+  - Video Streaming: video-streaming.md
   - Other Equipment:
     - Accessories: accessories.md

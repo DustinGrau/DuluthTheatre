@@ -1,8 +1,11 @@
 # Duluth Wildcat Theatre
 
-## Equipment Notes and Configurations
+Equipment Notes and Configurations
 
 Use the menu at the left to navigate between topics.
 
+## Stage Floorplan
 
-**Maintainer:** [Dustin Grau](mailto:dustin.grau@gmail.com)
+[![Theatre Floorplan](images/DHS_Theatre_Floor_Plan_Small.png)](images/DHS_Theatre_Floor_Plan.png)
+
+**Site Maintainer:** [Dustin Grau](mailto:dustin.grau@gmail.com)
