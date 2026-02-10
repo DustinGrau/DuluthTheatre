@@ -6,24 +6,27 @@
 |-----|-----------|-------|
 | 1	 | [Mackie 1604VLZ4](https://mackie.com/en/products/mixers/vlz4-series/1604VLZ4.html) | 16 Ch. Audio Mixer |
 | 10 | [Shure QLXD4 (G50 470-534MHz)](https://www.shure.com/en-US/products/wireless-systems/qlx-d_digital_wireless/qlxd4?variant=QLXD4%3D-G50) | WL1-10 (Belt Packs) |
-| 2	| [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB)] | Active Antenna Distribution |
+| 2	| [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB) | Active Antenna Distribution |
 | 2	| [Sennheiser EW 100 G3](https://www.sennheiser.com/en-us/catalog/uncategorized/ew-100-935-g3/ew-100-935-g3-504268?srsltid=AfmBOopOqZmM5cFpQDPaz1WH1eTWEZ-j_o2H6SAAn2WT21PswI0ncnfH) | Wireless Mics (Lapel) |
 | 1	| [Furman M-8x2](https://www.amazon.com/Furman-M-8X2-Outlet-Conditioner-Protector/dp/B003BQ91Y6) | Power Distribution |
 
-### Patching to Yamaha TF5 (Inputs 1-32 Female XLR)
+### Patching to Yamaha TF5
+
+**Inputs 1-32 Female XLR**
 
 * WL1-8 (21-28)
 * WL9-10 (31-32)
 * Omni Out (1-16 Male XLR):
   * House Stereo: 15 (L) 16 (R)
-  * Default Monitor: 13 (L) 14 (R)
-  * Aux Channels: 1-12
+  * Lobby Amplifier: 14 (R)
+  * Booth Monitor: 13 (L)
+  * Aux Channels: 1 (Stage) 3 (Wings)
 
 ## Mobile Mic Case
 
 | QTY | Equipment | Notes |
 |-----|-----------|-------|
-| 5 | [Shure SLX4](https://www.shure.com/en-US/products/wireless-systems/slx_wireless/slx4?variant=SLX4%3D-G4) | WMIC1-17 (Belt Packs) |
+| 6 | [Shure SLX4](https://www.shure.com/en-US/products/wireless-systems/slx_wireless/slx4?variant=SLX4%3D-G4) | WMIC11-16 (Belt Packs) |
 | 1 | [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB) | Active Antenna Distribution |
 | 1 | Tascam CD-200 | CD Player |
 

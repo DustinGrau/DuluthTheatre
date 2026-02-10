@@ -207,20 +207,21 @@ Networked 4-channel amplifier with 700 watts per channel.
 
 ## Lobby Amplifier
 
-This amplifier is connected to the output #14 from the Yamaha TF5.
+This amplifier is connected to the output #14 from the Yamaha TF5. Located in the large floor rack near the staircase and railing.
 
 * [TOA 900 Series II Amplifier A-903MK2](https://www.toaelectronics.com/en-us/products/detail/a903mk2ul)
 * [M-01 Balanced Mic Input Module](https://www.toaelectronics.com/en-us/products/detail/m01m)
 
-## Tall Corner Rack
+## Booth Corner Rack
 
 Standard 19" rackmount case with wireless microphone receivers and antenna distribution system. Includes a power conditioner, CD player with Aux input, and an FM-based assistive listening system.
 
 | QTY | Equipment | Notes |
 |-----|-----------|-------|
 | 3 | [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB) | Active Antenna Distribution |
-| 6	| [Shure SLX4](https://www.shure.com/en-US/docs/guide/SLX) | WMIC1-17 (Belt Packs) |
-| 1	| [Denon DN-300Z](https://www.denonpro.com/products/dn-300z.html) | CD Player + Aux Input |
+| 11	| [Shure SLX4](https://www.shure.com/en-US/docs/guide/SLX) | WMIC1-10,17 (Belt Packs) |
+| 1	| [Shure BLX4R](https://www.shure.com/en-US/products/wireless-systems/blx_wireless/blx4r?variant=BLX4R%253D-H10) | Wireless Mic |
 | 1 | [Furman M-8Lx](https://www.amazon.com/Furman-M-8X2-Outlet-Conditioner-Protector/dp/B003BQ91Y6) | Power Distribution |
+| 1	| [Denon DN-300Z](https://www.denonpro.com/products/dn-300z.html) | CD Player + Aux Input |
 | 1	| [Clear-Com DX410](https://www.clearcom.com/product-family/hme-dx410-wireless/) | Headset Communication |
 | 1 | [Listen LT-800 FM](https://www.listentech.com/shop/product/stationary-rf-transmitter-72mhz/) | Assistive Listening |
