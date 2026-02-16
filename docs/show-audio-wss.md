@@ -15,8 +15,8 @@ As the music uses some panning audio, we need a stereo-to-mono mix of the final 
     * Set the volume for both Stereo outputs to unity (or -2dB).
     * Make sure the matrix is configured as mono (no stereo paired).
     * Make sure the matrix is post-fader (default when from master).
-4. Assign `Matrix 1` to an unused OMNI output for lobby output.
-5. Assign `Matrix 1` to an unused OMNI output for recording use.
+4. Assign `Matrix 1` to an unused OMNI output for lobby output (14).
+5. Assign `Matrix 1` to an unused OMNI output for recording use (13).
 
 ### Dugan Bypass
 
@@ -67,30 +67,30 @@ The TF-5 allows you to create your own custom fader bank, which can consist of a
 
 |   CHANNEL    |   MIC                 |   CHARACTER/ACTOR         |  GROUPING   |
 |--------------|-----------------------|---------------------------|-------------|
-|   1 (Dugan)  |   WL1                 |   Maria - Emma            | Principals  |
-|   2 (Dugan)  |   WL2                 |   Tony - K’von            | Principals  |
-|   3 (Dugan)  |   WL3                 |   Riff - Grant            | Principals  |
-|   4 (Dugan)  |   WL4                 |   Bernardo - Kevin        | Principals  |
-|   5 (Dugan)  |   WL5                 |   Anita - Roan            | Principals  |
-|   6 (Dugan)  |   WL6                 |   Action - Julian         | Jets        |
-|   7 (Dugan)  |   WL7                 |   Diesel - Landen         | Jets        |
-|   8 (Dugan)  |   WL8                 |   Baby John - Lyle        | Jets        |
-|   9          |   WL9                 |   Chino - Nathan          | Sharks      |
-|   10         |   WL10                |   Doc - Idris             | Adults      |
+|   1 (Dugan)  |   WL1  [Crate]        |   Maria - Emma            | Principals  |
+|   2 (Dugan)  |   WL2  [Crate]        |   Tony - K’von            | Principals  |
+|   3 (Dugan)  |   WL3  [Crate]        |   Riff - Grant            | Principals  |
+|   4 (Dugan)  |   WL4  [Crate]        |   Bernardo - Kevin        | Principals  |
+|   5 (Dugan)  |   WL5  [Crate]        |   Anita - Roan            | Principals  |
+|   6 (Dugan)  |   WL6  [Crate]        |   Action - Julian         | Jets        |
+|   7 (Dugan)  |   WL7  [Crate]        |   Diesel - Landen         | Jets        |
+|   8 (Dugan)  |   WL8  [Crate]        |   Baby John - Lyle        | Jets        |
+|   9          |   WL9  [Crate]        |   Chino - Nathan          | Sharks      |
+|   10         |   WL10 [Crate]        |   Doc - Idris             | Adults      |
 |   11         |   WMIC11 [Crate]      |   Ofc. Krupke - Andrik    | Adults      |
 |   12         |   WMIC12 [Crate]      |   Lt. Schrank - Razmilla  | Adults      |
 |   13         |   WMIC13 [Crate]      |   Anybodys - Emi          | Jets        |
 |   14         |   WMIC14 [Crate]      |   Velma - Lilian          | Jets        |
 |   15         |   WMIC15 [Crate]      |   Francisca - Sally       | Sharks      |
 |   16         |   WMIC16 [Crate]      |   Consuela - Naomi        | Sharks      |
-|   17         |   WMIC1 [Booth]       |   Graziella - Maddie      | Sharks      |
-|   18         |   WMIC2 [Booth]       |   Big Deal - Elijah [O]   | Jets        |
-|   19         |   WMIC3 [Booth]       |   Snowboy- Jaden [O]      | Jets        |
-|   20         |   WMIC4 [Booth]       |   A-Rab - Dylan [X]       | Jets        |
-|   21         |   WMIC5 [Booth]       |   Rosalia - Evelyn [O]    | Sharks      |
-|   22         |   WMIC6 [Booth]       |   Indio - Tyreek [X]      | Sharks      |
-|   23         |   WMIC7 [Booth]       |   Pepe - Aristides [X]    | Sharks      |
-|   24         |   WMIC8 [Booth]       |   Glad Hand               | Adults      |
+|   17         |   WMIC2  [Booth]      |   Graziella - Maddie      | Sharks      |
+|   18         |   WMIC3  [Booth]      |   Big Deal - Elijah [O]   | Jets        |
+|   19         |   WMIC4  [Booth]      |   Snowboy- Jaden [O]      | Jets        |
+|   20         |   WMIC5  [Booth]      |   A-Rab - Dylan [X]       | Jets        |
+|   21         |   WMIC6  [Booth]      |   Rosalia - Evelyn [O]    | Sharks      |
+|   22         |   WMIC7  [Booth]      |   Indio - Tyreek [X]      | Sharks      |
+|   23         |   WMIC8  [Booth]      |   Pepe - Aristides [X]    | Sharks      |
+|   24         |   BLX4R  [Booth]      |   Glad Hand               | Adults      |
 |   25         |   Stage Overhead (L)  |   Ensemble/Atmosphere     |             |
 |   26         |   Stage Overhead (C)  |   Ensemble/Atmosphere     |             |
 |   27         |   Stage Overhead (R)  |   Ensemble/Atmosphere     |             |
