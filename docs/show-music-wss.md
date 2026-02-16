@@ -2,77 +2,109 @@
 
 ## ACT ONE
 
-RIFF: (starts down center)
-
 ### 1. Prologue
 
-{SFX} -POLICE WHISTLE-
+RIFF: (starts down center)
 
-`{ON} KRUPKE, SCHRANK, RIFF`
+DIALOG START: -POLICE WHISTLE-
 
-`{ON} BIG DEAL, A-RAB, ACTION`
+`{ON} KRUPKE, BERNARDO, SCHRANK, RIFF, JETS (BIG DEAL, A-RAB, ACTION, SNOWBOY, BABY JOHN, ANYBODYS)`
 
-`{ON} BERNARDO, SNOWBOY, BABY JOHN`
+BERNDARDO: Let's go, Sharks.
 
-`{ON} ANYBODYS`
+`{OFF} BERNARDO, SHARKS`
+
+...
+
+SCHRANK: If I don't put down the roughhouse, I get put down -- on a traffc corner. ... Say goodbye to the nice boys, Krupke.
 
 KRUPKE: Goodbye, boys.
 
 `{OFF} KRUPKE, SCHRANK`
 
+...
+
+### 2. Jet Song
+
 RIFF: That's Tony.
 
 ACTION: Who needs Tony?
 
-### 2. Jet Song
+**GO (MUSIC STARTS)**
 
-`{OFF} BERNARDO, SNOWBOY, BABY JOHN, ANYBODYS`
+`{OFF} ALL except: RIFF, ACTION, BABY JOHN, A-RAB, BIG DEAL`
 
-**(BLACKOUT)**
+END: (BLACKOUT)
 
 ### 2a. Jet Song Chase
 
+**GO (MUSIC STARTS)**
+
+### 3. Something's Coming
+
+SCENE CHANGE: DOC's
+
 `{ON} RIFF, TONY`
+
+...
 
 RIFF: Who knows? Maybe what you're waitin' for'll be twitching at the dance!
 
 TONY: Who knows?
 
-### 3. Something's Coming
+END: (DIM-OUT)
 
-(DIM-OUT) -> 3a. Something's Coming Chase
+`{OFF} RIFF, TONY`
+
+### 3a. Something's Coming Chase
+
+SCENE CHANGE: Bridal Shop
 
 `{ON} MARIA, ANITA`
 
 MARIA: Ahhh- si! It is a beautiful dress: I love you!
 
-`{ON} BERNARDO`
+`{ON} BERNARDO, CHINO`
 
-`{OFF} ANITA`
+...
 
-`{ON} CHINO`
+BERNARDO: Why?
 
 MARIA: Because tonight is the real beginning of my life as a young lady of America!
 
-`{OFF} MARIA, BERNARDO, CHINO`
+`{OFF} MARIA, ANITA, BERNARDO, CHINO`
 
 ### 4. The Dance at the Gym (Blues)
 
-`{ON} GLAD HAND, BIG DEAL`
+SCENE CHANGE: Gymnasium
 
-GLAD HAND: That's it, kids. Keep the ball rolling. ... All right: here we go!
+**GO (MUSIC START)**
+
+`{ON} GLAD HAND, BIG DEAL`
 
 ### 4a. Promenade
 
+GLAD HAND: That's it, kids. Keep the ball rolling. ... All right: here we go!
+
+**GO (MUSIC START)**
+
 `{OFF} GLAD HAND`
+
+### 4b. Mambo
+
+**MUSIC - AUTO-FOLLOW: Promenade**
 
 `{ON} MARIA, RIFF, BERNARDO, ANITA, SHARKS, JETS`
 
-### 4b. Mambo
+ALL: GO, MAMBO!
+
+(TONY and MARIA walk to meet each other)
 
 `{OFF} RIFF, BERNARDO, ANITA, SHARKS, JETS`
 
 ### 4c. Cha-Cha
+
+**MUSIC - AUTO-FOLLOW: Mambo**
 
 `{ON} TONY, MARIA`
 
@@ -80,53 +112,87 @@ GLAD HAND: That's it, kids. Keep the ball rolling. ... All right: here we go!
 
 `{ON} BERNARDO`
 
-`{ON} RIFF, CHINO`
+### 4e. Jump
 
 `{ON} GLAD HAND`
 
-### 4e. Jump
+GLAD HAND: Please! Everything was going so well! Do you fellows get pleasure out of making trouble? Now come on - it won't hurt you to have a good time.
+
+**GO (MUSIC START)**
 
 `{OFF} GLAD HAND`
 
-`{ON} BIG DEAL, DIESEL`
+`{ON} RIFF, CHINO, ANITA, BIG DEAL, DIESEL`
+
+BERNARDO: I understand the rules - Native Boy.
+
+`{OFF} BERNARDO, CHINO, ANITA`
+
+RIFF: Tony!
 
 DIESEL: Ah, we'll see him at Doc's
 
-TONY: (Dreamily) Maria...
+### 5. Maria
 
 `{OFF} ALL except TONY`
 
-### 5. Maria
+TONY: (Dreamily) Maria...
+
+**GO (MUSIC START)**
+
+SCENE CHANGE: Alleyway / Fire Escape
 
 ### 6. Balcony Scene
 
+**GO (MUSIC START)**
+
 `{ON} TONY, MARIA`
 
-TONY and MARIA: Dream of me tonight.
+...
+
+TONY and MARIA: (singing) Sleep well and when you dream, dream of me tonight.
 
 `{OFF} TONY, MARIA`
 
 `{ON} BERNARDO, ANITA`
 
-`{ON} CONSUELO, CHINO, ROSALIA, PEPE`
+...
 
-ROSALIA: That's a very pretty name: Etcetera.
+BERNARDO: Thasnk God, you can't change your hair!
+
+`{ON} CONSUELO, CHINO, ROSALIA, PEPE`
 
 ### 7. America
 
-`{OFF} PEPE`
+BERNARDO: Buenas noches, Anita, Josefina del Carmen, etcetera, etcetera, etcetera.
 
-`{ON} ALL SHARK GIRLS`
+`{OFF} PEPE, CHINO`
+
+ROSALIA: That's a very pretty name: Etcetera.
+
+**GO (MUSIC START)**
+
+`{ON} ANITA, CONSUELO, ROSALIA, SHARK GIRLS`
+
+ALL (singing) Everyone there will have moved here!
 
 `{OFF} ALL`
 
 ### 7a. America to Drugstore
 
+**GO (MUSIC START)**
+
+SCENE CHANGE: Doc's
+
 `{ON} ACTION, BABY JOHN, A-RAB, SNOWBOY, ANYBODYS`
+
+...
 
 ANYBODYS: Lissen, Jail Bait, I licked you twice and I can do it again.
 
 `{ON} DOC`
+
+...
 
 ANYBODYS: A telephone call girl!
 
@@ -134,11 +200,15 @@ ANYBODYS: A telephone call girl!
 
 ### 8. Cool
 
+**GO (MUSIC START)**
+
 `{ON} JETS (muted)`
 
 `{OFF} GRAZIELLA, VELMA`
 
 ### 8a. Cool Chase
+
+**GO (MUSIC START)**
 
 RIFF: Set 'em up, Doc. Cokes all around.
 
@@ -152,8 +222,8 @@ BERNARDO: Under the highway. (shakes hands with RIFF)
 
 `{ON} TONY`
 
-ACTION: Look, Bernardo, if you wanna change your mind, maybe we could all --
-
+ACTION: Look, Bernardo, if you wanna change your mind, maybe we could all -- (JET near the door whistles)
+g
 `{ON} DOC, SCHRANK`
 
 `{OFF} JETS (except ACTION)`
@@ -162,9 +232,11 @@ DOC: It wouldn't give me a mouth like his.
 
 `{OFF} ALL (except DOC, TONY)`
 
-### 8b. Drugstore Dialogue / Change of Scene [low volume]
+### 8b. Drugstore Dialogue / Change of Scene
 
-`{OFF} ALL`
+**GO (MUSIC START) [low volume]**
+
+(END OF SCENE 6 - CHANGE TO BRIDAL SHOP)
 
 `{ON} ANITA, MARIA`
 
@@ -172,64 +244,108 @@ ANITA: Too much feeling. And they get rid of it: after a fight, that brother of 
 
 `{ON} TONY`
 
+TONY: (KNOCKS) Buenas noches!
+
+ANITA: You better be home in fifteen minutes.
+
 `{OFF} ANITA (on exit)`
+
+### 9. Bridal Dialogue
+
+MARIA: I believe you! You do have magic.
 
 TONY: Of course, I have you. You go home and dress up.
 
-### 9. Bridal Dialogue [low volume]
-
-TONY: Mama's crying already.
+**GO (MUSIC START) [low volume]**
 
 ### 9a. One Hand, One Heart
 
+MARIA: No you see, Anita, I told you there was nothing to worry about.
+
+TONY: Mama's crying already.
+
+**GO (MUSIC START)**
+
+...
+
+TONY and MARIA: (SINGING) Even deal won't part us now.
+
 **(DIM-OUT)**
 
-`{ON} RIFF, BERNARDO`
+`{OFF} TONY, MARIA`
 
 ### 10. Tonight (Quintet)
 
+**GO (MUSIC START)**
+
+`{ON} RIFF, BERNARDO`
+
 `{ON} SHARKS, JETS`
+
+ALL: And we're the ones to stop 'em once and for all, tonight!
 
 `{ON} TONY, ANITA, MARIA`
 
-<SCENE CHANGE: HIGHWAY>
+...
+
+ANITA: (SINGING) Tonight, this very night, we're gonna rock it tonight!
 
 `{OFF} ALL`
 
-`{ON} BERNARDO, CHINO, DIESEL, RIFF`
+### 11. The Rumble
 
-`{ON} TONY, ACTION, A-RAB, SNOWBOY`
+`{ON} BERNARDO, CHINO, DIESEL, RIFF, TONY`
+
+TONY: Bernardo, you've got it wrong.
+
+`{ON} ACTION, A-RAB, SNOWBOY`
+
+...
 
 BERNARDO: Come on, you yellow-bellied Polak bas--
 
 `{OFF} ALL (except TONY, RIFF)`
 
-### 11. The Rumble
+**GO (MUSIC START)**
 
-(BELLS RING)
+{SFX} (In-Tracl: BELLS RING)
 
 `{OFF} ALL`
 
 
 ## ACT TWO
 
-`{ON} CONSUELO, ROSALIA, MARIA, FRANCISCA`
-
 ### 12. I Feel Pretty
 
-ROSALIA: They have a quaint old-fashioned custom in this country, Maria: they get married here before the wedding night.
+`{ON} CONSUELO, ROSALIA, MARIA, FRANCISCA`
+
+CONSUELO: "I do?" "I am?" What is going on with you?
+
+**GO (MUSIC START)**
+
+...
 
 `{ON} CHINO`
 
+ROSALIA: They have a quaint old-fashioned custom in this country, Maria: they get married here before the wedding night.
+
 `{OFF} ALL (except MARIA, CHINO)`
 
-MARIA: Killer killer killer killer --
+...
+
+MARIA: You are lying, Chino!
 
 `{OFF} CHINO`
 
+### 13. Under Dialogue-Scherzo
+
+MARIA: Killer killer killer killer --
+
 `{ON} TONY, MARIA`
 
-### 13. Under Dialogue-Scherzo [low volume]
+**GO (MUSIC START) [low volume]**
+
+...
 
 TONY: Then we'll find someplace where nothing can get to us; not one of them, not anything.
 
@@ -237,15 +353,32 @@ TONY: Then we'll find someplace where nothing can get to us; not one of them, no
 
 (Scherzo - Tony and Maria begin the steps to the dance)
 
-`{ON} ENSEMBLE`
 
 ### 13d. Somewhere
 
+**MUSIC - AUTO-FOLLOW: Scherzo**
+
+`{ON} ENSEMBLE`
+
+...
+
+TONY and MARIA: Somehow, some day, somewhere!
+
 `{OFF} ALL`
+
+(LIGHTS FADE)
+
+### 14. Gee, Officer Krupke
 
 **(Scene Change)**
 
-`{ON} A-RAB, BABY JOHN, KRUPKE`
+`{ON} A-RAB, BABY JOHN`
+
+A-RAB: You cut it out, ya hear? Ya only makin' me scared an' that scares me! Last thing ever is to let a cop know you're scared or anythin'.
+
+`{ON} KRUPKE`
+
+...
 
 A-RAB: Look at the brass-ass run!
 
@@ -253,39 +386,69 @@ A-RAB: Look at the brass-ass run!
 
 `{ON} ACTION, BIG DEAL, SNOWBOY`
 
-### 14. Gee, Officer Krupke
+ACTION: Me, Officer Krupke?
+
+SNOWBOY: Yeah, you! Gimme one good reason for not dragging ya down to the station house, ya punk?
+
+**GO (MUSIC START)**
+
+...
+
+ACTION: You done good, buddy boy.
+
+ANYBODYS: Thanks, daddy-o.
 
 `{OFF} ALL`
 
 ### 14a. Change of Scene
 
+**GO (MUSIC START)**
+
 `{ON} ANITA, MARIA, TONY`
 
-ANITA: And you still don't know. Tony is one of them!
+### 15. A Boy Like That / I Have A Love
 
 `{OFF} TONY`
 
-### 15. A Boy Like That / I Have A Love
+ANITA: And you still don't know. Tony is one of them!
+
+**GO (MUSIC START)**
+
+...
+
+MARIA: I love Tony.
 
 ANITA: I know. I loved Bernardo.
 
 `{ON} SCHRANK`
 
+...
+
 SCHRANK: As long as it takes.
 
 `{OFF} ANITA`
 
-### 15a. Change of Scene
+...
+
+SHRANK: And his name?
+
+MARIA: Jose.
 
 `{OFF} MARIA, SCHRANK`
 
-**(Scene Change: Drugstore)**
+### 15a. Change of Scene
 
-`{ON} ACTION, A-RAB, BIG DEAL, BABY JOHN, ANYBODYS`
+**GO (MUSIC START)**
+
+**(Scene Change: Drugstore)**
 
 ### 16a. Jukebox (SFX)
 
-ACTION: Grab some readin' matter; play the juke. Some of ya get outside and if ya see Chino or any PR--
+`{ON} ACTION, A-RAB, BIG DEAL, BABY JOHN, ANYBODYS`
+
+ACTION: Grab some readin' matter; play the juke. Some of ya get outside and if ya see Chino or any PR --
+
+**GO (MUSIC START) [low volume]**
 
 ### 16b. Taunting Scene
 
@@ -293,19 +456,35 @@ ACTION: Grab some readin' matter; play the juke. Some of ya get outside and if y
 
 ACTION: Spic! Lyin' Spic!
 
+**GO (MUSIC START) [low volume]**
+
+...
+
 `{ON} DOC`
+
+...
+
+ACTION: That's the way we found it, Doc.
 
 DOC: Get out of here!
 
 `{OFF} ALL (except DOC)`
 
+(LIGHTS FADE)
+
+**(Scene Change: Cellar)**
+
 `{ON} TONY`
+
+...
+
+DOC: Maria is dead. Chino foudn out about you and her and shot her.
 
 TONY: Chino? Chino? Come and get me, too, Chino.
 
-`{OFF} DOC`
+`{OFF} DOC, TONY`
 
-(Scene Change: Outside of Doc's)
+**(Scene Change: Outside Doc's)**
 
 `{ON} TONY, ANYBODYS`
 
@@ -321,19 +500,23 @@ MARIA: Tony...
 
 TONY: MARIA! (run to each other)
 
-**{SFX} -GUNSHOT-**
+**GO {SFX} -GUNSHOT- [loud]**
+
+### 17a. Finale (Part 1)
 
 TONY and MARIA: Hold my hand and I'll take you there, somehow, some day...
 
-**(MARIA rests TONY on the floor)**
+*(MARIA rests TONY on the floor)*
 
-### 17a. Finale (Part 1) [low volume]
+**GO (MUSIC START) [low volume]**
 
 `{OFF} TONY`
 
+### 17b. Finale (Part 2)
+
 MARIA: Te adoro, Anton. (kisses him)
 
-### 17b. Finale (Part 2) [low volume]
+**GO (MUSIC START) [low volume]**
 
 `{OFF} ALL`
 
