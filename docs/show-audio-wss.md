@@ -64,6 +64,9 @@ The TF-5 allows you to create your own custom fader bank, which can consist of a
 
 * WL# = QLXD4 (1-10)
 * WMIC# = SLX4 (1-10, 11-16, 17)
+* BLX4R = Handheld Wireless
+* Op1 - Optional Tier 1, Mic'd if Available
+* Op2 - Optional Tier 2, Mic'd if Available
 
 |   CHANNEL    |   MIC                 |   CHARACTER/ACTOR         |  GROUPING   |
 |--------------|-----------------------|---------------------------|-------------|
@@ -84,16 +87,16 @@ The TF-5 allows you to create your own custom fader bank, which can consist of a
 |   15         |   WMIC15 [Crate]      |   Francisca - Sally       | Sharks      |
 |   16         |   WMIC16 [Crate]      |   Consuela - Naomi        | Sharks      |
 |   17         |   WMIC2  [Booth]      |   Graziella - Maddie      | Sharks      |
-|   18         |   WMIC3  [Booth]      |   Big Deal - Elijah [O]   | Jets        |
-|   19         |   WMIC4  [Booth]      |   Snowboy- Jaden [O]      | Jets        |
-|   20         |   WMIC5  [Booth]      |   A-Rab - Dylan [X]       | Jets        |
-|   21         |   WMIC6  [Booth]      |   Rosalia - Evelyn [O]    | Sharks      |
-|   22         |   WMIC7  [Booth]      |   Indio - Tyreek [X]      | Sharks      |
-|   23         |   WMIC8  [Booth]      |   Pepe - Aristides [X]    | Sharks      |
+|   18         |   WMIC3  [Booth]      |   Big Deal - Elijah [Op1] | Jets        |
+|   19         |   WMIC4  [Booth]      |   Snowboy - Jaden [Op1]   | Jets        |
+|   20         |   WMIC5  [Booth]      |   A-Rab - Dylan [Op2]     | Jets        |
+|   21         |   WMIC6  [Booth]      |   Rosalia - Evelyn [Op1]  | Sharks      |
+|   22         |   WMIC7  [Booth]      |   Indio - Tyreek [Op2]    | Sharks      |
+|   23         |   WMIC8  [Booth]      |   Pepe - Aristides [Op2]  | Sharks      |
 |   24         |   BLX4R  [Booth]      |   Glad Hand               | Adults      |
-|   25         |   Stage Overhead (L)  |   Ensemble/Atmosphere     |             |
-|   26         |   Stage Overhead (C)  |   Ensemble/Atmosphere     |             |
-|   27         |   Stage Overhead (R)  |   Ensemble/Atmosphere     |             |
+|   25         |   Stage Overhead (L)  |   Ensemble/Atmosphere     | Stage       |
+|   26         |   Stage Overhead (C)  |   Ensemble/Atmosphere     | Stage       |
+|   27         |   Stage Overhead (R)  |   Ensemble/Atmosphere     | Stage       |
 |   28         |   -OPEN-              |                           |             |
 |   29         |   -OPEN-              |                           |             |
 |   30         |   -OPEN-              |                           |             |
@@ -106,3 +109,4 @@ The TF-5 allows you to create your own custom fader bank, which can consist of a
 2. Jets: Action, Diesel, Baby John, Anybodys, Velma, Big Deal, Snowboy, A-Rab
 3. Sharks: Chino, Francisca, Consuela, Graziella, Rosalia, Indio, Pepe
 4. Adults: Krupke, Schrank, Doc, Glad Hand
+5. Stage: Overheads (L, C, R)
