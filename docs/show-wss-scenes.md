@@ -1,26 +1,28 @@
-# West Side Story (School Edition) - Scene Breakdown
+# West Side Story - Audio Scenes
+
+For this show we used the Yamaha TF-5 with [TheatreMix](https://theatremix.com/) to handle scene-to-scene transitions of microphones used by on-stage actors. This allows creation of cues for audio mixing just as we use cues for lighting changes in or between scenes. All actors who must or should be mic'd must first be established on the basis of importance and presence, deprioritizing those who have fewer speaking lines or may not need a microphone, especially if there are not enough mics or headsets to go around. This should be done first to create a channel list by actor/role such as the chart see on the [primary audio page for this show](show-wss-audio.md). From there, individual actors can be assigned into a DCA (1-8) or even groups of actors can be combined--all dynamically!
+
+## What is a DCA?
+
+In short, a DCA (or Digitally Controlled Amplifier) can be a single actor or a group of actors, all controlled by a single fader. These groups can be adjusted as a whole using the fader or even muted entirely by turning off the group. However, static assignments means limited control and a need to balance both the individual actors with the group assignments. To make these more effective, TheatreMix dynamically reassigns these DCAs dynamically using the mixing console's Ethernet/WiFi capabilities.
+
+Some notes when using DCA groups:
+
+* Volume is additive when using DCAs. If a channel is at -5 and a DCA fader is at -10, the sum total for that channel would be -15. Think of it as applying a percentage to a percentage, where the individual channel is the "ceiling" or safe maximum volume before feedback begins.
+* You MUST NOT assign any single fader to more than 1 DCA group. This can lead to unexpected volume levels if the individual channel and the DCA groups which use it are set to different levels. Also, muting of any DCA group with that channel will mute it entirely, even if the channel or another DCA group is active.
+* Individual channels and DCA groups can both be given an EQ or Compressor. The benefit of using compression on a group is to ensure that all members of the DCA group are kept within range, while compression on an individual channel ensures that person in isolation is kept within range for their performance.
+* When in the Groups view, the individual members are displayed to the left when a DCA group is selected. This allows access to both the group volume as a whole as well as the mic'd actors, avoiding the need for "chasing faders". Also allowis time to turn off individual channels.
+
+To access DCA groups and assign channels manually:
+
+* Press both INPUT1 + INPUT2 to access Groups.
+* Select a group channel and press "DCA Assign" on the menu screen.
+* Touch a channel name to select/deselect for the DCA group.
 
 ## ACT 1
 
-| Scene | Title / Description | Musical Numbers | Main Actors Present |
-| :--- | :--- | :--- | :--- |
-| **1.1** | **The Streets (Prologue)** | 1. Prologue, 2. Jet Song | RIFF, BERNARDO, ACTION, A-RAB, BABY JOHN, BIG DEAL, SNOWBOY, DIESEL, ANYBODYS, LT. SCHRANK, OFFICER KRUPKE |
-| **1.2** | **A Yard (Doc’s Drugstore Exterior)** | 3. Something’s Coming | TONY, RIFF |
-| **1.3** | **The Bridal Shop** | N/A | MARIA, ANITA, BERNARDO, CHINO |
-| **1.4** | **The Gym (Dance Hall)** | 4a. Promenade, 4b. Mambo, 4c. Cha-Cha, 4d. Meeting Scene, 4e. Jump | TONY, MARIA, BERNARDO, RIFF, ANITA, CHINO, GLAD HAND, OFFICER KRUPKE, VELMA, DIESEL, BIG DEAL, PEPE |
-| **1.5** | **A Lane / Exterior of Maria’s House** | 5. Maria | TONY, BERNARDO, MARIA |
-| **1.6** | **The Balcony** | 6. Balcony Scene (Tonight) | TONY, MARIA |
-| **1.7** | **The Bridal Shop (Mock Wedding)** | 9a. One Hand, One Heart | TONY, MARIA, ANITA |
-| **1.8** | **The Neighborhood (The Quintet)** | 10. Tonight (Quintet) | TONY, MARIA, ANITA, RIFF, BERNARDO, JETS, SHARKS |
-| **1.9** | **Under the Highway (The Rumble)** | 11. The Rumble | RIFF, BERNARDO, TONY, CHINO, ACTION, DIESEL, A-RAB, BABY JOHN, JETS, SHARKS |
+Details TBD
 
 ## ACT 2
 
-| Scene | Title / Description | Musical Numbers | Main Actors Present |
-| :--- | :--- | :--- | :--- |
-| **2.1** | **Maria's Bedroom** | 12. I Feel Pretty, 13d. Somewhere | MARIA, ANITA, CHINO, TONY, ROSALIA, CONSUELO, TERESITA |
-| **2.2** | **A Back Alley** | 14. Gee, Officer Krupke | ACTION, A-RAB, BABY JOHN, BIG DEAL, SNOWBOY, DIESEL, OFFICER KRUPKE |
-| **2.3** | **The Bedroom / Apartment** | 15. A Boy Like That / I Have a Love | MARIA, ANITA, TONY |
-| **2.4** | **Doc’s Drugstore (The Taunting)** | 16. Taunting Scene | ANITA, ACTION, A-RAB, ANYBODYS, DIESEL, BIG DEAL, SNOWBOY, GEE-TAR, DOC |
-| **2.5** | **The Cellar (Doc's)** | N/A | TONY, DOC |
-| **2.6** | **The Street / Finale** | 17. Finale | TONY, MARIA, CHINO, ANYBODYS, JETS, SHARKS, LT. SCHRANK, OFFICER KRUPKE, DOC |
+Details TBD
