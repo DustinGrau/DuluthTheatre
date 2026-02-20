@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Video Streaming - Duluth Wildcat Theatre</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Video Streaming";
+        var mkdocs_page_input_path = "video-streaming.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../images/WildcatTheatre.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Sound</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-house/">House Audio</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-mobile/">Mobile Crates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-room-tuning/">Room Tuning</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-vocal-tuning/">Vocal Tuning</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Lighting</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-house/">House Lighting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-spotlights/">Followspots</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Networking</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../network-general/">General Network</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../network-av/">AV Network</a>
+                  </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Video Streaming</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#aver-ptz-camera-streaming">AVer PTZ Camera Streaming</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#streaming-constraints">Streaming Constraints</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hdmi-streamingdistribution">HDMI Streaming/Distribution</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#streaming-with-obs">Streaming with OBS</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#install-homebrew-and-plugins-for-obs">Install Homebrew and Plugins for OBS</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#video-compositing">Video Compositing</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#hdmi-video-output">HDMI Video Output</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ndi-streaming-output">NDI Streaming Output</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#obs-clean-slate">OBS Clean Slate</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Other Equipment</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../accessories/">Accessories</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Show Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >West Side Story</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-audio/">Audio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-music/">Music</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-scenes/">Scenes</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Duluth Wildcat Theatre</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Video Streaming</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="video-streaming">Video Streaming</h1>
+<p>IP Cameras —&gt; Network Switches —&gt; OBS —&gt; Network Switches —&gt; HDMI over IP —&gt; Monitors</p>
+<h2 id="aver-ptz-camera-streaming">AVer PTZ Camera Streaming</h2>
+<p>The AVer IP cameras are Pan-Tilt-Zoom (PTZ) models which can stream using either USB, RTSP, or NDI (NDI-HX). Only the AVer PTZ330N devices support native NDI output while the AVer PTZ310 can only stream using RTSP. The benefits of using NDI is a near-native, latency-free stream which can be accessed by any NDI-capable software. This avoids the need to decode the stream </p>
+<h3 id="streaming-constraints">Streaming Constraints</h3>
+<ul>
+<li>These are mutually-exclusive options<ul>
+<li>RTSP is available when Video Mode is “Streaming”</li>
+<li>NDI is only available when Video Mode is “NDI”</li>
+</ul>
+</li>
+<li>Latency is much lower with NDI but increases bandwidth<ul>
+<li>4Mbps = 580KB/sec.</li>
+<li>8Mbps = ~1.8MB/sec.</li>
+<li>16Mbps = ~2.9MB/sec.</li>
+<li>32Mbps = ~3.8MB/sec.</li>
+</ul>
+</li>
+</ul>
+<p>For purposes of non-broadcast, close-range distribution using 8Mbps is sufficient and has been configured on a per-camera basis already.</p>
+<h2 id="hdmi-streamingdistribution">HDMI Streaming/Distribution</h2>
+<p><a href="https://www.monoprice.com/product?p_id=43624">Monoprice Blackbird H.265 Video Extender/Splitter over IP with HDMI</a></p>
+<p>Using the VLC program open a Network stream to one of the following paths:</p>
+<ul>
+<li>rtsp://192.168.10.10/live/main/av_stream</li>
+<li>rtsp://192.168.10.10/live/sub/av_stream</li>
+</ul>
+<p>Receiver units will automatically assign themselves an IP address, typically starting at 192.168.10.11 and increments by 1 for each additional device.</p>
+<h2 id="streaming-with-obs">Streaming with OBS</h2>
+<p>Open Broadcast Studio is a powerful and FREE application used by many vloggers streamers across the internet. The interface is powerful though it takes some use to get familiar with the capabilities. Thankfully, given it's ubiquitious nature online there is no shortage of videos on both basics and advanced topics.</p>
+<p><strong>Software Requirements</strong></p>
+<ul>
+<li>Open Broadcast Studio (OBS): <a href="https://obsproject.com/download">https://obsproject.com/download</a> (v32+)</li>
+<li>NDI Tools: <a href="https://ndi.video/tools/">https://ndi.video/tools/</a> (macOS Ventura or later)<ul>
+<li>Use the NDI Video Monitor from the NDI Tools to select and view the stream to test access.</li>
+</ul>
+</li>
+<li>OBS NDI Library/Runtime: <a href="https://github.com/DistroAV/DistroAV/releases">https://github.com/DistroAV/DistroAV/releases</a><ul>
+<li><a href="https://github.com/DistroAV/DistroAV/wiki/1.-Installation#required---ndi-runtime">https://github.com/DistroAV/DistroAV/wiki/1.-Installation#required---ndi-runtime</a> </li>
+</ul>
+</li>
+<li>Homebrew can install both "distroav" and "libndi" (NDI runtime), see below.</li>
+</ul>
+<h3 id="install-homebrew-and-plugins-for-obs">Install Homebrew and Plugins for OBS</h3>
+<pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+
+brew install ffmpeg distroav
+brew install —-cask ndi-tools
+</code></pre>
+<h3 id="video-compositing">Video Compositing</h3>
+<ul>
+<li>Open OBS (after installing all libraries and runtime packages)</li>
+<li>OBS main window -&gt; Settings (lower right)<ul>
+<li>Video<ul>
+<li>Base (Canvas) Resolution: 1920x1080</li>
+<li>Output (Scaled) Resolution: 1920x1080</li>
+<li>Common FPS Values: 30</li>
+</ul>
+</li>
+<li>Advanced<ul>
+<li>Color Format: NV12</li>
+<li>Color Space: Rec. 709</li>
+<li>Color Range: Limited (or Partial)</li>
+</ul>
+</li>
+<li>Output [Advanced] -&gt; Streaming</li>
+<li>Save (OBS may need to restart)</li>
+</ul>
+</li>
+<li>For NDI Sources: OBS main window -&gt; Sources (lower mid-left)<ul>
+<li>Add Source [+]</li>
+<li>Look for "NDI Source" in the list of sources</li>
+<li>For “Source name” select the camera stream</li>
+<li>Use the highest quality/bandwidth</li>
+<li>Do not enable hardware acceleration</li>
+<li>Use the Low latency option</li>
+<li>Use limited YUV color space</li>
+</ul>
+</li>
+<li>For USB Sources: OBS main window -&gt; Sources (lower mid-left)<ul>
+<li>Add Source [+]</li>
+<li>Look for "Media Source" in the list of sources</li>
+<li>Uncheck "Local File" and use the device IP</li>
+<li>eg. <code>rtsp://&lt;camera_ip&gt;/live_st1</code></li>
+<li>Use the highest quality/bandwidth</li>
+<li>Do not enable hardware acceleration</li>
+<li>Use the Low latency option</li>
+<li>Use limited YUV color space</li>
+</ul>
+</li>
+<li>OBS Scenes<ul>
+<li>Create a scene for each camera, with necessary settings for bandwidth, frame rate, etc.</li>
+<li>Add labels or other items to each camera scene as desired.</li>
+<li>Create new scenes which then use the camera scenes directly, eg. "2x2 Grid":<ul>
+<li>Add each camera scene to the new scene (essentially "nested scenes").</li>
+<li>Right-click —&gt; Transform —&gt; Edit Transform (resolution: 960x540)</li>
+<li>Arrange as desired (dragging or using offset parameters via Transform)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="hdmi-video-output">HDMI Video Output</h3>
+<p>In order to get a video feed from OBS you must use a Mini-DisplayPort to HDMI adapter with the iMac, and select Full Screen Projector from the OBS menu (right-click in the preview screen for options). This will treat the HDMI output as a second monitor with a full-screen preview of the live feed shown in the OBS interface.</p>
+<p><strong>Note:</strong> HDMI output from the iMac typically adds HDCP (HD Copy Protection) to the signal which CANNOT be propagated through the Blackbird devices. In order to bypass this a special HDMI splitter is used to help "strip" the HDCP from the HDMI signal. This works by leveraging a known issue with some cheap splitters which improperly implement HDCP and therefore acts as a "HDCP Bypass" and allows the transcoding device to get a clean signal that it can propagate.</p>
+<h3 id="ndi-streaming-output">NDI Streaming Output</h3>
+<p>If needed, the DistroAV plugin for OBS allows you to enable NDI output directly, without need for a separate streaming configuration. Once enabled, NDI output begins immediately.</p>
+<ul>
+<li>OBS main menu -&gt; Tools -&gt; DistroAV NDI Settings<ul>
+<li>[X] Main Output</li>
+<li>Main output name: obs</li>
+<li>OK to save</li>
+</ul>
+</li>
+</ul>
+<h3 id="obs-clean-slate">OBS Clean Slate</h3>
+<p>Should things go completely wrong with OBS use the following to uninstall and remove the program and any plugins installed.</p>
+<pre><code># remove the obs application
+rm -rf /Applications/OBS.app
+
+# remove all obs user data
+rm -rf ~/Library/Application\ Support/obs-studio
+rm -rf ~/Library/Preferences/com.obsproject.obs-studio.plist
+rm -rf ~/Library/Caches/com.obsproject.obs-studio
+rm -rf ~/Library/Logs/obs-studio
+
+# remove any lingering plugins
+rm -rf ~/Library/Application\ Support/obs-studio/plugins
+rm -rf ~/Library/Application\ Support/obs-studio/obs-plugins
+
+# find packages
+pkgutil --pkgs | grep -i ndi
+
+# forget pkg receipts
+sudo pkgutil --forget com.newtek.ndi.runtime
+sudo pkgutil --forget com.obsproject.obs-ndi
+
+# remove files
+sudo rm -rf /Library/NDI /Library/Frameworks/*NDI*
+rm -rf ~/Library/Application\ Support/obs-studio/*ndi*
+
+# remove lingering user data
+sudo rm -rf /Library/NDI
+sudo rm -rf /Library/Frameworks/NDI.framework
+sudo rm -rf /Library/Frameworks/Processing.NDI.Lib.framework
+
+# reboot
+reboot now
+
+# then
+brew install distroav
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../network-av/" class="btn btn-neutral float-left" title="AV Network"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../accessories/" class="btn btn-neutral float-right" title="Accessories">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../network-av/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../accessories/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

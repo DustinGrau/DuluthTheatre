@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>AV Network - Duluth Wildcat Theatre</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "AV Network";
+        var mkdocs_page_input_path = "network-av.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../images/WildcatTheatre.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Sound</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-house/">House Audio</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-mobile/">Mobile Crates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-room-tuning/">Room Tuning</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-vocal-tuning/">Vocal Tuning</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Lighting</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-house/">House Lighting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-spotlights/">Followspots</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Networking</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../network-general/">General Network</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">AV Network</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#bandwidth">Bandwidth</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vlan-assignments">VLAN Assignments</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ip-addresses">IP Addresses</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wifi-access">WiFi Access</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#netgear-gs748tv4h2">Netgear GS748Tv4h2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#netgear-gs716tv3">Netgear GS716Tv3</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#switch-settings">Switch Settings</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#global-options">Global Options</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#igmp-snooping">IGMP Snooping</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#igmp-snooping-querier">IGMP Snooping Querier</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#quality-of-service-qos">Quality of Service (QoS)</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../video-streaming/">Video Streaming</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Other Equipment</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../accessories/">Accessories</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Show Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >West Side Story</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-audio/">Audio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-music/">Music</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-scenes/">Scenes</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Duluth Wildcat Theatre</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Networking</li>
+      <li class="breadcrumb-item active">AV Network</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="audio-video-network">Audio-Video Network</h1>
+<p>This is the complete network configuration which links the tech booth to the backstage areas, providing dedicated network space for a management network, Dante audio equipment, a link to the lighting console, feeds from IP cameras, and video distribution. It connects to the general network hosted in the booth for the lighting and mixer consoles.</p>
+<h2 id="bandwidth">Bandwidth</h2>
+<p>The network depends on a 1 gigabit (1Gbps) connection which should be more than sufficient for the expected number of IP cameras and Dante audio devices to be used. It uses Quality of Service (QoS) and Multicast (IGMP) management features to ensure data is delivered in a timely and organized manner.</p>
+<ul>
+<li>Estimated 30Mbps or less for Dante Audio from the Tio1608-D stagebox</li>
+<li>Estimated 8Mbps per IP camera at 1080p@60fps (NDI-HX, H.264)</li>
+<li>Estimated 15Mbps for return stream at 1080p@30fps (H.265)</li>
+<li>Estimated 5-10Mbps for control and overhead</li>
+</ul>
+<h2 id="vlan-assignments">VLAN Assignments</h2>
+<p>A Virtual LANs, or <code>VLAN</code>, represents a dedicated environment in which network traffic can be isolated. This is extremely useful for certain types of traffic such as Dante Audio which has strict requirements to ensure data is delivered on-time and with top priorit. Meanwhile, other traffic such as video distribution can be considered "noisy" and may impede delivery of time-sensitive data. Think of a VLAN as an express lane on the highway, where you can only enter and exit at certain points (ports), and you may have a special "toll pass" to allow you to use that lane (Port VLAN ID, or <code>PVID</code>).</p>
+<p>These are the VLANs associated with the complete AV network:</p>
+<table>
+<thead>
+<tr>
+<th>VLAN</th>
+<th>Name</th>
+<th>Description</th>
+<th>DHCP Managed?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Management</td>
+<td>Default network for the booth equipment</td>
+<td>Yes, by R7000</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Auto-Video</td>
+<td>Built-in Netgear VLAN for audio-video</td>
+<td>No, static IPs only</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Distribution</td>
+<td>Broadcasting network for HDMI over IP</td>
+<td>No, static IPs only</td>
+</tr>
+</tbody>
+</table>
+<p>These VLANs will be assigned within each network switch by either a Tagged (T) or Untagged (U) status on each port. This allows the port to identify traffic using the special "toll pass" (PVID) for each "toll lane" (VLAN). The following guidelines should help to make this more clear:</p>
+<ul>
+<li>When a port is <code>Untagged</code> (U) it means that any traffic may travel in that VLAN.</li>
+<li>By default, any traffic which does not have a VLAN ID will be assumed to be VLAN 1.</li>
+<li>When a port is <code>Tagged</code> (T) id means that any traffic which belongs to that VLAN is allowed to move across that port.</li>
+<li>Only 1 VLAN may be <code>Untagged</code> for any given port, but many VLANs may be <code>Tagged</code> for a port.</li>
+<li>A port which contains both <code>Untagged</code> and multiple <code>Tagged</code> VLANs is considered a <code>trunk port</code>.</li>
+<li>If a port is neither <code>Untagged</code> nor <code>Tagged</code>, it is essentially closed for any traffic.</li>
+<li>For an <code>Untagged</code> port, specifying a <code>PVID</code> means to apply that VLAN ID to all egress (outbound) traffic.</li>
+</ul>
+<p>In the following switch configurations, there are 2 <code>trunk ports</code> to allow the switches to connect to each other. By convention port #1 is used as the <code>uplink</code> between the tech booth switch and backstage switch.</p>
+<h2 id="ip-addresses">IP Addresses</h2>
+<p>In order for devices to speak to each other they must also utilize an IP address which can be automatically assigned (DHCP) or manually assigned (Static), and these values use a specific prefix for common address space which identifies a network range consisting of 4 groups of numbers (quads). In continuing the analogy of vehicles and toll lanes, think of this as the license plate for a vehicle:</p>
+<ul>
+<li>The first 2 "quads" represent the network range (eg. "192.168").<ul>
+<li>Think of this as the state that issued the license plate.</li>
+</ul>
+</li>
+<li>By convention we use a 3rd quad for a "subnet" matching the VLAN.<ul>
+<li>Think of this as the county in the state which issued the license plate.</li>
+</ul>
+</li>
+<li>The final number (4th quad) in the IP address identifies a device within the subnet.<ul>
+<li>And just like a license plate every IP address must be <strong>unique</strong> for each device!</li>
+</ul>
+</li>
+</ul>
+<p>In addition to an IP address each device uses a <code>Subnet Mask</code> which is a value that says what networks can talk to other networks. For the case of this network we only want devices on the same subnet to speak with each other so we use a common default of <code>255.255.255.0</code> which means only devices which share the first 3 quads of their address can speak to each other under normal conditions.</p>
+<p>The only other way devices can talk across networks is to introduce a router or "gateway" which is aware of other networks and how to reach them. In the case of the AV network only the devices which belong to the Management (default) VLAN will use a gateway, which is the IP address of the <a href="../network-general/">R7000 router</a>: <code>192.168.1.1</code>.</p>
+<p><strong>Special Note:</strong> For our Dante Audio devices, these have a special fallback protocol called "Link-Local". In the absence of a static IP assignment, and no available DHCP server to dynamically assign an IP address, the devices will self-negotiate their IP address among themselves. This uses a special network range 169.254.0.0 through 169.254.255.255 and so this space must be kept clear of any other devices to avoid conflict.</p>
+<h2 id="wifi-access">WiFi Access</h2>
+<p>For information about WiFi access, connections for the audio mixer and ETC console, please see the <a href="../network-general/">General Network</a> page.</p>
+<h2 id="netgear-gs748tv4h2">Netgear GS748Tv4h2</h2>
+<p><strong>Location:</strong> Tech Booth</p>
+<p><strong>Switch IP:</strong> 192.168.1.6 (VLAN 1: Management Network)</p>
+<p><strong>VLAN Tagging:</strong> V# = [T]agged or [U]ntagged</p>
+<table>
+<thead>
+<tr>
+<th>Port</th>
+<th>V1</th>
+<th>V3</th>
+<th>V10</th>
+<th>PVID</th>
+<th>Name/Purpose</th>
+<th>Device IP</th>
+<th>Notes.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>U</td>
+<td>T</td>
+<td>T</td>
+<td>1</td>
+<td>Trunk Port</td>
+<td></td>
+<td>Uplink to GS716T</td>
+</tr>
+<tr>
+<td>2</td>
+<td>U</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>Netgear Router</td>
+<td>192.168.1.1</td>
+<td>Uplink to R7000</td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>Yamaha NY64-D</td>
+<td>Link-Local</td>
+<td>Dante Audio</td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>Booth iMac</td>
+<td>192.168.3.50</td>
+<td>OBS, Video Output</td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>Booth (USB)</td>
+<td>192.168.3.110</td>
+<td>AVer PTZ310</td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>Booth (NDI)</td>
+<td>192.168.3.120</td>
+<td>AVer PTZ300N</td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>40</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>41</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>42</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>43</td>
+<td></td>
+<td></td>
+<td>U</td>
+<td>10</td>
+<td>Blackbird TX</td>
+<td>192.168.10.10</td>
+<td>HDMI Signal Out</td>
+</tr>
+<tr>
+<td>44</td>
+<td></td>
+<td></td>
+<td>U</td>
+<td>10</td>
+<td>HDMI over IP</td>
+<td></td>
+<td>HDMI Stream Only</td>
+</tr>
+<tr>
+<td>45</td>
+<td></td>
+<td></td>
+<td>U</td>
+<td>10</td>
+<td>HDMI over IP</td>
+<td></td>
+<td>HDMI Stream Only</td>
+</tr>
+<tr>
+<td>46</td>
+<td></td>
+<td></td>
+<td>U</td>
+<td>10</td>
+<td>HDMI over IP</td>
+<td></td>
+<td>HDMI Stream Only</td>
+</tr>
+<tr>
+<td>47</td>
+<td>U</td>
+<td></td>
+<td>T</td>
+<td>1</td>
+<td>Admin Access</td>
+<td></td>
+<td>Internet + Video</td>
+</tr>
+<tr>
+<td>48</td>
+<td>U</td>
+<td></td>
+<td>T</td>
+<td>1</td>
+<td>Admin Access</td>
+<td></td>
+<td>Internet + Video</td>
+</tr>
+<tr>
+<td>49</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SFP - Not Used</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>50</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SFP - Not Used</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="netgear-gs716tv3">Netgear GS716Tv3</h2>
+<p><strong>Location:</strong> Backstage (Right)</p>
+<p><strong>Switch IP:</strong> 192.168.1.8 (VLAN 1: Management Network)</p>
+<p><strong>VLAN Tagging:</strong> V# = [T]agged or [U]ntagged</p>
+<table>
+<thead>
+<tr>
+<th>Port</th>
+<th>V1</th>
+<th>V3</th>
+<th>V10</th>
+<th>PVID</th>
+<th>Name/Purpose.</th>
+<th>Device IP</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>U</td>
+<td>T</td>
+<td>T</td>
+<td>1</td>
+<td>Trunk Port</td>
+<td></td>
+<td>Uplink to GS748T</td>
+</tr>
+<tr>
+<td>2</td>
+<td>U</td>
+<td>T</td>
+<td>T</td>
+<td>1</td>
+<td>Future Uplink</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>Yamaha Tio1608-D</td>
+<td>Link-Local</td>
+<td>Dante Audio</td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td>Dante or IPcam</td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>Wing (Right)</td>
+<td>192.168.3.130</td>
+<td>AVer PTZ300N</td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>Wing (Left)</td>
+<td>192.168.3.140</td>
+<td>AVer PTZ300N</td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td>Dante or IPcam</td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td>U</td>
+<td></td>
+<td>3</td>
+<td>- Available -</td>
+<td></td>
+<td>Dante or IPcam</td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td></td>
+<td>U</td>
+<td>10</td>
+<td>Blackbird RX</td>
+<td>192.168.10.x</td>
+<td>HDMI Signal In</td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td></td>
+<td>U</td>
+<td>10</td>
+<td>Blackbird RX</td>
+<td>192.168.10.x</td>
+<td>HDMI Signal In</td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td></td>
+<td>U</td>
+<td>10</td>
+<td>HDMI over IP</td>
+<td></td>
+<td>HDMI Stream Only</td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td></td>
+<td>U</td>
+<td>10</td>
+<td>HDMI over IP</td>
+<td></td>
+<td>HDMI Stream Only</td>
+</tr>
+<tr>
+<td>13</td>
+<td>U</td>
+<td></td>
+<td>T</td>
+<td>1</td>
+<td>Admin Access</td>
+<td></td>
+<td>Internet + Video</td>
+</tr>
+<tr>
+<td>14</td>
+<td>U</td>
+<td></td>
+<td>T</td>
+<td>1</td>
+<td>Admin Access</td>
+<td></td>
+<td>Internet + Video</td>
+</tr>
+<tr>
+<td>15</td>
+<td>U</td>
+<td></td>
+<td>T</td>
+<td>1</td>
+<td>Admin Access</td>
+<td></td>
+<td>Internet + Video</td>
+</tr>
+<tr>
+<td>16</td>
+<td>U</td>
+<td></td>
+<td>T</td>
+<td>1</td>
+<td>Admin Access</td>
+<td></td>
+<td>Internet + Video</td>
+</tr>
+<tr>
+<td>17</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SFP - Not Used</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SFP - Not Used</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="switch-settings">Switch Settings</h2>
+<p>The following settings must be applied to both switches unless otherwise noted.</p>
+<h3 id="global-options">Global Options</h3>
+<ul>
+<li>Disable Energy Efficient Ethernet (EEE)</li>
+<li>Disable Green Ethernet (if available)</li>
+<li>Disable DHCP or DHCP Relay (if available)</li>
+<li>Disable the "Auto-Video" option for the built-in VLAN 3</li>
+</ul>
+<h3 id="igmp-snooping">IGMP Snooping</h3>
+<ul>
+<li>Enable IGMP Snooping Status</li>
+<li>Disable Validate IGMP IP Header</li>
+<li>Disable Block Unknown Multicast Address</li>
+<li>Enable Snooping Admin Mode</li>
+<li>IGMP Snooping Interface Configuration<ul>
+<li>Enable Admin Mode for ports by switch</li>
+<li>GS418T<ul>
+<li>Enable for Ports 1, 3-46</li>
+<li>Disable for Ports 2, 47-50</li>
+</ul>
+</li>
+<li>GS716T<ul>
+<li>Enable for Ports 1-12</li>
+<li>Disable for Ports 13-18</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>IGMP Snooping VLAN Configuration (VLANs 3 and 10)<ul>
+<li>VLAN <id></li>
+<li>Disable Fast Leave Admin Mode</li>
+<li>Host Timeout: 260</li>
+<li>Maximum Response Time: 10</li>
+<li>MRouter Timeout: 255</li>
+<li>Query Mode: Enable (GS748T only, Disable for GS716T)</li>
+<li>Query Interval: 125</li>
+</ul>
+</li>
+</ul>
+<h3 id="igmp-snooping-querier">IGMP Snooping Querier</h3>
+<ul>
+<li>GS748T<ul>
+<li>Enable IGMP Querier, IP 0.0.0.0</li>
+<li>Enable for VLANs 3 and 10<ul>
+<li>VLAN 3: 192.168.3.1</li>
+<li>VLAN 10: 192.168.10.1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>GS716T<ul>
+<li>Disable IGMP Querier</li>
+<li>Confirm as non-participating or non-querier</li>
+</ul>
+</li>
+</ul>
+<h3 id="quality-of-service-qos">Quality of Service (QoS)</h3>
+<ul>
+<li>Enable, specifically for VLAN 3</li>
+<li>Global Trust: DSCP<ul>
+<li>DSCP 46: Clock</li>
+<li>DSCP 34: Audio</li>
+</ul>
+</li>
+<li>Scheduler Type: Strict<ul>
+<li>For GS748T: ports 1, 3-44</li>
+<li>For GS716T: ports 1-8</li>
+<li>Ensures that Dante traffic always wins</li>
+<li>Sacrifices video if necessary</li>
+</ul>
+</li>
+<li>Do not specify per-port rate limiting (ingress or egress) on ports<ul>
+<li>Set resolution and bitrates on cameras for speed limits, not at the switch!</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../network-general/" class="btn btn-neutral float-left" title="General Network"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../video-streaming/" class="btn btn-neutral float-right" title="Video Streaming">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../network-general/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../video-streaming/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

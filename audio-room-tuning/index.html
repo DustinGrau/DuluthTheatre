@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Room Tuning - Duluth Wildcat Theatre</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Room Tuning";
+        var mkdocs_page_input_path = "audio-room-tuning.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../images/WildcatTheatre.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Sound</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-house/">House Audio</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-mobile/">Mobile Crates</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Room Tuning</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#preferences">Preferences</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#measurement-process">Measurement Process</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#measurement-sweeps">Measurement Sweeps</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#analysis-interpretation">Analysis &amp; Interpretation</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-spl-response">1. SPL Response</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-waterfall-decay">2. Waterfall (Decay)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-spectrogram">3. Spectrogram</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#multiple-measurement-positions">Multiple Measurement Positions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notes-best-practices">Notes &amp; Best Practices</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-vocal-tuning/">Vocal Tuning</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Lighting</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-house/">House Lighting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-spotlights/">Followspots</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Networking</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../network-general/">General Network</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../network-av/">AV Network</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../video-streaming/">Video Streaming</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Other Equipment</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../accessories/">Accessories</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Show Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >West Side Story</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-audio/">Audio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-music/">Music</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-scenes/">Scenes</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Duluth Wildcat Theatre</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Sound</li>
+      <li class="breadcrumb-item active">Room Tuning</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="audio-tuning-w-room-eq-wizard">Audio Tuning w/ Room EQ Wizard</h1>
+<p>Download &amp; Install: <a href="https://www.roomeqwizard.com">Room EQ Wizard (REW)</a></p>
+<h2 id="preferences">Preferences</h2>
+<ul>
+<li><strong>Output:</strong> System audio output feeding the PA (verify no OS EQ or processing)  </li>
+<li><strong>Input:</strong> UMIK-1 USB Microphone  </li>
+<li><strong>Calibration:</strong> 90-degree calibration file loaded  </li>
+<li><strong>Sweep Level:</strong> –12 dBFS  </li>
+</ul>
+<h2 id="measurement-process">Measurement Process</h2>
+<ol>
+<li>
+<p><strong>Set up reference microphone:</strong></p>
+<ul>
+<li>Orientation: <strong>90 degrees (vertical)</strong>  </li>
+<li>Height: <strong>Ear level</strong>  </li>
+<li>Location: <strong>Primary listening area</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Open the following REW tools:</strong></p>
+<ul>
+<li>SPL Meter  </li>
+<li>Signal Generator (Noise tab)  </li>
+<li>Levels Meter</li>
+</ul>
+</li>
+<li>
+<p><strong>Turn down the PA system first</strong>, then connect the REW audio output to the system input.</p>
+</li>
+<li>
+<p><strong>In the Signal Generator:</strong></p>
+<ul>
+<li>Select <strong>Pink Noise</strong>  </li>
+<li>Level: <strong>–12 dBFS</strong>  </li>
+<li>Press <strong>Play</strong></li>
+</ul>
+</li>
+<li>
+<p>Slowly raise the PA system level until the SPL Meter reads:</p>
+<ul>
+<li><strong>76–80 dB(C)</strong>  </li>
+<li>Confirm no clipping on the Levels Meter</li>
+</ul>
+</li>
+<li>
+<p>Stop playback and close:</p>
+<ul>
+<li>Signal Generator  </li>
+<li>SPL Meter  </li>
+<li>Levels Meter</li>
+</ul>
+</li>
+</ol>
+<h2 id="measurement-sweeps">Measurement Sweeps</h2>
+<ol>
+<li>
+<p>Click <strong>Measure</strong> (top left) to open the Measurements Window and configure:</p>
+<ul>
+<li><strong>Type:</strong> SPL</li>
+<li><strong>Method:</strong> Sweep  </li>
+<li><strong>Length:</strong> 512k  </li>
+<li><strong>Iterations:</strong> 2  </li>
+<li><strong>Frequency Range:</strong>  <ul>
+<li>Preferred: <strong>20–18,000 Hz</strong>  </li>
+<li>Optional: 15–20,000 Hz  </li>
+</ul>
+</li>
+<li><strong>Level:</strong> –12 dBFS  </li>
+<li><strong>Output:</strong> Line Out  </li>
+<li>Measure channels separately when possible:  <ul>
+<li>Left only  </li>
+<li>Right only  </li>
+<li>Left + Right (summed)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Press <strong>Start</strong> to begin the sweep and capture measurements.</p>
+</li>
+</ol>
+<h2 id="analysis-interpretation">Analysis &amp; Interpretation</h2>
+<h3 id="1-spl-response">1. SPL Response</h3>
+<ul>
+<li><strong>Graph smoothing:</strong> 1/6 octave  </li>
+<li>Shows frequencies that are over- or under-emphasized at the listening position  </li>
+<li>Optional: Enable <strong>Phase</strong> display to examine crossover behavior  </li>
+<li>Target response:<ul>
+<li>Broad trends within <strong>±5 dB</strong>  </li>
+<li>Avoid correcting narrow dips (often position-dependent nulls)  </li>
+</ul>
+</li>
+</ul>
+<h3 id="2-waterfall-decay">2. Waterfall (Decay)</h3>
+<ul>
+<li>Displays decay time of frequencies (“ringing” or lingering energy)  </li>
+<li>Recommended focus for auditorium tuning:<ul>
+<li><strong>Frequency limits:</strong> 20–300 Hz  </li>
+<li><strong>Window:</strong> ~30 ms  </li>
+<li><strong>Time range:</strong> 300–500 ms  </li>
+</ul>
+</li>
+<li>Look for:<ul>
+<li>Low-frequency energy lingering &gt;250 ms  </li>
+<li>Improvements after delay or crossover adjustments  </li>
+</ul>
+</li>
+</ul>
+<h3 id="3-spectrogram">3. Spectrogram</h3>
+<ul>
+<li>Top-down view of frequency decay over time  </li>
+<li><strong>Color scale:</strong> SPL  </li>
+<li><strong>Axis:</strong> Time (decay) vs frequency  </li>
+<li>Useful for:<ul>
+<li>Visualizing low-frequency buildup  </li>
+<li>Comparing before/after system changes  </li>
+</ul>
+</li>
+</ul>
+<h2 id="multiple-measurement-positions">Multiple Measurement Positions</h2>
+<ul>
+<li>Repeat measurements at additional listener locations:<ul>
+<li>1 position: <strong>1/2 back, center</strong>  </li>
+<li>1 position: <strong>2/3 back, center</strong>  </li>
+<li>1 position: <strong>2/3 back, slight left/right</strong>  </li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Use multiple positions to identify <strong>consistent trends</strong>.<br />
+Act on broad peaks seen across measurements, not isolated nulls.  </p>
+</blockquote>
+<h2 id="notes-best-practices">Notes &amp; Best Practices</h2>
+<ul>
+<li>Always complete <strong>speaker aiming and delay alignment</strong> before applying EQ.  </li>
+<li>Use EQ only to address <strong>broad, repeatable response issues</strong>.  </li>
+<li>Save and archive:</li>
+<li>REW measurement files  </li>
+<li>Before/after screenshots (SPL, Waterfall, Spectrogram)  </li>
+<li>Document <strong>why</strong> changes were made, not just what was changed.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../audio-mobile/" class="btn btn-neutral float-left" title="Mobile Crates"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../audio-vocal-tuning/" class="btn btn-neutral float-right" title="Vocal Tuning">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../audio-mobile/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../audio-vocal-tuning/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
