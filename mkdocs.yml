@@ -50,9 +50,11 @@ plugins:
 nav:
   - Home: index.md
   - Sound:
+    - Common Terms: audio-terms.md
     - House Audio: audio-house.md
     - Mobile Crates: audio-mobile.md
     - Room Tuning: audio-room-tuning.md
+    - Mic Checks: audio-mic-checks.md
     - Vocal Tuning: audio-vocal-tuning.md
   - Lighting:
     - House Lighting: lighting-house.md
