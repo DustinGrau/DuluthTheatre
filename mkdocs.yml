@@ -67,6 +67,6 @@ nav:
     - Accessories: accessories.md
   - Show Notes:
     - West Side Story:
-      - Audio: show-wss-audio.md
-      - Music: show-wss-music.md
-      - Scenes: show-wss-scenes.md
+      - Overview: show-wss.md
+      - Audio Setup: show-wss-audio.md
+      - Audio Scenes: show-wss-scenes.md

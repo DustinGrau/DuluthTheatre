@@ -110,8 +110,8 @@ This is the most critical piece of planning audio for a show as this is the "sou
 |   15         |   WMIC15 [Crate]      |   Francisca - Sally         | Sharks      |
 |   16         |   WMIC16 [Crate]      |   Consuela - Naomi          | Sharks      |
 |   17         |   WMIC2  [Booth]      |   *Graziella - Maddie*      | Sharks      |
-|   18         |   WMIC3  [Booth]      |   *Big Deal - Elijah [Op1]* | Jets        |
-|   19         |   WMIC4  [Booth]      |   *Snowboy - Jaden [Op1]*   | Jets        |
+|   18         |   WMIC3  [Booth]      |   Big Deal - Elijah [Op1]   | Jets        |
+|   19         |   WMIC4  [Booth]      |   Snowboy - Jaden [Op1]     | Jets        |
 |   20         |   WMIC5  [Booth]      |   A-Rab - Dylan [Op2]       | Jets        |
 |   21         |   WMIC6  [Booth]      |   Rosalia - Evelyn [Op1]    | Sharks      |
 |   22         |   WMIC7  [Booth]      |   *Indio - Tyreek [Op2]*    | Sharks      |

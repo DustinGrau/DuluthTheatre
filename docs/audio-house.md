@@ -20,6 +20,10 @@
 * [TF StageMix for iPad](https://usa.yamaha.com/products/proaudio/software/tfstagemix/index.html) - [User Guide](https://usa.yamaha.com/files/download/other_assets/7/392777/tf_stagemix_en_ug_v45_g0.pdf)
 * [TF Editor for PC/Mac](https://usa.yamaha.com/products/proaudio/software/tfeditor/index.html) - [User Guide](https://usa.yamaha.com/files/download/other_assets/1/392731/tfeditor_en_ug_v45_i0.pdf)
 
+### Yamaha Inputs/Outputs
+
+These tables should match the view of inputs or outputs when selecting one of the 3 buttons at the top-right of the mixer console.
+
 **Input 1**
 
 | Fader | Source | Notes |
@@ -29,17 +33,17 @@
 | 3  | Input 3  | WMIC 11 (19) |
 | 4  | Input 4  | BLX4R (20) |
 | 5  | Input 5  |  |
-| 6  | Slot 1 | Tio1608 Input 15 (Stage L) |
-| 7  | Slot 2 | Tio1608 Input 16 (Stage C) |
-| 8  | Slot 3 | Tio1608 Input 17 (Stage R) |
+| 6  | Input 6  |  |
+| 7  | Input 7  |  |
+| 8  | Input 8  |  |
 | 9  | Input 9  |  |
 | 10 | Input 10 |  |
 | 11 | Input 11 |  |
 | 12 | Input 12 |  |
 | 13 | Input 13 |  |
-| 14 | Input 14 |  |
-| 15 | Input 15 |  |
-| 16 | Input 16 |  |
+| 14 | Slot 14 | Tio1608 Input 14 (Stage L) |
+| 15 | Slot 15 | Tio1608 Input 15 (Stage C) |
+| 16 | Slot 16 | Tio1608 Input 16 (Stage R) |
 | 17 | Input 17 | WMIC 1 (1) |
 | 18 | Input 18 | WMIC 2 (2) |
 | 19 | Input 19 | WMIC 3 (3) |
@@ -52,9 +56,9 @@
 | 26 | Input 26 |  |
 | 27 | Input 27 |  |
 | 28 | Input 28 |  |
-| 29 | Input 29 | PC |
-| 30 | Input 30 |  |
-| 31 | Input 31 | CD/Aux |
+| 29 | Input 29 | CD/Aux (L) |
+| 30 | Input 30 | CD/Aux (R) |
+| 31 | Input 31 | PC (HDMI) |
 | 32 | Input 32 |  |
 
 **Input 2**
@@ -72,11 +76,13 @@
 
 **Output**
 
+As of February 2026 the Matrix outputs have been utilized to produce a mono output using the main left + main right feeds. This allows a single output to carry both the left and right channels for the house which is useful for sending clean signals to other devices. For example, the lobby speakers are given a summed stereo to mono output reduced by 2dB and with an EQ that cuts some of the low-end audio which cannot be played through the speakers. Another output provides a summed stereo output reduced by 20dB for recording via the iMac when using the CCTV system.
+
 | Output | Source | Notes |
 |--------|--------|-------|
-| 1  | Aux 1 | Floor Monitors |
+| 1  | Aux 1 | Stage Monitors |
 | 2  | - |  |
-| 3  | - |  |
+| 3  | Aux 3 | Wing Monitors |
 | 4  | - |  |
 | 5  | - |  |
 | 6  | - |  |
@@ -86,8 +92,8 @@
 | 10 | - |  |
 | 11 | - |  |
 | 12 | - |  |
-| 13 | Main L | Booth Monitor |
-| 14 | Main R | Lobby Amp |
+| 13 | Matrix2 | Booth iMac |
+| 14 | Matrix1 | Lobby Amp |
 | 15 | Main L | House Left |
 | 16 | Main R | House Right |
 
@@ -107,16 +113,18 @@ Unit ID: 1
 +48V Master: ON
 ```
 
-This device uses [Dante](https://www.getdante.com/meet-dante/what-is-dante/) ([Digital Audio Network Through Ethernet](https://en.wikipedia.org/wiki/Dante_(networking))) is capable of working directly with the Yamaha TF5 without any special configuration by using the Quick Config option. When enabled and set to Unit ID #1, the Tio1608 will automtically appear to the Yamaha TF5 as inputs named "Slot" 1-16.
+This device uses [Dante](https://www.getdante.com/meet-dante/what-is-dante/) ([Digital Audio Network Through Ethernet](https://en.wikipedia.org/wiki/Dante_(networking))) is capable of working directly with the Yamaha TF5 without any special configuration by using the Quick Config option. When enabled and set to Unit ID #1, the Tio1608 will automatically appear to the Yamaha TF5 as inputs named "Slot" 1-16, and outputs will match the Aux busses 1-6 while 7 and 8 are Main Left and Main Right, respectively.
 
 **Inputs**
 
+Since faders 1-4 are in use on the TF-5, this makes slots 1-4 unavailable on the Tio stagebox. Inputs 14-16 are configured to use phantom power to operate the condenser microphones over the stage. Note tha tin this case, "stage left" and "stage" right" is from the point of view of the audio operator in the tech booth.
+
 | Fader | Source | Notes |
 |-------|--------|-------|
-| 1  | Input 1  |  |
-| 2  | Input 2  |  |
-| 3  | Input 3  |  |
-| 4  | Input 4  |  |
+| 1  | Input 1  | -Unavailable- |
+| 2  | Input 2  | -Unavailable- |
+| 3  | Input 3  | -Unavailable- |
+| 4  | Input 4  | -Unavailable- |
 | 5  | Input 5  |  |
 | 6  | Input 6  |  |
 | 7  | Input 7  |  |
@@ -134,7 +142,7 @@ This device uses [Dante](https://www.getdante.com/meet-dante/what-is-dante/) ([D
 
 | Output | Source | Notes |
 |--------|--------|-------|
-| 1  | Aux 1 | Floor Monitors |
+| 1  | Aux 1 | Stage Monitors |
 | 2  | - |  |
 | 3  | Aux 3 | Wing Monitors |
 | 4  | - |  |

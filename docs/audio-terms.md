@@ -2,15 +2,6 @@
 
 A comprehensive reference guide to common audio concepts, connections, and terminology used in live audio production.
 
-## Table of Contents
-- [Connectors](#connectors)
-- [Signal Types](#signal-types)
-- [Connections & Cables](#connections--cables)
-- [Equipment Terms](#equipment-terms)
-- [Mixing Concepts](#mixing-concepts)
-- [Acoustic Terms](#acoustic-terms)
-- [Digital Audio](#digital-audio)
-
 ---
 
 ## Connectors
