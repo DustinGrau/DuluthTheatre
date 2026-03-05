@@ -4,22 +4,30 @@ One of the key tasks for a live performance is vocal mixing, though before a sho
 
 Before you worry about EQ or compression it is absolutely important to first ensure that a performer's microphone is delivering a suitable signal to the mixer. Begin by isolating only their microphone (press the ON button for the Yamaha TF-5 channel), turn off all other mics or sources, and ask the room for quiet so you can clearly hear the performer.
 
-1. Turn on the performer's channel and begin with the fader at infinity (all the way down).
-2. Have the performer confirm their microphone is turned on and ask them to speak normally but also to PROJECT.
-3. Select the INPUT configuration area for the channel and watch the gain markers.
-4. Raise the gain until the performer's speaking causes the middle indicator to go green most of the time.
+## Overview
+
+This is the heart of the process you will follow for mic checks so it comes before all other content. Once you know what to expect you can return here to review as needed.
+
+1. Turn ON the performer's channel and begin with the fader at infinity (all the way down).
+2. Have the performer confirm their microphone (handheld or body-pack) is turned on, and is not muted.
+3. Ask them to speak normally but also to PROJECT as they would during their performance.
+3. Select the INPUT configuration area for the channel and watch the gain indicator markers.
+4. Raise the gain until the performer's speaking causes the middle indicator to remain green most of the time.
 5. Slowly raise the fader to Unity (0) and listen for any obvious feedback, and continue to adjust gain if needed.
+   - The goal at this point is to ensure the performer is at a consistent level which has "headroom" for further boosting.
+   - They will not sound the best at this point if no EQ or compression settings have yet been applied, and that's OK.
 
-   - The idea at this point is to ensure the performer is at a consistent level which has "headroom" for further boosting.
-   - It is likely they will not sound the best at this point if no EQ or compression settings have yet been applied, and that's OK.
+Once a consistent volume is set you can now adjust the EQ and compressor settings, alternating between spoken and sung lines to ensure they sound clear. To ensure feedback-free operation during the performance, push the fader higher than expected (+10dB or +20dB) to ensure the added volume does not suddenly change the performer's profile. Adjust the EQ as needed if you begin to hear an immediate high squealing or the slow building of a low rumble as these indicate the potential for feedback.
 
-At this point you may continue with adjusting the EQ and compressor settings, alternating between spoken and sung lines to ensure they sound clear. To ensure feedback-free operation during the performance, push the fader higher than expected to ensure added emphasis does not suddenly change their profile. Adjust EQ as needed if you begin to hear an immediate high feedback peak or the slow building of a low rumble as both of these indicate the performer's vocal range may cause unwanted noise if they are double-amplified (such as singing nearby to another performer's mic).
+> Why push the performer's mic volume so high? A performer may become over-amplified either due to a need during the show, or if they become double-amplified (such as singing closely to another performer's mic). Pre-stressing the system now helps to avoid problems during the show!
 
-**Resources:**
+**Additional Resources:**
 
 - [MusicMixingGuy - EQ Presets for Vocals](https://www.musicguymixing.com/eq-presets-for-vocals/)
 - [MusicMixingGuy - Vocal Compression Settings](https://www.musicguymixing.com/vocal-compression-settings-live/)
 - [MusicMixingGuy - Essential EQ Tips for Live Sound](https://www.sweetwater.com/insync/essential-eq-tips-for-live-sound/)
+- [MusicMixingGuy - EQ Cheat Sheet](files/EQ-Cheat-Sheet-From-Music-Guy-Mixing.pdf)
+- [MusicMixingGuy - Compression Cheat Sheet](files/Compression-Cheat-Sheet-From-Music-Guy-Mixing.pdf)
 
 ---
 
@@ -57,18 +65,17 @@ At this point you may continue with adjusting the EQ and compressor settings, al
 - **Narrow Q**: Surgical cuts for specific problems (feedback, harsh resonances)
 - **Wide Q**: Broad tonal shaping (warmth, presence)
 
-**Dynamic EQ**
+**Parametric EQ**
 
-- EQ that only engages when signal crosses a threshold
-- Like a compressor for specific frequencies
-- Great for: Sibilance, plosives, intermittent harsh frequencies
-- More transparent than static cuts
+- EQ that applies curves across the available frequency bands
+- Adjusting any point will "bend" the response curve to nearby points
+- The type of EQ you will use for a single channel
 
-**Shelf EQ**
+**Graphic EQ**
 
-- Affects all frequencies above (high shelf) or below (low shelf) a set point
-- Gradual slope rather than sharp cut
-- Common use: High shelf at 10 kHz for air and sparkle
+- EQ that affects only distinct frequency bands when adjusted
+- Offers an immediate adjustment (cut or boost) at a specific frequency
+- The type of EQ you may see on a house amplifier or mixer's Main outputs
 
 ---
 
@@ -77,8 +84,8 @@ At this point you may continue with adjusting the EQ and compressor settings, al
 1. **Cut first, boost second** - Remove problem frequencies before adding desired ones
 2. **Focus on the mix** - Make channels work together, not perfect in isolation
 3. **Less is more** - Subtle adjustments are better than drastic changes in live settings
-4. **Use your ears** - Numbers are guides, but the sound is what matters
-5. **Start with flat EQs** - Always reset the board between shows
+4. **Use your ears** - Numbers are ONLY provided as guides, but the sound is what matters
+5. **Start with flat EQs** - Always reset the EQ and Compressor for a channel when changing performers
 
 ---
 
@@ -96,7 +103,27 @@ Hi-Mid (4 kHz):    Cut 2-10 dB (for presence and clarity) using low Q (~0.7)
 Highs (10 kHz):    Cut 1-2 dB (for breathiness) using low Q (~0.7)
 ```
 
-**Note:** On the Yamaha TF-5 the EQ curve pattern for the Lows should look like this: `=>-`, while all other EQ points will use a symbol which looks like this: `-<=>-`.
+High-Pass Filter Example:
+
+![](images/eq_hpf.jpg)
+
+EQ Lows Example:
+
+![](images/eq_lows.jpg)
+
+EQ Low-Mid Example:
+
+![](images/eq_low-mid.jpg)
+
+EQ High-Mid Example:
+
+![](images/eq_high-mid.jpg)
+
+EQ Highs Example:
+
+![](images/eq_highs.jpg)
+
+> **Note:** On the Yamaha TF-5 the EQ curve pattern for the Lows should look like this `=>-` indicating the EQ curve will NOT affect frequencies prior to what is selected. All other EQ points will use a symbol which looks like this `-<=>-` indicating the EQ curve will follow through from frequencies before and after what is selected.
 
 ### Frequency-Specific Problem Solving
 
@@ -246,6 +273,8 @@ Release:       50-100ms (longer = smoother and less obvious)
 Output Gain:   0 unless you absolutely need to boost!
 ```
 
+![](images/compressor.jpg)
+
 ### Setting Threshold for Live Vocals
 
 1. **Watch the performer's technique:**
@@ -390,6 +419,12 @@ Only after fixing problems:
 | Release | 30-60ms | 100ms | Smoother, less obvious |
 | Knee | Hard/Med | Soft (12dB) | More transparent |
 | GR Target | 6-10 dB | 4-5 dB | Less aggressive overall |
+
+---
+
+## Not Covered
+
+Obviously one area not covered here is how to EQ for musical instruments. The process is much the same but may omit features such as the High-Pass Filter or may utilize other tools such as a Gate.
 
 ---
 
