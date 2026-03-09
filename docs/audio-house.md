@@ -197,17 +197,16 @@ Networked 4-channel amplifier with 700 watts per channel.
 **Wall Mains - [Model Unknown]**
 
 
-
 **Floor Speakers - [Peavey PV215](https://assets.peavey.com/literature/specs/114378_18647.pdf)**
 
 * 4ohms 700W Max
 * 58Hz-17kHz
 * 15” Woofers
 
-| Speaker        | Role                    | Frequency Range     | Notes                 |
-| -------------- | ----------------------- | ------------------- | --------------------- |
-| Wall Mains     | Primary Coverage        | 100 Hz – Full Range | Speech & Localization |
-| Floor Speakers | Low-Freq. Reinforcement | 50–120 Hz           | Delayed & Trimmed     |
+| Speaker        | Role                    | Frequency Range | Notes                 |
+| -------------- | ----------------------- | --------------- | --------------------- |
+| Wall Mains     | Primary Coverage        | 100 Hz – 24 KHz | Speech & Localization |
+| Floor Speakers | Low-Freq. Reinforcement | 50–120 Hz       | Delayed & Trimmed     |
 
 **Stage & Wing Monitors**
 
@@ -226,9 +225,11 @@ Standard 19" rackmount case with wireless microphone receivers and antenna distr
 
 | QTY | Equipment | Notes |
 |-----|-----------|-------|
-| 3 | [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB) | Active Antenna Distribution |
-| 11	| [Shure SLX4](https://www.shure.com/en-US/docs/guide/SLX) | WMIC1-10,17 (Belt Packs) |
-| 1	| [Shure BLX4R](https://www.shure.com/en-US/products/wireless-systems/blx_wireless/blx4r?variant=BLX4R%253D-H10) | Wireless Mic |
+| 3 | [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB) | Active Antenna Distribution (470-960 MHz) |
+| 2	| [Shure UAB74US Antennas](https://www.shure.com/en-US/products/accessories/ua874?variant=UA874US) | Active Directional Antennas (470-698 MHz) |
+| 4	| [Shure SLX4 (H5 518–542 MHz)](https://www.shure.com/en-US/docs/guide/SLX) | Analog Receivers for Belt Packs WMIC 1,2,9,10 |
+| 7	| [Shure SLX4 (J3 572–596 MHz)](https://www.shure.com/en-US/docs/guide/SLX) | Analog Receivers for Belt Packs WMIC 3,4,5,6,7,8,17 |
+| 1	| [Shure BLX4R (H9 518–542 MHz)](https://www.shure.com/en-US/products/wireless-systems/blx_wireless/blx4r?variant=BLX4R%3D-H9) | Wireless Mic |
 | 1 | [Furman M-8Lx](https://www.amazon.com/Furman-M-8X2-Outlet-Conditioner-Protector/dp/B003BQ91Y6) | Power Distribution |
 | 1	| [Denon DN-300Z](https://www.denonpro.com/products/dn-300z.html) | CD Player + Aux Input |
 | 1	| [Clear-Com DX410](https://www.clearcom.com/product-family/hme-dx410-wireless/) | Headset Communication |
