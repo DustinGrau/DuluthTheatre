@@ -1,4 +1,4 @@
-<show source="Ultron.local" date="Mon Mar 9 2026" time="16:42:52" appl_version="7.8.1.56" version="1.0">
+<show source="Ultron.local" date="Mon Mar 9 2026" time="17:56:54" appl_version="7.8.1.56" version="1.0">
     <show_properties version="1.0">
         <show_info>
             <name>DHS Theatre</name>
@@ -35,7 +35,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-1]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-01]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -62,7 +62,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">530625</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -78,7 +78,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">03,62</group_channel>
             </channel>
         </device>
         <device>
@@ -90,7 +90,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-2]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-02]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -117,7 +117,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">532550</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -133,7 +133,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">02,65</group_channel>
             </channel>
         </device>
         <device>
@@ -145,7 +145,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-3]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-03]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -172,7 +172,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">476850</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -188,7 +188,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">04,07</group_channel>
             </channel>
         </device>
         <device>
@@ -200,7 +200,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-4]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-04]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -227,7 +227,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">530850</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -243,7 +243,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">05,44</group_channel>
             </channel>
         </device>
         <device>
@@ -255,7 +255,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-5]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-05]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -282,7 +282,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">476800</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -298,7 +298,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">02,09</group_channel>
             </channel>
         </device>
         <device>
@@ -310,7 +310,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-6]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-06]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -337,7 +337,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">533175</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -353,7 +353,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">03,65</group_channel>
             </channel>
         </device>
         <device>
@@ -365,7 +365,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-7]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-07]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -392,7 +392,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">477275</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -408,7 +408,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">03,10</group_channel>
             </channel>
         </device>
         <device>
@@ -420,7 +420,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-8]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-08]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -447,7 +447,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">483725</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -463,7 +463,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">04,12</group_channel>
             </channel>
         </device>
         <device>
@@ -475,7 +475,7 @@
             <firmware_version type="12">0000000000000000</firmware_version>
             <firmware_version_valid type="1">false</firmware_version_valid>
             <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
-            <device_name type="10"><![CDATA[QLDX4-9]]></device_name>
+            <device_name type="10"><![CDATA[QLDX4-09]]></device_name>
             <mac_address type="12"></mac_address>
             <ip_mode type="3">0</ip_mode>
             <ip_address type="3">0</ip_address>
@@ -502,7 +502,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">533925</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -518,7 +518,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">04,45</group_channel>
             </channel>
         </device>
         <device>
@@ -557,7 +557,7 @@
                 <color type="3">4278212095</color>
                 <audio_gain type="2">12</audio_gain>
                 <audio_mute type="1">false</audio_mute>
-                <frequency type="3">470125</frequency>
+                <frequency type="3">512025</frequency>
                 <remote_name type="10">aaaaaaaa</remote_name>
                 <incl_group type="12">13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <rf_scaling_factor type="3">1</rf_scaling_factor>
@@ -573,7 +573,7 @@
                 <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
                 <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
                 <tags type="10"></tags>
-                <group_channel type="10">--,--</group_channel>
+                <group_channel type="10">05,29</group_channel>
             </channel>
         </device>
         <device>
@@ -586,9 +586,9 @@
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">532175</frequency>
-                <incl_group type="1030">594c095b-b367-4116-a09b-90f5f8c8c345</incl_group>
-                <group_channel type="1026">G:H Ch:00</group_channel>
+                <frequency type="1025">518025</frequency>
+                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
+                <group_channel type="1026">G:P Ch:01</group_channel>
                 <tx_power type="2">10</tx_power>
                 <channel_name type="10">BLX4R</channel_name>
                 <color type="67">#aa00ff</color>
@@ -604,9 +604,9 @@
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">573675</frequency>
                 <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:03 Ch:02</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC17</channel_name>
                 <color type="67">#aa00ff</color>
@@ -615,16 +615,16 @@
         <device>
             <series>SLX</series>
             <id type="10">BD221D08-C544-4AD2-BF89-82F525DF2D6B</id>
-            <device_name type="10">SLX-6</device_name>
+            <device_name type="10">SLX-16</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">588400</frequency>
                 <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:05 Ch:09</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC16</channel_name>
                 <color type="67">#55aa7f</color>
@@ -633,16 +633,16 @@
         <device>
             <series>SLX</series>
             <id type="10">75EC1C58-D3B4-4AC2-B0EA-57500B5B6638</id>
-            <device_name type="10">SLX-5</device_name>
+            <device_name type="10">SLX-15</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">587300</frequency>
                 <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:05 Ch:08</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC15</channel_name>
                 <color type="67">#55aa7f</color>
@@ -651,16 +651,16 @@
         <device>
             <series>SLX</series>
             <id type="10">A03A3E3C-5453-4A0A-8B37-11A83485116E</id>
-            <device_name type="10">SLX-4</device_name>
+            <device_name type="10">SLX-14</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">585750</frequency>
                 <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:05 Ch:07</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC14</channel_name>
                 <color type="67">#55aa7f</color>
@@ -669,16 +669,16 @@
         <device>
             <series>SLX</series>
             <id type="10">EFEDBF78-536A-4B9F-9B57-9D7BEFFF8886</id>
-            <device_name type="10">SLX-3</device_name>
+            <device_name type="10">SLX-13</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">584500</frequency>
                 <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:05 Ch:06</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC13</channel_name>
                 <color type="67">#55aa7f</color>
@@ -687,16 +687,16 @@
         <device>
             <series>SLX</series>
             <id type="10">DD42FC6D-6D82-408F-95F1-CDD51F8FBD3A</id>
-            <device_name type="10">SLX-2</device_name>
+            <device_name type="10">SLX-12</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">594225</frequency>
                 <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:05 Ch:12</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC12</channel_name>
                 <color type="67">#55aa7f</color>
@@ -705,16 +705,16 @@
         <device>
             <series>SLX</series>
             <id type="10">7EBACD76-A693-487D-A6AD-5068BB03D18C</id>
-            <device_name type="10">SLX-1</device_name>
+            <device_name type="10">SLX-11</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">589800</frequency>
                 <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:05 Ch:10</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC11</channel_name>
                 <color type="67">#55aa7f</color>
@@ -723,16 +723,16 @@
         <device>
             <series>SLX</series>
             <id type="10">8815F098-3CE3-4FBB-BCE2-B77F09D99D07</id>
-            <device_name type="10">SLX-8</device_name>
+            <device_name type="10">SLX-08</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">589425</frequency>
                 <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:04 Ch:09</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC8</channel_name>
                 <color type="67">#aa00ff</color>
@@ -741,16 +741,16 @@
         <device>
             <series>SLX</series>
             <id type="10">CCBE51BC-907F-48B4-A17E-1AF199F68EB0</id>
-            <device_name type="10">SLX-7</device_name>
+            <device_name type="10">SLX-07</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">579600</frequency>
                 <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:04 Ch:04</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC7</channel_name>
                 <color type="67">#aa00ff</color>
@@ -759,16 +759,16 @@
         <device>
             <series>SLX</series>
             <id type="10">981A7F33-3667-49BC-BD3C-A02B8CF70F4A</id>
-            <device_name type="10">SLX-6</device_name>
+            <device_name type="10">SLX-06</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">582250</frequency>
                 <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:04 Ch:06</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC6</channel_name>
                 <color type="67">#aa00ff</color>
@@ -777,16 +777,16 @@
         <device>
             <series>SLX</series>
             <id type="10">94CF2276-188E-4B2B-9508-77053F97E988</id>
-            <device_name type="10">SLX-5</device_name>
+            <device_name type="10">SLX-05</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">578200</frequency>
                 <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:04 Ch:03</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC5</channel_name>
                 <color type="67">#aa00ff</color>
@@ -795,16 +795,16 @@
         <device>
             <series>SLX</series>
             <id type="10">25ADD7A6-20E1-4BD4-8375-962184356217</id>
-            <device_name type="10">SLX-4</device_name>
+            <device_name type="10">SLX-04</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">587100</frequency>
                 <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:04 Ch:08</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC4</channel_name>
                 <color type="67">#aa00ff</color>
@@ -813,16 +813,16 @@
         <device>
             <series>SLX</series>
             <id type="10">6049FC1F-D12A-4525-B458-59E58065DF09</id>
-            <device_name type="10">SLX-3</device_name>
+            <device_name type="10">SLX-03</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">J3</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">572200</frequency>
+                <frequency type="1025">590250</frequency>
                 <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:06 Ch:08</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC3</channel_name>
                 <color type="67">#aa00ff</color>
@@ -838,9 +838,9 @@
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">518200</frequency>
+                <frequency type="1025">532225</frequency>
                 <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:03 Ch:08</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC10</channel_name>
                 <color type="67">#aa00ff</color>
@@ -849,16 +849,16 @@
         <device>
             <series>SLX</series>
             <id type="10">6255F5F8-AC03-4F37-BFDC-FD3471327D03</id>
-            <device_name type="10">SLX-9</device_name>
+            <device_name type="10">SLX-09</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">H5</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">518200</frequency>
+                <frequency type="1025">541575</frequency>
                 <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:03 Ch:12</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC9</channel_name>
                 <color type="67">#aa00ff</color>
@@ -867,16 +867,16 @@
         <device>
             <series>SLX</series>
             <id type="10">2953DA19-37D1-4C4F-A818-60238E2CBE52</id>
-            <device_name type="10">SLX-2</device_name>
+            <device_name type="10">SLX-02</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">H5</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">518200</frequency>
+                <frequency type="1025">541800</frequency>
                 <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:06 Ch:12</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC2</channel_name>
                 <color type="67">#aa00ff</color>
@@ -885,16 +885,16 @@
         <device>
             <series>SLX</series>
             <id type="10">1DB32874-A9BF-41A6-9A40-025CE950326B</id>
-            <device_name type="10">SLX-1</device_name>
+            <device_name type="10">SLX-01</device_name>
             <model type="10">SLX</model>
             <manufacturer type="10">Shure</manufacturer>
             <band type="10">H5</band>
             <zone type="10">Default</zone>
             <diversity type="2">0</diversity>
             <channel number="1">
-                <frequency type="1025">518200</frequency>
+                <frequency type="1025">531675</frequency>
                 <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <group_channel type="1026">G:03 Ch:01</group_channel>
+                <group_channel type="1026">G:06 Ch:06</group_channel>
                 <tx_power type="2">30</tx_power>
                 <channel_name type="10">WMIC1</channel_name>
                 <color type="67">#aa00ff</color>
@@ -903,7 +903,7 @@
         <device>
             <series>EW 100 G3</series>
             <id type="10">4D9D8E25-E8B9-4DD1-81B7-628D47BBB67E</id>
-            <device_name type="10">EW 100 G3</device_name>
+            <device_name type="10">EW100-5</device_name>
             <model type="10">EW 100 G3</model>
             <manufacturer type="10">Sennheiser</manufacturer>
             <band type="10">G</band>
@@ -914,14 +914,14 @@
                 <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
                 <group_channel type="1026">G:-- Ch:--</group_channel>
                 <tx_power type="2">30</tx_power>
-                <channel_name type="10">Sennheiser</channel_name>
+                <channel_name type="10">Senn</channel_name>
                 <color type="67">#ffaa7f</color>
             </channel>
         </device>
         <device>
             <series>EW 100 G3</series>
             <id type="10">252A0483-C6EA-4487-AC0A-DB255A0D60FA</id>
-            <device_name type="10">EW 100 G3</device_name>
+            <device_name type="10">EW100-1</device_name>
             <model type="10">EW 100 G3</model>
             <manufacturer type="10">Sennheiser</manufacturer>
             <band type="10">G</band>
@@ -932,14 +932,14 @@
                 <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
                 <group_channel type="1026">G:-- Ch:--</group_channel>
                 <tx_power type="2">30</tx_power>
-                <channel_name type="10">Sennheiser</channel_name>
+                <channel_name type="10">Senn</channel_name>
                 <color type="67">#ffaa7f</color>
             </channel>
         </device>
         <device>
             <series>EW 100 G3</series>
             <id type="10">881CFAFA-18EB-4571-8629-1B8A5B5B626C</id>
-            <device_name type="10">EW 100 G3</device_name>
+            <device_name type="10">EW100-4</device_name>
             <model type="10">EW 100 G3</model>
             <manufacturer type="10">Sennheiser</manufacturer>
             <band type="10">G</band>
@@ -950,14 +950,14 @@
                 <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
                 <group_channel type="1026">G:-- Ch:--</group_channel>
                 <tx_power type="2">30</tx_power>
-                <channel_name type="10">Sennheiser</channel_name>
+                <channel_name type="10">Senn</channel_name>
                 <color type="67">#ffaa7f</color>
             </channel>
         </device>
         <device>
             <series>EW 100 G3</series>
             <id type="10">C9B72806-5938-46A8-9EE6-571E66A580D2</id>
-            <device_name type="10">EW 100 G3</device_name>
+            <device_name type="10">EW100-3</device_name>
             <model type="10">EW 100 G3</model>
             <manufacturer type="10">Sennheiser</manufacturer>
             <band type="10">G</band>
@@ -968,14 +968,14 @@
                 <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
                 <group_channel type="1026">G:-- Ch:--</group_channel>
                 <tx_power type="2">30</tx_power>
-                <channel_name type="10">Sennheiser</channel_name>
+                <channel_name type="10">Senn</channel_name>
                 <color type="67">#ffaa7f</color>
             </channel>
         </device>
         <device>
             <series>EW 100 G3</series>
             <id type="10">F825ED5D-53C6-4141-99A4-DDB2D078BAAF</id>
-            <device_name type="10">EW 100 G3</device_name>
+            <device_name type="10">EW100-6</device_name>
             <model type="10">EW 100 G3</model>
             <manufacturer type="10">Sennheiser</manufacturer>
             <band type="10">G</band>
@@ -986,14 +986,14 @@
                 <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
                 <group_channel type="1026">G:-- Ch:--</group_channel>
                 <tx_power type="2">30</tx_power>
-                <channel_name type="10">Sennheiser</channel_name>
+                <channel_name type="10">Senn</channel_name>
                 <color type="67">#ffaa7f</color>
             </channel>
         </device>
         <device>
             <series>EW 100 G3</series>
             <id type="10">D0F25D5B-297A-4B04-82F2-9D31F29291D8</id>
-            <device_name type="10">EW 100 G3</device_name>
+            <device_name type="10">EW100-2</device_name>
             <model type="10">EW 100 G3</model>
             <manufacturer type="10">Sennheiser</manufacturer>
             <band type="10">G</band>
@@ -1004,7 +1004,7 @@
                 <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
                 <group_channel type="1026">G:-- Ch:--</group_channel>
                 <tx_power type="2">30</tx_power>
-                <channel_name type="10">Sennheiser</channel_name>
+                <channel_name type="10">Senn</channel_name>
                 <color type="67">#ffaa7f</color>
             </channel>
         </device>
@@ -1029,10 +1029,10 @@
         <channel_exclusions version="1.1">
             <location_info>
                 <search_type>city based</search_type>
-                <radius units="Miles">50</radius>
+                <radius units="Miles">30</radius>
                 <country>United States</country>
-                <found_count>29</found_count>
-                <found_count>29</found_count>
+                <found_count>28</found_count>
+                <found_count>28</found_count>
                 <tv_spectrum_format>6 MHz</tv_spectrum_format>
                 <state>Georgia</state>
                 <city>Duluth</city>
@@ -1237,17 +1237,17 @@
                 </channel>
                 <channel>
                     <number>16</number>
-                    <call_sign>WPXA-TV</call_sign>
-                    <tv_station_country>United States</tv_station_country>
-                    <tv_station_latitude>34° 18' 47" N</tv_station_latitude>
-                    <tv_station_longitude>84° 38' 54" W</tv_station_longitude>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
                     <tv_chann_start_freq>482.000 MHz</tv_chann_start_freq>
                     <tv_chann_end_freq>488.000 MHz</tv_chann_end_freq>
-                    <distance>35.054</distance>
-                    <type>1</type>
-                    <db_source>4</db_source>
-                    <power>687000</power>
-                    <exclude>true</exclude>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
                 </channel>
                 <channel>
                     <number>17</number>
@@ -1574,9 +1574,9 @@
             </channel_avoidance_info>
         </channel_exclusions>
         <band_planning version="1.0">
-            <accounted>true</accounted>
-            <country>Custom</country>
-            <user_group>USA</user_group>
+            <accounted>false</accounted>
+            <country>United States</country>
+            <user_group/>
             <band_plan_accounted>true</band_plan_accounted>
         </band_planning>
     </coordination_info>
@@ -1589,14 +1589,14 @@
         </showlink_plot>
         <coordination_plot version="1.2">
             <plots/>
-            <start>470.000 MHz</start>
-            <center>539.000 MHz</center>
-            <end>608.000 MHz</end>
+            <start>471.000 MHz</start>
+            <center>540.000 MHz</center>
+            <end>609.000 MHz</end>
             <span>138.000 MHz</span>
         </coordination_plot>
     </plot_info>
     <custom_user_group_list>
-        <inclusion_list version="1.0" name="Custom" uuid="d2e70e2f-4aca-4396-8ae4-8ea2b1a4c336" active="true">
+        <inclusion_list version="1.0" name="Custom" uuid="d2e70e2f-4aca-4396-8ae4-8ea2b1a4c336" active="false">
             <inclusion_group color="#585858" version="1.0" name="USA" uuid="c4106f7b-80d9-4efd-a42b-7d4a941aaa54">
                 <freqs units="KHz" count="0"/>
                 <freq_ranges units="KHz" count="1">
@@ -1619,15 +1619,6 @@
                     </fr>
                 </freq_ranges>
             </inclusion_group>
-            <inclusion_group color="#585858" version="1.0" name="BLX4" uuid="594c095b-b367-4116-a09b-90f5f8c8c345">
-                <freqs units="KHz" count="0"/>
-                <freq_ranges units="KHz" count="1">
-                    <fr>
-                        <f>513000</f>
-                        <f>518000</f>
-                    </fr>
-                </freq_ranges>
-            </inclusion_group>
             <inclusion_group color="#585858" version="1.0" name="SLX H5 House" uuid="5d9f0f27-0b8d-4a43-9714-7e60340097e4">
                 <freqs units="KHz" count="0"/>
                 <freq_ranges units="KHz" count="1">
@@ -1642,7 +1633,7 @@
                 <freq_ranges units="KHz" count="1">
                     <fr>
                         <f>572000</f>
-                        <f>582000</f>
+                        <f>581000</f>
                     </fr>
                 </freq_ranges>
             </inclusion_group>
@@ -1659,7 +1650,7 @@
                 <freqs units="KHz" count="0"/>
                 <freq_ranges units="KHz" count="1">
                     <fr>
-                        <f>594000</f>
+                        <f>596000</f>
                         <f>607000</f>
                     </fr>
                 </freq_ranges>
