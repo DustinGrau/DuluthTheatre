@@ -6,7 +6,7 @@
 |-----|-----------|-------|
 | 1	 | [Mackie 1604VLZ4](https://mackie.com/en/products/mixers/vlz4-series/1604VLZ4.html) | 16 Ch. Analog Audio Mixer |
 | 2	| [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB) | Active Antenna Distribution (470-960 MHz) |
-| 2	| [Shure UA834WB Antennas](https://www.shure.com/en-US/products/accessories/ua834?variant=UA834WB) | In-Line Antenna Amplifier (470-900MHz) |
+| 2	| [Shure UA834WB Antennas](https://www.shure.com/en-US/products/accessories/ua834?variant=UA834WB) | In-Line Antenna Amplifier (470-900 MHz) |
 | 10 | [Shure QLXD4 (G50 470-534 MHz)](https://www.shure.com/en-US/products/wireless-systems/qlx-d_digital_wireless/qlxd4?variant=QLXD4%3D-G50) | Digital Receivers for Belt Packs WL1-10 |
 | 2	| [Sennheiser EW 100 G3 (566-608 MHz)<sup>1</sup>](https://www.sennheiser.com/en-us/catalog/uncategorized/ew-100-935-g3/ew-100-935-g3-504268) | Wireless Mics (Lapel) |
 | 1	| [Furman M-8x2](https://www.amazon.com/Furman-M-8X2-Outlet-Conditioner-Protector/dp/B003BQ91Y6) | Power Distribution |

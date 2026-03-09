@@ -49,6 +49,8 @@ plugins:
 # Define the navigation structure
 nav:
   - Home: index.md
+  - Electrical:
+    - Breakers: electrical-breakers.md
   - Sound:
     - Common Terms: audio-terms.md
     - House Audio: audio-house.md

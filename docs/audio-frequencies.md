@@ -1,5 +1,15 @@
 # Wireless Mic Frequencies
 
+All wireless mics still require a frequency band in which to work, and there is only so much space available as recent FCC changes altered the consumer bands. This is important as all of the equipment in use is capable of working within the 470-960 MHz range but only legally allowed for roughly 2/3 of that allotted space.
+
+```
+470–608 MHz     Wireless Mics Allowed
+608–614 MHz     Reserved (Radio/Medical)
+614–698 MHz     Cellular Carriers (as of 2020)
+```
+
+The goal is to share an available spectrum of 138 MHz without stepping on other devices and avoiding interference such as over-the-air TV broadcasts which also use this same consumer frequency space.
+
 ## Shure Mic Systems
 
 | System      | UHF Range   | TV Channels |
