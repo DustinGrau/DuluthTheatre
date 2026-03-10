@@ -1,4 +1,4 @@
-<show source="Ultron.local" date="Tue Mar 10 2026" time="07:29:24" appl_version="7.8.1.56" version="1.0">
+<show source="Ultron.local" version="1.0" appl_version="7.8.1.56" date="Tue Mar 10 2026" time="12:38:57">
     <show_properties version="1.0">
         <show_info>
             <name>DHS Theatre</name>
@@ -10,7 +10,6 @@
             <phone/>
             <email/>
             <remember_poc>false</remember_poc>
-            <graphic/>
         </point_of_contact_info>
         <venue_info>
             <name/>
@@ -41,8 +40,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -96,8 +95,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -151,8 +150,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -206,8 +205,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -261,8 +260,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -316,8 +315,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -371,8 +370,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -426,8 +425,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -481,8 +480,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -536,8 +535,8 @@
             <ip_address type="3">0</ip_address>
             <ip_subnet type="3">0</ip_subnet>
             <ip_gateway type="3">0</ip_gateway>
-            <scan_freq_step_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
-            <scan_rbw_capability type="10">;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <scan_freq_step_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
             <start type="3">0</start>
             <end type="3">0</end>
             <band type="10">G50</band>
@@ -577,387 +576,9 @@
             </channel>
         </device>
         <device>
-            <series>BLX</series>
-            <id type="10">76E06A4A-6BDF-4314-84DE-21E65A8BEAF3</id>
-            <device_name type="10">BLX4R</device_name>
-            <model type="10">BLX4R</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">H9</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">514125</frequency>
-                <incl_group type="1030">f24087bf-16da-4bea-bc98-0b9ffc24343f</incl_group>
-                <group_channel type="1026">G:n Ch:09</group_channel>
-                <tx_power type="2">10</tx_power>
-                <channel_name type="10">BLX4R</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">712966E3-C568-4FF5-93F3-9B41E6D0EEEE</id>
-            <device_name type="10">SLX-17</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">586450</frequency>
-                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:01 Ch:07</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC17</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">BD221D08-C544-4AD2-BF89-82F525DF2D6B</id>
-            <device_name type="10">SLX-16</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">588400</frequency>
-                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:05 Ch:09</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC16</channel_name>
-                <color type="67">#55aa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">75EC1C58-D3B4-4AC2-B0EA-57500B5B6638</id>
-            <device_name type="10">SLX-15</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">587300</frequency>
-                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:05 Ch:08</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC15</channel_name>
-                <color type="67">#55aa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">A03A3E3C-5453-4A0A-8B37-11A83485116E</id>
-            <device_name type="10">SLX-14</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">585750</frequency>
-                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:05 Ch:07</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC14</channel_name>
-                <color type="67">#55aa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">EFEDBF78-536A-4B9F-9B57-9D7BEFFF8886</id>
-            <device_name type="10">SLX-13</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">584500</frequency>
-                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:05 Ch:06</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC13</channel_name>
-                <color type="67">#55aa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">DD42FC6D-6D82-408F-95F1-CDD51F8FBD3A</id>
-            <device_name type="10">SLX-12</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">594225</frequency>
-                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:05 Ch:12</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC12</channel_name>
-                <color type="67">#55aa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">7EBACD76-A693-487D-A6AD-5068BB03D18C</id>
-            <device_name type="10">SLX-11</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">589800</frequency>
-                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
-                <group_channel type="1026">G:05 Ch:10</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC11</channel_name>
-                <color type="67">#55aa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">8815F098-3CE3-4FBB-BCE2-B77F09D99D07</id>
-            <device_name type="10">SLX-08</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">587800</frequency>
-                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:06 Ch:07</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC8</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">CCBE51BC-907F-48B4-A17E-1AF199F68EB0</id>
-            <device_name type="10">SLX-07</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">590250</frequency>
-                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:06 Ch:08</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC7</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">981A7F33-3667-49BC-BD3C-A02B8CF70F4A</id>
-            <device_name type="10">SLX-06</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">591550</frequency>
-                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:06 Ch:09</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC6</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">94CF2276-188E-4B2B-9508-77053F97E988</id>
-            <device_name type="10">SLX-05</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">593600</frequency>
-                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:03 Ch:11</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC5</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">25ADD7A6-20E1-4BD4-8375-962184356217</id>
-            <device_name type="10">SLX-04</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">594750</frequency>
-                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:01 Ch:12</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC4</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">6049FC1F-D12A-4525-B458-59E58065DF09</id>
-            <device_name type="10">SLX-03</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">J3</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">584800</frequency>
-                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <group_channel type="1026">G:02 Ch:07</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC3</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">4407E5BF-17D7-4875-8C3E-F0A4F7126BC8</id>
-            <device_name type="10">SLX-10</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">H5</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">527775</frequency>
-                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <group_channel type="1026">G:06 Ch:05</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC10</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">6255F5F8-AC03-4F37-BFDC-FD3471327D03</id>
-            <device_name type="10">SLX-09</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">H5</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">530500</frequency>
-                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <group_channel type="1026">G:05 Ch:06</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC9</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">2953DA19-37D1-4C4F-A818-60238E2CBE52</id>
-            <device_name type="10">SLX-02</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">H5</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">533800</frequency>
-                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <group_channel type="1026">G:06 Ch:07</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC2</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
-            <series>SLX</series>
-            <id type="10">1DB32874-A9BF-41A6-9A40-025CE950326B</id>
-            <device_name type="10">SLX-01</device_name>
-            <model type="10">SLX</model>
-            <manufacturer type="10">Shure</manufacturer>
-            <band type="10">H5</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">524725</frequency>
-                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <group_channel type="1026">G:02 Ch:04</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">WMIC1</channel_name>
-                <color type="67">#aa00ff</color>
-            </channel>
-        </device>
-        <device>
             <series>EW 100 G3</series>
-            <id type="10">4D9D8E25-E8B9-4DD1-81B7-628D47BBB67E</id>
-            <device_name type="10">EW100-5</device_name>
-            <model type="10">EW 100 G3</model>
-            <manufacturer type="10">Sennheiser</manufacturer>
-            <band type="10">G</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">566000</frequency>
-                <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
-                <group_channel type="1026">G:-- Ch:--</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">Senn</channel_name>
-                <color type="67">#ffaa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>EW 100 G3</series>
-            <id type="10">252A0483-C6EA-4487-AC0A-DB255A0D60FA</id>
-            <device_name type="10">EW100-1</device_name>
-            <model type="10">EW 100 G3</model>
-            <manufacturer type="10">Sennheiser</manufacturer>
-            <band type="10">G</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">566000</frequency>
-                <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
-                <group_channel type="1026">G:-- Ch:--</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">Senn</channel_name>
-                <color type="67">#ffaa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>EW 100 G3</series>
-            <id type="10">881CFAFA-18EB-4571-8629-1B8A5B5B626C</id>
-            <device_name type="10">EW100-4</device_name>
-            <model type="10">EW 100 G3</model>
-            <manufacturer type="10">Sennheiser</manufacturer>
-            <band type="10">G</band>
-            <zone type="10">Default</zone>
-            <diversity type="2">0</diversity>
-            <channel number="1">
-                <frequency type="1025">566000</frequency>
-                <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
-                <group_channel type="1026">G:-- Ch:--</group_channel>
-                <tx_power type="2">30</tx_power>
-                <channel_name type="10">Senn</channel_name>
-                <color type="67">#ffaa7f</color>
-            </channel>
-        </device>
-        <device>
-            <series>EW 100 G3</series>
-            <id type="10">C9B72806-5938-46A8-9EE6-571E66A580D2</id>
-            <device_name type="10">EW100-3</device_name>
+            <id type="10">D0F25D5B-297A-4B04-82F2-9D31F29291D8</id>
+            <device_name type="10">EW100-2</device_name>
             <model type="10">EW 100 G3</model>
             <manufacturer type="10">Sennheiser</manufacturer>
             <band type="10">G</band>
@@ -992,8 +613,8 @@
         </device>
         <device>
             <series>EW 100 G3</series>
-            <id type="10">D0F25D5B-297A-4B04-82F2-9D31F29291D8</id>
-            <device_name type="10">EW100-2</device_name>
+            <id type="10">C9B72806-5938-46A8-9EE6-571E66A580D2</id>
+            <device_name type="10">EW100-3</device_name>
             <model type="10">EW 100 G3</model>
             <manufacturer type="10">Sennheiser</manufacturer>
             <band type="10">G</band>
@@ -1008,8 +629,629 @@
                 <color type="67">#ffaa7f</color>
             </channel>
         </device>
+        <device>
+            <series>EW 100 G3</series>
+            <id type="10">881CFAFA-18EB-4571-8629-1B8A5B5B626C</id>
+            <device_name type="10">EW100-4</device_name>
+            <model type="10">EW 100 G3</model>
+            <manufacturer type="10">Sennheiser</manufacturer>
+            <band type="10">G</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">566000</frequency>
+                <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
+                <group_channel type="1026">G:-- Ch:--</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">Senn</channel_name>
+                <color type="67">#ffaa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>EW 100 G3</series>
+            <id type="10">252A0483-C6EA-4487-AC0A-DB255A0D60FA</id>
+            <device_name type="10">EW100-1</device_name>
+            <model type="10">EW 100 G3</model>
+            <manufacturer type="10">Sennheiser</manufacturer>
+            <band type="10">G</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">566000</frequency>
+                <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
+                <group_channel type="1026">G:-- Ch:--</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">Senn</channel_name>
+                <color type="67">#ffaa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>EW 100 G3</series>
+            <id type="10">4D9D8E25-E8B9-4DD1-81B7-628D47BBB67E</id>
+            <device_name type="10">EW100-5</device_name>
+            <model type="10">EW 100 G3</model>
+            <manufacturer type="10">Sennheiser</manufacturer>
+            <band type="10">G</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">566000</frequency>
+                <incl_group type="1030">51065b64-f376-4199-94a0-1b3b72b5cab8</incl_group>
+                <group_channel type="1026">G:-- Ch:--</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">Senn</channel_name>
+                <color type="67">#ffaa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">1DB32874-A9BF-41A6-9A40-025CE950326B</id>
+            <device_name type="10">SLX-01</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">H5</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">524725</frequency>
+                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
+                <group_channel type="1026">G:02 Ch:04</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC1</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">2953DA19-37D1-4C4F-A818-60238E2CBE52</id>
+            <device_name type="10">SLX-02</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">H5</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">533800</frequency>
+                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
+                <group_channel type="1026">G:06 Ch:07</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC2</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">6255F5F8-AC03-4F37-BFDC-FD3471327D03</id>
+            <device_name type="10">SLX-09</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">H5</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">530500</frequency>
+                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
+                <group_channel type="1026">G:05 Ch:06</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC9</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">4407E5BF-17D7-4875-8C3E-F0A4F7126BC8</id>
+            <device_name type="10">SLX-10</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">H5</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">527775</frequency>
+                <incl_group type="1030">5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
+                <group_channel type="1026">G:06 Ch:05</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC10</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">6049FC1F-D12A-4525-B458-59E58065DF09</id>
+            <device_name type="10">SLX-03</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">584800</frequency>
+                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
+                <group_channel type="1026">G:02 Ch:07</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC3</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">25ADD7A6-20E1-4BD4-8375-962184356217</id>
+            <device_name type="10">SLX-04</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">594750</frequency>
+                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
+                <group_channel type="1026">G:01 Ch:12</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC4</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">94CF2276-188E-4B2B-9508-77053F97E988</id>
+            <device_name type="10">SLX-05</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">593600</frequency>
+                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
+                <group_channel type="1026">G:03 Ch:11</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC5</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">981A7F33-3667-49BC-BD3C-A02B8CF70F4A</id>
+            <device_name type="10">SLX-06</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">591550</frequency>
+                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
+                <group_channel type="1026">G:06 Ch:09</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC6</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">CCBE51BC-907F-48B4-A17E-1AF199F68EB0</id>
+            <device_name type="10">SLX-07</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">590250</frequency>
+                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
+                <group_channel type="1026">G:06 Ch:08</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC7</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">8815F098-3CE3-4FBB-BCE2-B77F09D99D07</id>
+            <device_name type="10">SLX-08</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">587800</frequency>
+                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
+                <group_channel type="1026">G:06 Ch:07</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC8</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">7EBACD76-A693-487D-A6AD-5068BB03D18C</id>
+            <device_name type="10">SLX-11</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">589800</frequency>
+                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
+                <group_channel type="1026">G:05 Ch:10</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC11</channel_name>
+                <color type="67">#55aa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">DD42FC6D-6D82-408F-95F1-CDD51F8FBD3A</id>
+            <device_name type="10">SLX-12</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">594225</frequency>
+                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
+                <group_channel type="1026">G:05 Ch:12</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC12</channel_name>
+                <color type="67">#55aa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">EFEDBF78-536A-4B9F-9B57-9D7BEFFF8886</id>
+            <device_name type="10">SLX-13</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">584500</frequency>
+                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
+                <group_channel type="1026">G:05 Ch:06</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC13</channel_name>
+                <color type="67">#55aa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">A03A3E3C-5453-4A0A-8B37-11A83485116E</id>
+            <device_name type="10">SLX-14</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">585750</frequency>
+                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
+                <group_channel type="1026">G:05 Ch:07</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC14</channel_name>
+                <color type="67">#55aa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">75EC1C58-D3B4-4AC2-B0EA-57500B5B6638</id>
+            <device_name type="10">SLX-15</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">587300</frequency>
+                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
+                <group_channel type="1026">G:05 Ch:08</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC15</channel_name>
+                <color type="67">#55aa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">BD221D08-C544-4AD2-BF89-82F525DF2D6B</id>
+            <device_name type="10">SLX-16</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">588400</frequency>
+                <incl_group type="1030">41a19131-fb31-48db-8779-2f8a6b5d9c3f</incl_group>
+                <group_channel type="1026">G:05 Ch:09</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC16</channel_name>
+                <color type="67">#55aa7f</color>
+            </channel>
+        </device>
+        <device>
+            <series>SLX</series>
+            <id type="10">712966E3-C568-4FF5-93F3-9B41E6D0EEEE</id>
+            <device_name type="10">SLX-17</device_name>
+            <model type="10">SLX</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J3</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">586450</frequency>
+                <incl_group type="1030">17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
+                <group_channel type="1026">G:01 Ch:07</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">WMIC17</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <series>BLX</series>
+            <id type="10">76E06A4A-6BDF-4314-84DE-21E65A8BEAF3</id>
+            <device_name type="10">BLX4R</device_name>
+            <model type="10">BLX4R</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">H9</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">514125</frequency>
+                <incl_group type="1030">f24087bf-16da-4bea-bc98-0b9ffc24343f</incl_group>
+                <group_channel type="1026">G:n Ch:09</group_channel>
+                <tx_power type="2">10</tx_power>
+                <channel_name type="10">BLX4R</channel_name>
+                <color type="67">#aa00ff</color>
+            </channel>
+        </device>
+        <device>
+            <id dcid="320CA2FC-2932-11ED-8BBF-0015C5F3F612">48E1D7F8-1898-4367-B15D-6BDD3129EFC2</id>
+            <series>SLXD</series>
+            <model type="10">SLXD4D+</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <production_id type="10"></production_id>
+            <firmware_version type="12">0000000000000000</firmware_version>
+            <firmware_version_valid type="1">false</firmware_version_valid>
+            <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
+            <device_name type="10"><![CDATA[SLXD4D+]]></device_name>
+            <mac_address type="12"></mac_address>
+            <ip_mode type="3">0</ip_mode>
+            <ip_address type="3">0</ip_address>
+            <ip_subnet type="3">0</ip_subnet>
+            <ip_gateway type="3">0</ip_gateway>
+            <scan_freq_step_capability type="10">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <start type="3">0</start>
+            <end type="3">0</end>
+            <band type="10">G57</band>
+            <interference_mode type="3">0</interference_mode>
+            <front_panel_lock type="3">0</front_panel_lock>
+            <zone type="12">Default</zone>
+            <audio_encryption_mode type="3">0</audio_encryption_mode>
+            <audio_summing_mode type="3">0</audio_summing_mode>
+            <serial_number type="10"></serial_number>
+            <channel number="1">
+                <channel_name type="10"><![CDATA[Shure]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">12</audio_gain>
+                <child1_id type="12">00000000-0000-0000-0000-000000000000</child1_id>
+                <child2_id type="12">00000000-0000-0000-0000-000000000000</child2_id>
+                <link1_name type="10">0</link1_name>
+                <link2_name type="10">0</link2_name>
+                <frequency type="3">470125</frequency>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <audio_out_level_switch type="3">0</audio_out_level_switch>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <ir_sync_auto_lock type="3">255</ir_sync_auto_lock>
+                <ir_sync_rf_power_plugon type="3">255</ir_sync_rf_power_plugon>
+                <dynamic_feedback_reduction type="3">0</dynamic_feedback_reduction>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="2">
+                <channel_name type="10"><![CDATA[Shure]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">12</audio_gain>
+                <child1_id type="12">00000000-0000-0000-0000-000000000000</child1_id>
+                <child2_id type="12">00000000-0000-0000-0000-000000000000</child2_id>
+                <link1_name type="10">0</link1_name>
+                <link2_name type="10">0</link2_name>
+                <frequency type="3">470125</frequency>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <audio_out_level_switch type="3">0</audio_out_level_switch>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <ir_sync_auto_lock type="3">255</ir_sync_auto_lock>
+                <ir_sync_rf_power_plugon type="3">255</ir_sync_rf_power_plugon>
+                <dynamic_feedback_reduction type="3">0</dynamic_feedback_reduction>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+        </device>
+        <device>
+            <id dcid="320CA2FC-2932-11ED-8BBF-0015C5F3F612">58B82EE5-5AB1-421B-A136-F33111926C6D</id>
+            <series>SLXD</series>
+            <model type="10">SLXD4D+</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <production_id type="10"></production_id>
+            <firmware_version type="12">0000000000000000</firmware_version>
+            <firmware_version_valid type="1">false</firmware_version_valid>
+            <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
+            <device_name type="10"><![CDATA[SLXD4D+]]></device_name>
+            <mac_address type="12"></mac_address>
+            <ip_mode type="3">0</ip_mode>
+            <ip_address type="3">0</ip_address>
+            <ip_subnet type="3">0</ip_subnet>
+            <ip_gateway type="3">0</ip_gateway>
+            <scan_freq_step_capability type="10">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <start type="3">0</start>
+            <end type="3">0</end>
+            <band type="10">G57</band>
+            <interference_mode type="3">0</interference_mode>
+            <front_panel_lock type="3">0</front_panel_lock>
+            <zone type="12">Default</zone>
+            <audio_encryption_mode type="3">0</audio_encryption_mode>
+            <audio_summing_mode type="3">0</audio_summing_mode>
+            <serial_number type="10"></serial_number>
+            <channel number="1">
+                <channel_name type="10"><![CDATA[Shure]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">12</audio_gain>
+                <child1_id type="12">00000000-0000-0000-0000-000000000000</child1_id>
+                <child2_id type="12">00000000-0000-0000-0000-000000000000</child2_id>
+                <link1_name type="10">0</link1_name>
+                <link2_name type="10">0</link2_name>
+                <frequency type="3">470125</frequency>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <audio_out_level_switch type="3">0</audio_out_level_switch>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <ir_sync_auto_lock type="3">255</ir_sync_auto_lock>
+                <ir_sync_rf_power_plugon type="3">255</ir_sync_rf_power_plugon>
+                <dynamic_feedback_reduction type="3">0</dynamic_feedback_reduction>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="2">
+                <channel_name type="10"><![CDATA[Shure]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">12</audio_gain>
+                <child1_id type="12">00000000-0000-0000-0000-000000000000</child1_id>
+                <child2_id type="12">00000000-0000-0000-0000-000000000000</child2_id>
+                <link1_name type="10">0</link1_name>
+                <link2_name type="10">0</link2_name>
+                <frequency type="3">470125</frequency>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <audio_out_level_switch type="3">0</audio_out_level_switch>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <ir_sync_auto_lock type="3">255</ir_sync_auto_lock>
+                <ir_sync_rf_power_plugon type="3">255</ir_sync_rf_power_plugon>
+                <dynamic_feedback_reduction type="3">0</dynamic_feedback_reduction>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+        </device>
+        <device>
+            <id dcid="320CA2FC-2932-11ED-8BBF-0015C5F3F612">E16C5573-E2FC-4BAB-91A5-324B788ACE05</id>
+            <series>SLXD</series>
+            <model type="10">SLXD4D+</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <production_id type="10"></production_id>
+            <firmware_version type="12">0000000000000000</firmware_version>
+            <firmware_version_valid type="1">false</firmware_version_valid>
+            <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
+            <device_name type="10"><![CDATA[SLXD4D+]]></device_name>
+            <mac_address type="12"></mac_address>
+            <ip_mode type="3">0</ip_mode>
+            <ip_address type="3">0</ip_address>
+            <ip_subnet type="3">0</ip_subnet>
+            <ip_gateway type="3">0</ip_gateway>
+            <scan_freq_step_capability type="10">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <start type="3">0</start>
+            <end type="3">0</end>
+            <band type="10">G57</band>
+            <interference_mode type="3">0</interference_mode>
+            <front_panel_lock type="3">0</front_panel_lock>
+            <zone type="12">Default</zone>
+            <audio_encryption_mode type="3">0</audio_encryption_mode>
+            <audio_summing_mode type="3">0</audio_summing_mode>
+            <serial_number type="10"></serial_number>
+            <channel number="1">
+                <channel_name type="10"><![CDATA[Shure]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">12</audio_gain>
+                <child1_id type="12">00000000-0000-0000-0000-000000000000</child1_id>
+                <child2_id type="12">00000000-0000-0000-0000-000000000000</child2_id>
+                <link1_name type="10">0</link1_name>
+                <link2_name type="10">0</link2_name>
+                <frequency type="3">470125</frequency>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <audio_out_level_switch type="3">0</audio_out_level_switch>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <ir_sync_auto_lock type="3">255</ir_sync_auto_lock>
+                <ir_sync_rf_power_plugon type="3">255</ir_sync_rf_power_plugon>
+                <dynamic_feedback_reduction type="3">0</dynamic_feedback_reduction>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="2">
+                <channel_name type="10"><![CDATA[Shure]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">12</audio_gain>
+                <child1_id type="12">00000000-0000-0000-0000-000000000000</child1_id>
+                <child2_id type="12">00000000-0000-0000-0000-000000000000</child2_id>
+                <link1_name type="10">0</link1_name>
+                <link2_name type="10">0</link2_name>
+                <frequency type="3">470125</frequency>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <audio_out_level_switch type="3">0</audio_out_level_switch>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <ir_sync_auto_lock type="3">255</ir_sync_auto_lock>
+                <ir_sync_rf_power_plugon type="3">255</ir_sync_rf_power_plugon>
+                <dynamic_feedback_reduction type="3">0</dynamic_feedback_reduction>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+        </device>
         <zones version="1.1">
-            <zone color="#7863ed" ordinal="0">Default</zone>
+            <zone ordinal="0" color="#7863ed">Default</zone>
             <zone_matrix>
                 <from zone="Default">
                     <to zone="Default">
@@ -1045,6 +1287,12 @@
                 <id coordination_include="false" active_channel="true">94CF2276-188E-4B2B-9508-77053F97E988</id>
                 <id coordination_include="false" active_channel="true">25ADD7A6-20E1-4BD4-8375-962184356217</id>
                 <id coordination_include="false" active_channel="true">6049FC1F-D12A-4525-B458-59E58065DF09</id>
+                <id coordination_include="true" active_channel="true">E16C5573-E2FC-4BAB-91A5-324B788ACE05-1</id>
+                <id coordination_include="true" active_channel="true">E16C5573-E2FC-4BAB-91A5-324B788ACE05-0</id>
+                <id coordination_include="true" active_channel="true">58B82EE5-5AB1-421B-A136-F33111926C6D-1</id>
+                <id coordination_include="true" active_channel="true">58B82EE5-5AB1-421B-A136-F33111926C6D-0</id>
+                <id coordination_include="true" active_channel="true">48E1D7F8-1898-4367-B15D-6BDD3129EFC2-1</id>
+                <id coordination_include="true" active_channel="true">48E1D7F8-1898-4367-B15D-6BDD3129EFC2-0</id>
             </channels>
             <active_channel_list sort_col="-1" sort_order="0"/>
             <backup_channel_list sort_col="-1" sort_order="0"/>
@@ -1609,8 +1857,8 @@
         </band_planning>
     </coordination_info>
     <CFLs version="1.0">
-        <CFL zone="Default" user="" date="Tue Mar 10 2026" time="07:20:57" version="0.3" part="1" machine="Ultron.local" parts="1" id="7b9caff2-8c28-4eec-b0e5-2df8f671ce72" zone_uuid="0ec6073d-43ff-4443-9ec7-72ff6adaa977">
-            <frequencies units="KHz" count="22">
+        <CFL zone_uuid="94b46234-bc8a-4bd1-81f3-fc0fc966667f" version="0.3" part="1" machine="Ultron.local" zone="Default" parts="1" user="" date="Tue Mar 10 2026" id="7b9caff2-8c28-4eec-b0e5-2df8f671ce72" time="07:20:57">
+            <frequencies count="22" units="KHz">
                 <frequency gr_ch="G:-- Ch:--" value="475325">
                     <series>QLXD</series>
                     <band>G50</band>
@@ -2030,8 +2278,8 @@
                     </additional_compat>
                 </frequency>
             </frequencies>
-            <device_list zone="Default" cfl_id="7b9caff2-8c28-4eec-b0e5-2df8f671ce72" date="Tue Mar 10 2026" time="07:21:09" version="0.3" part="1" parts="1" zone_uuid="{0ec6073d-43ff-4443-9ec7-72ff6adaa977}">
-                <devices count="34">
+            <device_list cfl_id="7b9caff2-8c28-4eec-b0e5-2df8f671ce72" zone_uuid="{94b46234-bc8a-4bd1-81f3-fc0fc966667f}" version="0.3" part="1" zone="Default" parts="1" date="Tue Mar 10 2026" time="07:21:09">
+                <devices count="37">
                     <device>
                         <cid>04109C8D-DD8C-4817-9FC0-AC170735DCAF</cid>
                         <device_id>QLDX4-02</device_id>
@@ -2047,7 +2295,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2080,7 +2328,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2113,7 +2361,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2146,7 +2394,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2179,7 +2427,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2212,7 +2460,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2245,7 +2493,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2278,7 +2526,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2311,7 +2559,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2344,7 +2592,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2377,7 +2625,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2410,7 +2658,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2443,7 +2691,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2476,7 +2724,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2509,7 +2757,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2542,7 +2790,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2575,7 +2823,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2608,7 +2856,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2641,7 +2889,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2674,7 +2922,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2707,7 +2955,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2740,7 +2988,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2773,7 +3021,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2806,7 +3054,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2839,7 +3087,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2872,7 +3120,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2905,7 +3153,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2938,7 +3186,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -2971,7 +3219,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -3004,7 +3252,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -3037,7 +3285,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -3070,7 +3318,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -3103,7 +3351,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -3136,7 +3384,7 @@
                         </wwb_types>
                         <diversity>0</diversity>
                         <zone_name>Default</zone_name>
-                        <zone_uuid>{0ec6073d-43ff-4443-9ec7-72ff6adaa977}</zone_uuid>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
                         <channel_count>1</channel_count>
                         <diversity>0</diversity>
                         <channels>
@@ -3154,613 +3402,144 @@
                             </channel>
                         </channels>
                     </device>
+                    <device>
+                        <cid>48E1D7F8-1898-4367-B15D-6BDD3129EFC2</cid>
+                        <device_id>SLXD4D+</device_id>
+                        <manufacturer>Shure</manufacturer>
+                        <model>SLXD4D+</model>
+                        <band>G57</band>
+                        <series/>
+                        <hd_mode>-1</hd_mode>
+                        <wwb_types>
+                            <wwb_type>Receiver</wwb_type>
+                            <wwb_type>Microphone</wwb_type>
+                            <wwb_type>Rack</wwb_type>
+                        </wwb_types>
+                        <diversity>0</diversity>
+                        <zone_name>Default</zone_name>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
+                        <channel_count>2</channel_count>
+                        <diversity>0</diversity>
+                        <channels>
+                            <channel>
+                                <num>0</num>
+                                <band>G57</band>
+                                <name>Shure</name>
+                                <frequency>470125</frequency>
+                                <group_channel>G:-- Ch:--</group_channel>
+                                <tx_profile/>
+                                <color>#000000</color>
+                                <diversity>0</diversity>
+                                <linked_devices count="0"/>
+                                <inclusion_group name="" uuid=""/>
+                            </channel>
+                            <channel>
+                                <num>1</num>
+                                <band>G57</band>
+                                <name>Shure</name>
+                                <frequency>470125</frequency>
+                                <group_channel>G:-- Ch:--</group_channel>
+                                <tx_profile/>
+                                <color>#000000</color>
+                                <diversity>0</diversity>
+                                <linked_devices count="0"/>
+                                <inclusion_group name="" uuid=""/>
+                            </channel>
+                        </channels>
+                    </device>
+                    <device>
+                        <cid>58B82EE5-5AB1-421B-A136-F33111926C6D</cid>
+                        <device_id>SLXD4D+</device_id>
+                        <manufacturer>Shure</manufacturer>
+                        <model>SLXD4D+</model>
+                        <band>G57</band>
+                        <series/>
+                        <hd_mode>-1</hd_mode>
+                        <wwb_types>
+                            <wwb_type>Receiver</wwb_type>
+                            <wwb_type>Microphone</wwb_type>
+                            <wwb_type>Rack</wwb_type>
+                        </wwb_types>
+                        <diversity>0</diversity>
+                        <zone_name>Default</zone_name>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
+                        <channel_count>2</channel_count>
+                        <diversity>0</diversity>
+                        <channels>
+                            <channel>
+                                <num>0</num>
+                                <band>G57</band>
+                                <name>Shure</name>
+                                <frequency>470125</frequency>
+                                <group_channel>G:-- Ch:--</group_channel>
+                                <tx_profile/>
+                                <color>#000000</color>
+                                <diversity>0</diversity>
+                                <linked_devices count="0"/>
+                                <inclusion_group name="" uuid=""/>
+                            </channel>
+                            <channel>
+                                <num>1</num>
+                                <band>G57</band>
+                                <name>Shure</name>
+                                <frequency>470125</frequency>
+                                <group_channel>G:-- Ch:--</group_channel>
+                                <tx_profile/>
+                                <color>#000000</color>
+                                <diversity>0</diversity>
+                                <linked_devices count="0"/>
+                                <inclusion_group name="" uuid=""/>
+                            </channel>
+                        </channels>
+                    </device>
+                    <device>
+                        <cid>E16C5573-E2FC-4BAB-91A5-324B788ACE05</cid>
+                        <device_id>SLXD4D+</device_id>
+                        <manufacturer>Shure</manufacturer>
+                        <model>SLXD4D+</model>
+                        <band>G57</band>
+                        <series/>
+                        <hd_mode>-1</hd_mode>
+                        <wwb_types>
+                            <wwb_type>Receiver</wwb_type>
+                            <wwb_type>Microphone</wwb_type>
+                            <wwb_type>Rack</wwb_type>
+                        </wwb_types>
+                        <diversity>0</diversity>
+                        <zone_name>Default</zone_name>
+                        <zone_uuid>{94b46234-bc8a-4bd1-81f3-fc0fc966667f}</zone_uuid>
+                        <channel_count>2</channel_count>
+                        <diversity>0</diversity>
+                        <channels>
+                            <channel>
+                                <num>0</num>
+                                <band>G57</band>
+                                <name>Shure</name>
+                                <frequency>470125</frequency>
+                                <group_channel>G:-- Ch:--</group_channel>
+                                <tx_profile/>
+                                <color>#000000</color>
+                                <diversity>0</diversity>
+                                <linked_devices count="0"/>
+                                <inclusion_group name="" uuid=""/>
+                            </channel>
+                            <channel>
+                                <num>1</num>
+                                <band>G57</band>
+                                <name>Shure</name>
+                                <frequency>470125</frequency>
+                                <group_channel>G:-- Ch:--</group_channel>
+                                <tx_profile/>
+                                <color>#000000</color>
+                                <diversity>0</diversity>
+                                <linked_devices count="0"/>
+                                <inclusion_group name="" uuid=""/>
+                            </channel>
+                        </channels>
+                    </device>
                 </devices>
             </device_list>
-            <band_plan_list version="1.0" name="Theatre" uuid="3fd4cfc3-4bda-42af-ade1-ca7a1038a281" active="true">
-                <inclusion_group color="#585858" version="1.0" name="QLXD4" uuid="13a33abc-d6fb-4d61-9d32-ba66eea9e895">
-                    <freqs units="KHz" count="0"/>
-                    <freq_ranges units="KHz" count="1">
-                        <fr>
-                            <f>470000</f>
-                            <f>512000</f>
-                        </fr>
-                    </freq_ranges>
-                </inclusion_group>
-                <inclusion_group color="#585858" version="1.0" name="SLX H5 House" uuid="5d9f0f27-0b8d-4a43-9714-7e60340097e4">
-                    <freqs units="KHz" count="0"/>
-                    <freq_ranges units="KHz" count="1">
-                        <fr>
-                            <f>518000</f>
-                            <f>542000</f>
-                        </fr>
-                    </freq_ranges>
-                </inclusion_group>
-                <inclusion_group color="#585858" version="1.0" name="BLX" uuid="f24087bf-16da-4bea-bc98-0b9ffc24343f">
-                    <freqs units="KHz" count="0"/>
-                    <freq_ranges units="KHz" count="1">
-                        <fr>
-                            <f>512000</f>
-                            <f>541000</f>
-                        </fr>
-                    </freq_ranges>
-                </inclusion_group>
-                <inclusion_group color="#585858" version="1.0" name="SLX J3 Cart" uuid="41a19131-fb31-48db-8779-2f8a6b5d9c3f">
-                    <freqs units="KHz" count="0"/>
-                    <freq_ranges units="KHz" count="1">
-                        <fr>
-                            <f>572000</f>
-                            <f>594000</f>
-                        </fr>
-                    </freq_ranges>
-                </inclusion_group>
-                <inclusion_group color="#585858" version="1.0" name="SLX J3 House" uuid="17a4b85f-a8d9-4c52-aad4-a1881e8a19ab">
-                    <freqs units="KHz" count="0"/>
-                    <freq_ranges units="KHz" count="1">
-                        <fr>
-                            <f>572000</f>
-                            <f>595000</f>
-                        </fr>
-                    </freq_ranges>
-                </inclusion_group>
-                <inclusion_group color="#585858" version="1.0" name="EW100 G3" uuid="51065b64-f376-4199-94a0-1b3b72b5cab8">
-                    <freqs units="KHz" count="0"/>
-                    <freq_ranges units="KHz" count="1">
-                        <fr>
-                            <f>596000</f>
-                            <f>607000</f>
-                        </fr>
-                    </freq_ranges>
-                </inclusion_group>
-            </band_plan_list>
-            <inclusion_list version="1.0" name="Custom" uuid="d2e70e2f-4aca-4396-8ae4-8ea2b1a4c336" active="false">
-                <inclusion_group color="#585858" version="1.0" name="USA" uuid="c4106f7b-80d9-4efd-a42b-7d4a941aaa54">
-                    <freqs units="KHz" count="0"/>
-                    <freq_ranges units="KHz" count="1">
-                        <fr>
-                            <f>470000</f>
-                            <f>608000</f>
-                        </fr>
-                    </freq_ranges>
-                </inclusion_group>
-            </inclusion_list>
             <global_exclusions version="1.1"/>
-            <channel_exclusions version="1.0">
-                <guard_band freq_units="KHz" leading_guard="100" trailing_guard="100"/>
-                <channel_avoidance_info freq_units="MHz">
-                    <channel>
-                        <number>2</number>
-                        <tv_chann_start_freq>54</tv_chann_start_freq>
-                        <tv_chann_end_freq>60</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>3</number>
-                        <tv_chann_start_freq>60</tv_chann_start_freq>
-                        <tv_chann_end_freq>66</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>4</number>
-                        <tv_chann_start_freq>66</tv_chann_start_freq>
-                        <tv_chann_end_freq>72</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>5</number>
-                        <tv_chann_start_freq>76</tv_chann_start_freq>
-                        <tv_chann_end_freq>82</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>6</number>
-                        <tv_chann_start_freq>82</tv_chann_start_freq>
-                        <tv_chann_end_freq>88</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>7</number>
-                        <tv_chann_start_freq>174</tv_chann_start_freq>
-                        <tv_chann_end_freq>180</tv_chann_end_freq>
-                        <call_sign>WGTV</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 17" N</tv_station_latitude>
-                        <tv_station_longitude>84° 8' 39" W</tv_station_longitude>
-                        <distance>15.4519</distance>
-                        <db_source>4</db_source>
-                        <power>62000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>8</number>
-                        <tv_chann_start_freq>180</tv_chann_start_freq>
-                        <tv_chann_end_freq>186</tv_chann_end_freq>
-                        <call_sign>WIGL-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 44' 40" N</tv_station_latitude>
-                        <tv_station_longitude>84° 21' 35" W</tv_station_longitude>
-                        <distance>23.2898</distance>
-                        <db_source>4</db_source>
-                        <power>3000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>9</number>
-                        <tv_chann_start_freq>186</tv_chann_start_freq>
-                        <tv_chann_end_freq>192</tv_chann_end_freq>
-                        <call_sign>WEQT-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 44' 40" N</tv_station_latitude>
-                        <tv_station_longitude>84° 21' 35" W</tv_station_longitude>
-                        <distance>23.2898</distance>
-                        <db_source>4</db_source>
-                        <power>3000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>10</number>
-                        <tv_chann_start_freq>192</tv_chann_start_freq>
-                        <tv_chann_end_freq>198</tv_chann_end_freq>
-                        <call_sign>WXIA-TV</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 45' 23" N</tv_station_latitude>
-                        <tv_station_longitude>84° 19' 54" W</tv_station_longitude>
-                        <distance>21.7459</distance>
-                        <db_source>4</db_source>
-                        <power>80000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>11</number>
-                        <tv_chann_start_freq>198</tv_chann_start_freq>
-                        <tv_chann_end_freq>204</tv_chann_end_freq>
-                        <call_sign>WUEO-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 44' 40" N</tv_station_latitude>
-                        <tv_station_longitude>84° 21' 35" W</tv_station_longitude>
-                        <distance>23.2898</distance>
-                        <db_source>4</db_source>
-                        <power>3000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>12</number>
-                        <tv_chann_start_freq>204</tv_chann_start_freq>
-                        <tv_chann_end_freq>210</tv_chann_end_freq>
-                        <call_sign>WDNV-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 44' 40" N</tv_station_latitude>
-                        <tv_station_longitude>84° 21' 35" W</tv_station_longitude>
-                        <distance>23.2898</distance>
-                        <db_source>4</db_source>
-                        <power>3000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>13</number>
-                        <tv_chann_start_freq>210</tv_chann_start_freq>
-                        <tv_chann_end_freq>216</tv_chann_end_freq>
-                        <call_sign>W13DQ-D</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>950</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>14</number>
-                        <tv_chann_start_freq>470</tv_chann_start_freq>
-                        <tv_chann_end_freq>476</tv_chann_end_freq>
-                        <call_sign>WSKC-CD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 58' 37" N</tv_station_latitude>
-                        <tv_station_longitude>84° 9' 22" W</tv_station_longitude>
-                        <distance>3.65705</distance>
-                        <db_source>4</db_source>
-                        <power>15000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>15</number>
-                        <tv_chann_start_freq>476</tv_chann_start_freq>
-                        <tv_chann_end_freq>482</tv_chann_end_freq>
-                        <call_sign>WGGD-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>34° 7' 47" N</tv_station_latitude>
-                        <tv_station_longitude>83° 55' 55" W</tv_station_longitude>
-                        <distance>13.8562</distance>
-                        <db_source>4</db_source>
-                        <power>15000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>16</number>
-                        <tv_chann_start_freq>482</tv_chann_start_freq>
-                        <tv_chann_end_freq>488</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>17</number>
-                        <tv_chann_start_freq>488</tv_chann_start_freq>
-                        <tv_chann_end_freq>494</tv_chann_end_freq>
-                        <call_sign>WSB</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 55' 50" N</tv_station_latitude>
-                        <tv_station_longitude>83° 46' 58" W</tv_station_longitude>
-                        <distance>21.5995</distance>
-                        <db_source>4</db_source>
-                        <power>10000</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>18</number>
-                        <tv_chann_start_freq>494</tv_chann_start_freq>
-                        <tv_chann_end_freq>500</tv_chann_end_freq>
-                        <call_sign>WUVG-DT</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>1000000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>19</number>
-                        <tv_chann_start_freq>500</tv_chann_start_freq>
-                        <tv_chann_end_freq>506</tv_chann_end_freq>
-                        <call_sign>WANF</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>1000000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>20</number>
-                        <tv_chann_start_freq>506</tv_chann_start_freq>
-                        <tv_chann_end_freq>512</tv_chann_end_freq>
-                        <call_sign>WSB</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>34° 7' 31" N</tv_station_latitude>
-                        <tv_station_longitude>83° 51' 31" W</tv_station_longitude>
-                        <distance>17.486</distance>
-                        <db_source>4</db_source>
-                        <power>15000</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>21</number>
-                        <tv_chann_start_freq>512</tv_chann_start_freq>
-                        <tv_chann_end_freq>518</tv_chann_end_freq>
-                        <call_sign>WABE-TV</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 45' 31" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 6" W</tv_station_longitude>
-                        <distance>21.7107</distance>
-                        <db_source>4</db_source>
-                        <power>105000</power>
-                        <type>1</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>22</number>
-                        <tv_chann_start_freq>518</tv_chann_start_freq>
-                        <tv_chann_end_freq>524</tv_chann_end_freq>
-                        <call_sign>WHSG-TV</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 44' 40" N</tv_station_latitude>
-                        <tv_station_longitude>84° 21' 35" W</tv_station_longitude>
-                        <distance>23.2898</distance>
-                        <db_source>4</db_source>
-                        <power>1000000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>23</number>
-                        <tv_chann_start_freq>524</tv_chann_start_freq>
-                        <tv_chann_end_freq>530</tv_chann_end_freq>
-                        <call_sign>WKTB-CD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 55' 0" N</tv_station_latitude>
-                        <tv_station_longitude>84° 12' 5" W</tv_station_longitude>
-                        <distance>8.46013</distance>
-                        <db_source>4</db_source>
-                        <power>15000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>24</number>
-                        <tv_chann_start_freq>530</tv_chann_start_freq>
-                        <tv_chann_end_freq>536</tv_chann_end_freq>
-                        <call_sign>WVND-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>34° 5' 55" N</tv_station_latitude>
-                        <tv_station_longitude>84° 3' 5" W</tv_station_longitude>
-                        <distance>7.05644</distance>
-                        <db_source>4</db_source>
-                        <power>200</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>25</number>
-                        <tv_chann_start_freq>536</tv_chann_start_freq>
-                        <tv_chann_end_freq>542</tv_chann_end_freq>
-                        <call_sign>WATL</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>500000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>26</number>
-                        <tv_chann_start_freq>542</tv_chann_start_freq>
-                        <tv_chann_end_freq>548</tv_chann_end_freq>
-                        <call_sign>WLVO-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>15000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>27</number>
-                        <tv_chann_start_freq>548</tv_chann_start_freq>
-                        <tv_chann_end_freq>554</tv_chann_end_freq>
-                        <call_sign>WAGA-TV</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 47' 50" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 1" W</tv_station_longitude>
-                        <distance>19.4218</distance>
-                        <db_source>4</db_source>
-                        <power>1000000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>28</number>
-                        <tv_chann_start_freq>554</tv_chann_start_freq>
-                        <tv_chann_end_freq>560</tv_chann_end_freq>
-                        <call_sign>WDWW-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>8000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>29</number>
-                        <tv_chann_start_freq>560</tv_chann_start_freq>
-                        <tv_chann_end_freq>566</tv_chann_end_freq>
-                        <call_sign>WYGA-CD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 44' 40" N</tv_station_latitude>
-                        <tv_station_longitude>84° 21' 35" W</tv_station_longitude>
-                        <distance>23.2898</distance>
-                        <db_source>4</db_source>
-                        <power>15000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>30</number>
-                        <tv_chann_start_freq>566</tv_chann_start_freq>
-                        <tv_chann_end_freq>572</tv_chann_end_freq>
-                        <call_sign>WBUD-LD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>7000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>31</number>
-                        <tv_chann_start_freq>572</tv_chann_start_freq>
-                        <tv_chann_end_freq>578</tv_chann_end_freq>
-                        <call_sign>WPCH-TV</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>805000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>32</number>
-                        <tv_chann_start_freq>578</tv_chann_start_freq>
-                        <tv_chann_end_freq>584</tv_chann_end_freq>
-                        <call_sign>WSB-TV</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 45' 51" N</tv_station_latitude>
-                        <tv_station_longitude>84° 21' 41" W</tv_station_longitude>
-                        <distance>22.2078</distance>
-                        <db_source>4</db_source>
-                        <power>869000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>33</number>
-                        <tv_chann_start_freq>584</tv_chann_start_freq>
-                        <tv_chann_end_freq>590</tv_chann_end_freq>
-                        <call_sign>WIRE-CD</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 44' 40" N</tv_station_latitude>
-                        <tv_station_longitude>84° 21' 35" W</tv_station_longitude>
-                        <distance>23.2898</distance>
-                        <db_source>4</db_source>
-                        <power>15000</power>
-                        <type>5</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>34</number>
-                        <tv_chann_start_freq>590</tv_chann_start_freq>
-                        <tv_chann_end_freq>596</tv_chann_end_freq>
-                        <call_sign>WATC-DT</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>34° 3' 58" N</tv_station_latitude>
-                        <tv_station_longitude>84° 27' 16" W</tv_station_longitude>
-                        <distance>18.1435</distance>
-                        <db_source>4</db_source>
-                        <power>475000</power>
-                        <type>1</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>35</number>
-                        <tv_chann_start_freq>596</tv_chann_start_freq>
-                        <tv_chann_end_freq>602</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>36</number>
-                        <tv_chann_start_freq>602</tv_chann_start_freq>
-                        <tv_chann_end_freq>608</tv_chann_end_freq>
-                        <call_sign>WUPA</call_sign>
-                        <tv_station_country>United States</tv_station_country>
-                        <tv_station_latitude>33° 48' 25" N</tv_station_latitude>
-                        <tv_station_longitude>84° 20' 21" W</tv_station_longitude>
-                        <distance>19.0613</distance>
-                        <db_source>4</db_source>
-                        <power>1000000</power>
-                        <type>1</type>
-                        <exclude>1</exclude>
-                    </channel>
-                    <channel>
-                        <number>GB</number>
-                        <tv_chann_start_freq>614</tv_chann_start_freq>
-                        <tv_chann_end_freq>616</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>DL</number>
-                        <tv_chann_start_freq>653</tv_chann_start_freq>
-                        <tv_chann_end_freq>657</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                    <channel>
-                        <number>DU</number>
-                        <tv_chann_start_freq>657</tv_chann_start_freq>
-                        <tv_chann_end_freq>663</tv_chann_end_freq>
-                        <call_sign/>
-                        <tv_station_country/>
-                        <tv_station_latitude/>
-                        <tv_station_longitude/>
-                        <distance>0</distance>
-                        <db_source>0</db_source>
-                        <power>0</power>
-                        <type>4</type>
-                        <exclude>0</exclude>
-                    </channel>
-                </channel_avoidance_info>
-            </channel_exclusions>
             <keys_coord_order version="1.1">
                 <profile>
                     <band>H9</band>
@@ -3777,6 +3556,14 @@
                     <zone/>
                     <incl_group>13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                     <coord_order>100732500</coord_order>
+                </profile>
+                <profile>
+                    <band>G57</band>
+                    <series>SLXD</series>
+                    <tx_profile/>
+                    <zone/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                    <coord_order>700792600</coord_order>
                 </profile>
                 <profile>
                     <band>H5</band>
@@ -3797,379 +3584,12 @@
             </keys_coord_order>
             <exclusion_threshold units="dBm">-84</exclusion_threshold>
             <peak_threshold units="dBm">-60</peak_threshold>
-            <compat_profiles>
-                <compat_profile version="0.0.0.1" imd_source="1" id="302ebb71-d063-2bcd-5d5c-ebf6cbbae67e" name="More Frequencies" synthesizable="1">
-                    <spacing freq_units="KHz">
-                        <ch_ch>750</ch_ch>
-                        <imd_2t3o>175</imd_2t3o>
-                        <imd_2t5o>100</imd_2t5o>
-                        <imd_2t7o>100</imd_2t7o>
-                        <imd_2t9o>100</imd_2t9o>
-                        <imd_3t3o>125</imd_3t3o>
-                    </spacing>
-                    <filter type="0">
-                        <filter_start>-130000</filter_start>
-                        <filter_end>130000</filter_end>
-                        <filter_center>0</filter_center>
-                    </filter>
-                </compat_profile>
-                <compat_profile version="0.0.0.1" imd_source="1" id="4b942b0c-ebc4-3592-83e6-e499802e9a7d" name="Standard" synthesizable="1">
-                    <spacing freq_units="KHz">
-                        <ch_ch>350</ch_ch>
-                        <imd_2t3o>75</imd_2t3o>
-                        <imd_2t5o>0</imd_2t5o>
-                        <imd_2t7o>0</imd_2t7o>
-                        <imd_2t9o>0</imd_2t9o>
-                        <imd_3t3o>0</imd_3t3o>
-                    </spacing>
-                    <filter type="0">
-                        <filter_start>-100000</filter_start>
-                        <filter_end>100000</filter_end>
-                        <filter_center>0</filter_center>
-                    </filter>
-                </compat_profile>
-                <compat_profile version="0.0.0.1" imd_source="1" id="ad8ee13c-bb9c-251b-3af2-cc0ac9ef32c6" name="More Frequencies" synthesizable="1">
-                    <spacing freq_units="KHz">
-                        <ch_ch>1100</ch_ch>
-                        <imd_2t3o>300</imd_2t3o>
-                        <imd_2t5o>50</imd_2t5o>
-                        <imd_2t7o>50</imd_2t7o>
-                        <imd_2t9o>25</imd_2t9o>
-                        <imd_3t3o>25</imd_3t3o>
-                    </spacing>
-                    <filter type="0">
-                        <filter_start>-80000</filter_start>
-                        <filter_end>80000</filter_end>
-                        <filter_center>0</filter_center>
-                    </filter>
-                </compat_profile>
-                <compat_profile version="0.0.0.1" imd_source="1" id="8e2a8c30-f58e-d589-d192-77471bb6c128" name="More Frequencies" synthesizable="1">
-                    <spacing freq_units="KHz">
-                        <ch_ch>1100</ch_ch>
-                        <imd_2t3o>300</imd_2t3o>
-                        <imd_2t5o>50</imd_2t5o>
-                        <imd_2t7o>50</imd_2t7o>
-                        <imd_2t9o>25</imd_2t9o>
-                        <imd_3t3o>25</imd_3t3o>
-                    </spacing>
-                    <filter type="0">
-                        <filter_start>-80000</filter_start>
-                        <filter_end>80000</filter_end>
-                        <filter_center>0</filter_center>
-                    </filter>
-                </compat_profile>
-            </compat_profiles>
-            <tuning_capabilities>
-                <tuning_capability version="0.0.0.1" id="2ff897c5-bd8b-e1e9-f167-9181af681c14">
-                    <freq_list freq_units="KHz">
-                        <freq>512125</freq>
-                        <freq>512300</freq>
-                        <freq>512425</freq>
-                        <freq>512550</freq>
-                        <freq>512775</freq>
-                        <freq>513175</freq>
-                        <freq>513600</freq>
-                        <freq>513825</freq>
-                        <freq>514075</freq>
-                        <freq>514125</freq>
-                        <freq>514350</freq>
-                        <freq>514600</freq>
-                        <freq>515500</freq>
-                        <freq>515625</freq>
-                        <freq>515950</freq>
-                        <freq>516375</freq>
-                        <freq>516425</freq>
-                        <freq>517025</freq>
-                        <freq>517200</freq>
-                        <freq>517325</freq>
-                        <freq>517550</freq>
-                        <freq>518025</freq>
-                        <freq>518150</freq>
-                        <freq>518300</freq>
-                        <freq>518350</freq>
-                        <freq>518475</freq>
-                        <freq>518700</freq>
-                        <freq>518775</freq>
-                        <freq>519100</freq>
-                        <freq>519550</freq>
-                        <freq>519575</freq>
-                        <freq>520200</freq>
-                        <freq>520300</freq>
-                        <freq>520325</freq>
-                        <freq>520425</freq>
-                        <freq>520550</freq>
-                        <freq>520650</freq>
-                        <freq>520675</freq>
-                        <freq>521300</freq>
-                        <freq>521525</freq>
-                        <freq>521575</freq>
-                        <freq>521600</freq>
-                        <freq>522025</freq>
-                        <freq>522100</freq>
-                        <freq>522750</freq>
-                        <freq>522800</freq>
-                        <freq>523100</freq>
-                        <freq>523200</freq>
-                        <freq>523250</freq>
-                        <freq>523350</freq>
-                        <freq>523550</freq>
-                        <freq>523775</freq>
-                        <freq>524225</freq>
-                        <freq>524250</freq>
-                        <freq>524425</freq>
-                        <freq>524450</freq>
-                        <freq>524600</freq>
-                        <freq>524750</freq>
-                        <freq>525050</freq>
-                        <freq>525150</freq>
-                        <freq>525575</freq>
-                        <freq>525700</freq>
-                        <freq>525875</freq>
-                        <freq>525900</freq>
-                        <freq>525925</freq>
-                        <freq>526575</freq>
-                        <freq>526625</freq>
-                        <freq>526925</freq>
-                        <freq>527200</freq>
-                        <freq>527650</freq>
-                        <freq>527700</freq>
-                        <freq>528100</freq>
-                        <freq>528475</freq>
-                        <freq>528700</freq>
-                        <freq>528850</freq>
-                        <freq>529700</freq>
-                        <freq>529725</freq>
-                        <freq>530300</freq>
-                        <freq>530450</freq>
-                        <freq>530675</freq>
-                        <freq>531175</freq>
-                        <freq>531350</freq>
-                        <freq>532025</freq>
-                        <freq>532175</freq>
-                        <freq>532400</freq>
-                        <freq>532900</freq>
-                        <freq>533600</freq>
-                        <freq>533700</freq>
-                        <freq>533800</freq>
-                        <freq>533825</freq>
-                        <freq>533875</freq>
-                        <freq>534075</freq>
-                        <freq>534400</freq>
-                        <freq>534850</freq>
-                        <freq>535075</freq>
-                        <freq>535375</freq>
-                        <freq>535675</freq>
-                        <freq>535725</freq>
-                        <freq>535850</freq>
-                        <freq>535975</freq>
-                        <freq>536150</freq>
-                        <freq>536175</freq>
-                        <freq>537000</freq>
-                        <freq>537075</freq>
-                        <freq>537275</freq>
-                        <freq>537325</freq>
-                        <freq>537375</freq>
-                        <freq>537550</freq>
-                        <freq>537800</freq>
-                        <freq>537900</freq>
-                        <freq>538175</freq>
-                        <freq>538400</freq>
-                        <freq>538500</freq>
-                        <freq>539125</freq>
-                        <freq>539450</freq>
-                        <freq>539600</freq>
-                        <freq>539825</freq>
-                        <freq>539850</freq>
-                        <freq>539900</freq>
-                        <freq>539925</freq>
-                        <freq>540175</freq>
-                        <freq>540350</freq>
-                        <freq>540475</freq>
-                        <freq>540600</freq>
-                        <freq>540700</freq>
-                        <freq>540925</freq>
-                        <freq>540950</freq>
-                        <freq>541075</freq>
-                        <freq>541450</freq>
-                        <freq>541575</freq>
-                        <freq>541600</freq>
-                        <freq>541675</freq>
-                        <freq>541775</freq>
-                        <freq>541800</freq>
-                    </freq_list>
-                </tuning_capability>
-                <tuning_capability version="0.0.0.1" id="2f047643-d140-0cb8-c363-7bfa0f2753d2">
-                    <range freq_units="KHz">
-                        <start>470125</start>
-                        <end>534000</end>
-                        <step>25</step>
-                    </range>
-                    <sub_range_list freq_units="KHz">
-                        <sub_range>
-                            <start>470125</start>
-                            <end>534000</end>
-                        </sub_range>
-                    </sub_range_list>
-                </tuning_capability>
-                <tuning_capability version="0.0.0.1" id="4a58634e-2405-25f0-f584-4e6a30a3da53">
-                    <freq_list freq_units="KHz">
-                        <freq>518200</freq>
-                        <freq>518400</freq>
-                        <freq>518425</freq>
-                        <freq>519100</freq>
-                        <freq>519250</freq>
-                        <freq>519675</freq>
-                        <freq>519775</freq>
-                        <freq>520400</freq>
-                        <freq>520500</freq>
-                        <freq>520800</freq>
-                        <freq>521225</freq>
-                        <freq>521500</freq>
-                        <freq>522225</freq>
-                        <freq>522450</freq>
-                        <freq>522500</freq>
-                        <freq>522550</freq>
-                        <freq>523425</freq>
-                        <freq>523575</freq>
-                        <freq>523750</freq>
-                        <freq>524200</freq>
-                        <freq>524575</freq>
-                        <freq>524725</freq>
-                        <freq>525050</freq>
-                        <freq>525475</freq>
-                        <freq>525600</freq>
-                        <freq>526200</freq>
-                        <freq>526350</freq>
-                        <freq>526700</freq>
-                        <freq>526900</freq>
-                        <freq>527425</freq>
-                        <freq>527550</freq>
-                        <freq>527775</freq>
-                        <freq>528250</freq>
-                        <freq>528325</freq>
-                        <freq>529200</freq>
-                        <freq>529500</freq>
-                        <freq>530500</freq>
-                        <freq>530800</freq>
-                        <freq>531675</freq>
-                        <freq>531750</freq>
-                        <freq>532225</freq>
-                        <freq>532450</freq>
-                        <freq>532575</freq>
-                        <freq>533100</freq>
-                        <freq>533300</freq>
-                        <freq>533650</freq>
-                        <freq>533800</freq>
-                        <freq>534400</freq>
-                        <freq>534525</freq>
-                        <freq>534950</freq>
-                        <freq>535275</freq>
-                        <freq>535425</freq>
-                        <freq>535800</freq>
-                        <freq>536250</freq>
-                        <freq>536425</freq>
-                        <freq>536575</freq>
-                        <freq>537450</freq>
-                        <freq>537500</freq>
-                        <freq>537550</freq>
-                        <freq>537775</freq>
-                        <freq>538500</freq>
-                        <freq>538775</freq>
-                        <freq>539200</freq>
-                        <freq>539500</freq>
-                        <freq>539600</freq>
-                        <freq>540225</freq>
-                        <freq>540325</freq>
-                        <freq>540750</freq>
-                        <freq>540900</freq>
-                        <freq>541575</freq>
-                        <freq>541600</freq>
-                        <freq>541800</freq>
-                    </freq_list>
-                </tuning_capability>
-                <tuning_capability version="0.0.0.1" id="c6753a63-acf1-ff24-002b-163ac3327ae3">
-                    <freq_list freq_units="KHz">
-                        <freq>572200</freq>
-                        <freq>572400</freq>
-                        <freq>572425</freq>
-                        <freq>573100</freq>
-                        <freq>573250</freq>
-                        <freq>573675</freq>
-                        <freq>573775</freq>
-                        <freq>574400</freq>
-                        <freq>574500</freq>
-                        <freq>574800</freq>
-                        <freq>575225</freq>
-                        <freq>575500</freq>
-                        <freq>576225</freq>
-                        <freq>576450</freq>
-                        <freq>576500</freq>
-                        <freq>576550</freq>
-                        <freq>577425</freq>
-                        <freq>577575</freq>
-                        <freq>577750</freq>
-                        <freq>578200</freq>
-                        <freq>578575</freq>
-                        <freq>578725</freq>
-                        <freq>579050</freq>
-                        <freq>579475</freq>
-                        <freq>579600</freq>
-                        <freq>580200</freq>
-                        <freq>580350</freq>
-                        <freq>580700</freq>
-                        <freq>580900</freq>
-                        <freq>581425</freq>
-                        <freq>581550</freq>
-                        <freq>581775</freq>
-                        <freq>582250</freq>
-                        <freq>582325</freq>
-                        <freq>583200</freq>
-                        <freq>583500</freq>
-                        <freq>584500</freq>
-                        <freq>584800</freq>
-                        <freq>585675</freq>
-                        <freq>585750</freq>
-                        <freq>586225</freq>
-                        <freq>586450</freq>
-                        <freq>586575</freq>
-                        <freq>587100</freq>
-                        <freq>587300</freq>
-                        <freq>587650</freq>
-                        <freq>587800</freq>
-                        <freq>588400</freq>
-                        <freq>588525</freq>
-                        <freq>588950</freq>
-                        <freq>589275</freq>
-                        <freq>589425</freq>
-                        <freq>589800</freq>
-                        <freq>590250</freq>
-                        <freq>590425</freq>
-                        <freq>590575</freq>
-                        <freq>591450</freq>
-                        <freq>591500</freq>
-                        <freq>591550</freq>
-                        <freq>591775</freq>
-                        <freq>592500</freq>
-                        <freq>592775</freq>
-                        <freq>593200</freq>
-                        <freq>593500</freq>
-                        <freq>593600</freq>
-                        <freq>594225</freq>
-                        <freq>594325</freq>
-                        <freq>594750</freq>
-                        <freq>594900</freq>
-                        <freq>595575</freq>
-                        <freq>595600</freq>
-                        <freq>595800</freq>
-                    </freq_list>
-                </tuning_capability>
-            </tuning_capabilities>
         </CFL>
     </CFLs>
     <plot_info>
         <showlink_plot version="1.1">
             <plots>
-                <plot geometry="01d9d0cb000300000000001e0000005c000005ff000001f50000001e00000078000005ff000001f500000000000000000a000000001e00000078000005ff000001f5" visible="false" title="ShowLink plot"/>
+                <plot geometry="01d9d0cb000300000000001e0000005c000005ff000001f50000001e00000078000005ff000001f500000000000000000a000000001e00000078000005ff000001f5" title="ShowLink plot" visible="false"/>
             </plots>
         </showlink_plot>
         <coordination_plot version="1.2">
@@ -4182,9 +3602,9 @@
     </plot_info>
     <custom_user_group_list>
         <inclusion_list version="1.0" name="Custom" uuid="d2e70e2f-4aca-4396-8ae4-8ea2b1a4c336" active="true">
-            <inclusion_group color="#585858" version="1.0" name="USA" uuid="c4106f7b-80d9-4efd-a42b-7d4a941aaa54">
-                <freqs units="KHz" count="0"/>
-                <freq_ranges units="KHz" count="1">
+            <inclusion_group version="1.0" name="USA" uuid="c4106f7b-80d9-4efd-a42b-7d4a941aaa54" color="#585858">
+                <freqs count="0" units="KHz"/>
+                <freq_ranges count="1" units="KHz">
                     <fr>
                         <f>470000</f>
                         <f>608000</f>
@@ -4195,54 +3615,54 @@
     </custom_user_group_list>
     <band_plan_group_list version="1.0">
         <band_plan_list version="1.0" name="Theatre" uuid="3fd4cfc3-4bda-42af-ade1-ca7a1038a281" active="true">
-            <inclusion_group color="#585858" version="1.0" name="QLXD4" uuid="13a33abc-d6fb-4d61-9d32-ba66eea9e895">
-                <freqs units="KHz" count="0"/>
-                <freq_ranges units="KHz" count="1">
+            <inclusion_group version="1.0" name="QLXD4" uuid="13a33abc-d6fb-4d61-9d32-ba66eea9e895" color="#585858">
+                <freqs count="0" units="KHz"/>
+                <freq_ranges count="1" units="KHz">
                     <fr>
                         <f>470000</f>
                         <f>512000</f>
                     </fr>
                 </freq_ranges>
             </inclusion_group>
-            <inclusion_group color="#585858" version="1.0" name="SLX H5 House" uuid="5d9f0f27-0b8d-4a43-9714-7e60340097e4">
-                <freqs units="KHz" count="0"/>
-                <freq_ranges units="KHz" count="1">
+            <inclusion_group version="1.0" name="SLX H5 House" uuid="5d9f0f27-0b8d-4a43-9714-7e60340097e4" color="#585858">
+                <freqs count="0" units="KHz"/>
+                <freq_ranges count="1" units="KHz">
                     <fr>
                         <f>518000</f>
                         <f>542000</f>
                     </fr>
                 </freq_ranges>
             </inclusion_group>
-            <inclusion_group color="#585858" version="1.0" name="BLX" uuid="f24087bf-16da-4bea-bc98-0b9ffc24343f">
-                <freqs units="KHz" count="0"/>
-                <freq_ranges units="KHz" count="1">
+            <inclusion_group version="1.0" name="BLX" uuid="f24087bf-16da-4bea-bc98-0b9ffc24343f" color="#585858">
+                <freqs count="0" units="KHz"/>
+                <freq_ranges count="1" units="KHz">
                     <fr>
                         <f>512000</f>
                         <f>541000</f>
                     </fr>
                 </freq_ranges>
             </inclusion_group>
-            <inclusion_group color="#585858" version="1.0" name="SLX J3 Cart" uuid="41a19131-fb31-48db-8779-2f8a6b5d9c3f">
-                <freqs units="KHz" count="0"/>
-                <freq_ranges units="KHz" count="1">
+            <inclusion_group version="1.0" name="SLX J3 Cart" uuid="41a19131-fb31-48db-8779-2f8a6b5d9c3f" color="#585858">
+                <freqs count="0" units="KHz"/>
+                <freq_ranges count="1" units="KHz">
                     <fr>
                         <f>572000</f>
                         <f>594000</f>
                     </fr>
                 </freq_ranges>
             </inclusion_group>
-            <inclusion_group color="#585858" version="1.0" name="SLX J3 House" uuid="17a4b85f-a8d9-4c52-aad4-a1881e8a19ab">
-                <freqs units="KHz" count="0"/>
-                <freq_ranges units="KHz" count="1">
+            <inclusion_group version="1.0" name="SLX J3 House" uuid="17a4b85f-a8d9-4c52-aad4-a1881e8a19ab" color="#585858">
+                <freqs count="0" units="KHz"/>
+                <freq_ranges count="1" units="KHz">
                     <fr>
                         <f>572000</f>
                         <f>595000</f>
                     </fr>
                 </freq_ranges>
             </inclusion_group>
-            <inclusion_group color="#585858" version="1.0" name="EW100 G3" uuid="51065b64-f376-4199-94a0-1b3b72b5cab8">
-                <freqs units="KHz" count="0"/>
-                <freq_ranges units="KHz" count="1">
+            <inclusion_group version="1.0" name="EW100 G3" uuid="51065b64-f376-4199-94a0-1b3b72b5cab8" color="#585858">
+                <freqs count="0" units="KHz"/>
+                <freq_ranges count="1" units="KHz">
                     <fr>
                         <f>596000</f>
                         <f>607000</f>
@@ -4252,8 +3672,8 @@
         </band_plan_list>
     </band_plan_group_list>
     <coordinated_data_root version="0.3" id="b794916b-06e0-45d3-9f1a-93a25a3f3efa">
-        <mic_channels units="khz" count="22">
-            <freq_entry color="#0055ff" tag="" id="784390CC-CB7D-445C-8152-2DE0C5EB9731">
+        <mic_channels count="28" units="khz">
+            <freq_entry tag="" id="784390CC-CB7D-445C-8152-2DE0C5EB9731" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4272,7 +3692,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>784390CC-CB7D-445C-8152-2DE0C5EB9731</source_id>
@@ -4283,7 +3703,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="04109C8D-DD8C-4817-9FC0-AC170735DCAF">
+            <freq_entry tag="" id="04109C8D-DD8C-4817-9FC0-AC170735DCAF" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4302,7 +3722,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>04109C8D-DD8C-4817-9FC0-AC170735DCAF</source_id>
@@ -4313,7 +3733,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="0B36B0C9-2B8C-45B1-AFA0-50341FAEAB3B">
+            <freq_entry tag="" id="0B36B0C9-2B8C-45B1-AFA0-50341FAEAB3B" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4332,7 +3752,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>0B36B0C9-2B8C-45B1-AFA0-50341FAEAB3B</source_id>
@@ -4343,7 +3763,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="7EE65E1B-EA1B-4BF0-B316-F4AD533D5B2F">
+            <freq_entry tag="" id="7EE65E1B-EA1B-4BF0-B316-F4AD533D5B2F" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4362,7 +3782,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>7EE65E1B-EA1B-4BF0-B316-F4AD533D5B2F</source_id>
@@ -4373,7 +3793,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="66E6D3C3-90A8-4519-BC2D-AD753F41990C">
+            <freq_entry tag="" id="66E6D3C3-90A8-4519-BC2D-AD753F41990C" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4392,7 +3812,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>66E6D3C3-90A8-4519-BC2D-AD753F41990C</source_id>
@@ -4403,7 +3823,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="7F84FA36-4C20-419E-8C9D-30BB42589441">
+            <freq_entry tag="" id="7F84FA36-4C20-419E-8C9D-30BB42589441" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4422,7 +3842,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>7F84FA36-4C20-419E-8C9D-30BB42589441</source_id>
@@ -4433,7 +3853,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="4B1D36CA-A933-423A-984B-5243CCEB43E0">
+            <freq_entry tag="" id="4B1D36CA-A933-423A-984B-5243CCEB43E0" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4452,7 +3872,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>4B1D36CA-A933-423A-984B-5243CCEB43E0</source_id>
@@ -4463,7 +3883,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="B1CC596E-108B-476F-AEB8-5225CCD81C4B">
+            <freq_entry tag="" id="B1CC596E-108B-476F-AEB8-5225CCD81C4B" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4482,7 +3902,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>B1CC596E-108B-476F-AEB8-5225CCD81C4B</source_id>
@@ -4493,7 +3913,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="D5CEBBCE-A428-4259-A1DD-F2F3FF3162B8">
+            <freq_entry tag="" id="D5CEBBCE-A428-4259-A1DD-F2F3FF3162B8" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4512,7 +3932,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>D5CEBBCE-A428-4259-A1DD-F2F3FF3162B8</source_id>
@@ -4523,7 +3943,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#0055ff" tag="" id="B6F5CAA7-1354-4E16-A8C2-4A67026E6381">
+            <freq_entry tag="" id="B6F5CAA7-1354-4E16-A8C2-4A67026E6381" color="#0055ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>QLXD</series>
@@ -4542,7 +3962,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>QLXD4</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>B6F5CAA7-1354-4E16-A8C2-4A67026E6381</source_id>
@@ -4553,7 +3973,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="76E06A4A-6BDF-4314-84DE-21E65A8BEAF3">
+            <freq_entry tag="" id="76E06A4A-6BDF-4314-84DE-21E65A8BEAF3" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>BLX</series>
@@ -4570,9 +3990,9 @@
                 <coord_order>600172000</coord_order>
                 <imd_source>1</imd_source>
                 <vip>0</vip>
-                <synth_status>1</synth_status>
+                <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>BLX4R</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>76E06A4A-6BDF-4314-84DE-21E65A8BEAF3</source_id>
@@ -4583,7 +4003,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="4407E5BF-17D7-4875-8C3E-F0A4F7126BC8">
+            <freq_entry tag="" id="4407E5BF-17D7-4875-8C3E-F0A4F7126BC8" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4602,7 +4022,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>4407E5BF-17D7-4875-8C3E-F0A4F7126BC8</source_id>
@@ -4613,7 +4033,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="6255F5F8-AC03-4F37-BFDC-FD3471327D03">
+            <freq_entry tag="" id="6255F5F8-AC03-4F37-BFDC-FD3471327D03" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4632,7 +4052,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>6255F5F8-AC03-4F37-BFDC-FD3471327D03</source_id>
@@ -4643,7 +4063,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="2953DA19-37D1-4C4F-A818-60238E2CBE52">
+            <freq_entry tag="" id="2953DA19-37D1-4C4F-A818-60238E2CBE52" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4662,7 +4082,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>2953DA19-37D1-4C4F-A818-60238E2CBE52</source_id>
@@ -4673,7 +4093,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="1DB32874-A9BF-41A6-9A40-025CE950326B">
+            <freq_entry tag="" id="1DB32874-A9BF-41A6-9A40-025CE950326B" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4692,7 +4112,7 @@
                 <vip>0</vip>
                 <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>1DB32874-A9BF-41A6-9A40-025CE950326B</source_id>
@@ -4703,7 +4123,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="712966E3-C568-4FF5-93F3-9B41E6D0EEEE">
+            <freq_entry tag="" id="712966E3-C568-4FF5-93F3-9B41E6D0EEEE" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4720,9 +4140,9 @@
                 <coord_order>400161200</coord_order>
                 <imd_source>1</imd_source>
                 <vip>0</vip>
-                <synth_status>1</synth_status>
+                <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>712966E3-C568-4FF5-93F3-9B41E6D0EEEE</source_id>
@@ -4733,7 +4153,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="8815F098-3CE3-4FBB-BCE2-B77F09D99D07">
+            <freq_entry tag="" id="8815F098-3CE3-4FBB-BCE2-B77F09D99D07" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4750,9 +4170,9 @@
                 <coord_order>400161200</coord_order>
                 <imd_source>1</imd_source>
                 <vip>0</vip>
-                <synth_status>1</synth_status>
+                <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>8815F098-3CE3-4FBB-BCE2-B77F09D99D07</source_id>
@@ -4763,7 +4183,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="CCBE51BC-907F-48B4-A17E-1AF199F68EB0">
+            <freq_entry tag="" id="CCBE51BC-907F-48B4-A17E-1AF199F68EB0" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4780,9 +4200,9 @@
                 <coord_order>400161200</coord_order>
                 <imd_source>1</imd_source>
                 <vip>0</vip>
-                <synth_status>1</synth_status>
+                <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>CCBE51BC-907F-48B4-A17E-1AF199F68EB0</source_id>
@@ -4793,7 +4213,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="981A7F33-3667-49BC-BD3C-A02B8CF70F4A">
+            <freq_entry tag="" id="981A7F33-3667-49BC-BD3C-A02B8CF70F4A" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4810,9 +4230,9 @@
                 <coord_order>400161200</coord_order>
                 <imd_source>1</imd_source>
                 <vip>0</vip>
-                <synth_status>1</synth_status>
+                <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>981A7F33-3667-49BC-BD3C-A02B8CF70F4A</source_id>
@@ -4823,7 +4243,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="94CF2276-188E-4B2B-9508-77053F97E988">
+            <freq_entry tag="" id="94CF2276-188E-4B2B-9508-77053F97E988" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4840,9 +4260,9 @@
                 <coord_order>400161200</coord_order>
                 <imd_source>1</imd_source>
                 <vip>0</vip>
-                <synth_status>1</synth_status>
+                <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>94CF2276-188E-4B2B-9508-77053F97E988</source_id>
@@ -4853,7 +4273,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="25ADD7A6-20E1-4BD4-8375-962184356217">
+            <freq_entry tag="" id="25ADD7A6-20E1-4BD4-8375-962184356217" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4870,9 +4290,9 @@
                 <coord_order>400161200</coord_order>
                 <imd_source>1</imd_source>
                 <vip>0</vip>
-                <synth_status>1</synth_status>
+                <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>25ADD7A6-20E1-4BD4-8375-962184356217</source_id>
@@ -4883,7 +4303,7 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
-            <freq_entry color="#aa00ff" tag="" id="6049FC1F-D12A-4525-B458-59E58065DF09">
+            <freq_entry tag="" id="6049FC1F-D12A-4525-B458-59E58065DF09" color="#aa00ff">
                 <compat_key>
                     <zone>Default</zone>
                     <series>SLX</series>
@@ -4900,9 +4320,9 @@
                 <coord_order>400161200</coord_order>
                 <imd_source>1</imd_source>
                 <vip>0</vip>
-                <synth_status>1</synth_status>
+                <synth_status>0</synth_status>
                 <chann_num>-1</chann_num>
-                <diversity div_partner_id="-1" div_mode="0"/>
+                <diversity div_mode="0" div_partner_id="-1"/>
                 <model>SLX</model>
                 <manufacturer>Shure</manufacturer>
                 <source_id>6049FC1F-D12A-4525-B458-59E58065DF09</source_id>
@@ -4913,15 +4333,195 @@
                     <dev_type>Rack</dev_type>
                 </dev_category>
             </freq_entry>
+            <freq_entry tag="" id="E16C5573-E2FC-4BAB-91A5-324B788ACE05-1" color="#585858">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>SLXD</series>
+                    <band>G57</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>d7a36503-b69e-40cd-e7d9-b5c701d3b9bb</compat_prof_id>
+                <value>470400</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>7</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>700792600</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>1</synth_status>
+                <chann_num>1</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>SLXD4D+</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>E16C5573-E2FC-4BAB-91A5-324B788ACE05-1</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry tag="" id="E16C5573-E2FC-4BAB-91A5-324B788ACE05-0" color="#585858">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>SLXD</series>
+                    <band>G57</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>d7a36503-b69e-40cd-e7d9-b5c701d3b9bb</compat_prof_id>
+                <value>493075</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>7</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>700792600</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>1</synth_status>
+                <chann_num>0</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>SLXD4D+</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>E16C5573-E2FC-4BAB-91A5-324B788ACE05-0</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry tag="" id="58B82EE5-5AB1-421B-A136-F33111926C6D-1" color="#585858">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>SLXD</series>
+                    <band>G57</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>d7a36503-b69e-40cd-e7d9-b5c701d3b9bb</compat_prof_id>
+                <value>528950</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>7</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>700792600</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>1</synth_status>
+                <chann_num>1</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>SLXD4D+</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>58B82EE5-5AB1-421B-A136-F33111926C6D-1</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry tag="" id="58B82EE5-5AB1-421B-A136-F33111926C6D-0" color="#585858">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>SLXD</series>
+                    <band>G57</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>d7a36503-b69e-40cd-e7d9-b5c701d3b9bb</compat_prof_id>
+                <value>564000</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>7</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>700792600</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>1</synth_status>
+                <chann_num>0</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>SLXD4D+</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>58B82EE5-5AB1-421B-A136-F33111926C6D-0</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry tag="" id="48E1D7F8-1898-4367-B15D-6BDD3129EFC2-1" color="#585858">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>SLXD</series>
+                    <band>G57</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>d7a36503-b69e-40cd-e7d9-b5c701d3b9bb</compat_prof_id>
+                <value>598675</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>7</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>700792600</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>1</synth_status>
+                <chann_num>1</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>SLXD4D+</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>48E1D7F8-1898-4367-B15D-6BDD3129EFC2-1</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry tag="" id="48E1D7F8-1898-4367-B15D-6BDD3129EFC2-0" color="#585858">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>SLXD</series>
+                    <band>G57</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>d7a36503-b69e-40cd-e7d9-b5c701d3b9bb</compat_prof_id>
+                <value>599750</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>7</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>700792600</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>1</synth_status>
+                <chann_num>0</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>SLXD4D+</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>48E1D7F8-1898-4367-B15D-6BDD3129EFC2-0</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
         </mic_channels>
-        <compatibility_profile_settings count="4" version="1.0">
+        <compatibility_profile_settings count="5" version="1.0">
             <profile>
                 <band>H9</band>
                 <series>BLX</series>
                 <tx_profile/>
                 <zone>Default</zone>
                 <incl_group>f24087bf-16da-4bea-bc98-0b9ffc24343f</incl_group>
-                <compat_profile version="0.0.0.1" imd_source="1" id="302ebb71-d063-2bcd-5d5c-ebf6cbbae67e" name="More Frequencies" synthesizable="1">
+                <compat_profile version="0.0.0.1" imd_source="1" name="More Frequencies" synthesizable="1" id="302ebb71-d063-2bcd-5d5c-ebf6cbbae67e">
                     <spacing freq_units="KHz">
                         <ch_ch>750</ch_ch>
                         <imd_2t3o>175</imd_2t3o>
@@ -4943,10 +4543,32 @@
                 <tx_profile/>
                 <zone>Default</zone>
                 <incl_group>13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
-                <compat_profile version="0.0.0.1" imd_source="1" id="4b942b0c-ebc4-3592-83e6-e499802e9a7d" name="Standard" synthesizable="1">
+                <compat_profile version="0.0.0.1" imd_source="1" name="Standard" synthesizable="1" id="4b942b0c-ebc4-3592-83e6-e499802e9a7d">
                     <spacing freq_units="KHz">
                         <ch_ch>350</ch_ch>
                         <imd_2t3o>75</imd_2t3o>
+                        <imd_2t5o>0</imd_2t5o>
+                        <imd_2t7o>0</imd_2t7o>
+                        <imd_2t9o>0</imd_2t9o>
+                        <imd_3t3o>0</imd_3t3o>
+                    </spacing>
+                    <filter type="0">
+                        <filter_start>-100000</filter_start>
+                        <filter_end>100000</filter_end>
+                        <filter_center>0</filter_center>
+                    </filter>
+                </compat_profile>
+            </profile>
+            <profile>
+                <band>G57</band>
+                <series>SLXD</series>
+                <tx_profile/>
+                <zone>Default</zone>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <compat_profile version="0.0.0.1" imd_source="1" name="Standard" synthesizable="1" id="69b0e5cc-569c-5e41-d737-ce80aca83ed0">
+                    <spacing freq_units="KHz">
+                        <ch_ch>450</ch_ch>
+                        <imd_2t3o>200</imd_2t3o>
                         <imd_2t5o>0</imd_2t5o>
                         <imd_2t7o>0</imd_2t7o>
                         <imd_2t9o>0</imd_2t9o>
@@ -4965,7 +4587,7 @@
                 <tx_profile/>
                 <zone>Default</zone>
                 <incl_group>5d9f0f27-0b8d-4a43-9714-7e60340097e4</incl_group>
-                <compat_profile version="0.0.0.1" imd_source="1" id="ad8ee13c-bb9c-251b-3af2-cc0ac9ef32c6" name="More Frequencies" synthesizable="1">
+                <compat_profile version="0.0.0.1" imd_source="1" name="More Frequencies" synthesizable="1" id="ad8ee13c-bb9c-251b-3af2-cc0ac9ef32c6">
                     <spacing freq_units="KHz">
                         <ch_ch>1100</ch_ch>
                         <imd_2t3o>300</imd_2t3o>
@@ -4987,7 +4609,7 @@
                 <tx_profile/>
                 <zone>Default</zone>
                 <incl_group>17a4b85f-a8d9-4c52-aad4-a1881e8a19ab</incl_group>
-                <compat_profile version="0.0.0.1" imd_source="1" id="8e2a8c30-f58e-d589-d192-77471bb6c128" name="More Frequencies" synthesizable="1">
+                <compat_profile version="0.0.0.1" imd_source="1" name="More Frequencies" synthesizable="1" id="8e2a8c30-f58e-d589-d192-77471bb6c128">
                     <spacing freq_units="KHz">
                         <ch_ch>1100</ch_ch>
                         <imd_2t3o>300</imd_2t3o>
@@ -5020,6 +4642,14 @@
                 <zone/>
                 <incl_group>13a33abc-d6fb-4d61-9d32-ba66eea9e895</incl_group>
                 <coord_order>100732500</coord_order>
+            </profile>
+            <profile>
+                <band>G57</band>
+                <series>SLXD</series>
+                <tx_profile/>
+                <zone/>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <coord_order>700792600</coord_order>
             </profile>
             <profile>
                 <band>H5</band>
@@ -5060,7 +4690,7 @@
             <plot_view_mode>2</plot_view_mode>
         </autolog_parameters>
         <monitoring_pager version="1.1">
-            <view name="View 1" id="{31f57f0f-0ec3-44b1-8164-7343cb7fdea8}" active="true"/>
+            <view name="View 1" active="true" id="{31f57f0f-0ec3-44b1-8164-7343cb7fdea8}"/>
         </monitoring_pager>
         <monitoring_registry version="1.1">
             <view id="{31f57f0f-0ec3-44b1-8164-7343cb7fdea8}">

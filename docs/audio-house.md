@@ -226,7 +226,7 @@ Standard 19" rackmount case with wireless microphone receivers and antenna distr
 | QTY | Equipment | Notes |
 |-----|-----------|-------|
 | 3 | [Shure UA844+SWB](https://www.shure.com/en-US/products/accessories/ua844p?variant=UA844+SWB) | Active Antenna Distribution (470-960 MHz) |
-| 2	| [Shure UAB74US Antennas](https://www.shure.com/en-US/products/accessories/ua874?variant=UA874US) | Active Directional Antennas (470-698 MHz) |
+| 2	| [Shure UA874US Antennas](https://www.shure.com/en-US/products/accessories/ua874?variant=UA874US) | Active Directional Antennas (470-698 MHz) |
 | 4	| [Shure SLX4 (H5 518–542 MHz)](https://www.shure.com/en-US/docs/guide/SLX) | Analog Receivers for Belt Packs WMIC 1,2,9,10 |
 | 7	| [Shure SLX4 (J3 572–596 MHz)](https://www.shure.com/en-US/docs/guide/SLX) | Analog Receivers for Belt Packs WMIC 3,4,5,6,7,8,17 |
 | 1	| [Shure BLX4R (H9 518–542 MHz)](https://www.shure.com/en-US/products/wireless-systems/blx_wireless/blx4r?variant=BLX4R%3D-H9) | Wireless Mic |
