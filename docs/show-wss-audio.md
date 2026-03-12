@@ -6,6 +6,8 @@
 
 For many technical reasons we used the Yamaha TF-5 normally housed in the tech booth for audio mixing in this show. The analog board would not be able to keep up with the significant changes between scenes and we wanted to use more advanced features as found on a modern mixing console. More details about scenes can be found in the show's [scene notes page](show-wss-scenes.md).
 
+![](images/wss-audio.jpg)
+
 ### Recording Output Mix
 
 In order to provide a clean signal to record the show (as needed for the Shuler adjudication performance) we must have a dedicated signal using both left and right stereo signals, downmixed to mono. This can be easily accomplished with the TF-5 using a Matrix output.

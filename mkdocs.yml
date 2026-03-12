@@ -49,6 +49,7 @@ plugins:
 # Define the navigation structure
 nav:
   - Home: index.md
+  - Troubleshooting: troubleshooting.md
   - Electrical:
     - Breakers: electrical-breakers.md
   - Sound:
