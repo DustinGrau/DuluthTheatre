@@ -34,3 +34,9 @@ When attempting to fit all of the available wireless mics into the available fre
 By removing concerns over some mid-power TV stations this opens up a few small frequency gaps to fit the available systems, at the cost of ignoring the 6 SLX (J3) units in the mobile cart in the name of making all of the in-house mics available for use. This poses the perfect use-case for replacing 6 units with a newer system that can better utilize the unused space in the middle of the 470-608 MHz frequency range.
 
 ![](images/Freq-Coord-After.png)
+
+## House Channel Assignments
+
+For best results in the theatre space as of March 2026, please [refer to this document for assignments](files/House-Channel-Assignment.pdf) of Frequencies or Groups and Channels for the available wireless mic systems. All intended mic channels should be clearly labelled in the PDF, though the SLX units show the H5 or J3 frequency band in the lower-right corner of each receiver. The BLX4R and all SLX units will only accept a Group/Channel selection while the QLXD units can be dialed in directly to a frequency.
+
+**Note:** For the BLX4R press and hold the Group or Channel button to allow selection of a specific value. If you quickly press either button the receiver will only perform a scan for an available group/channel.
