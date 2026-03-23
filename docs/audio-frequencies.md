@@ -39,4 +39,6 @@ By removing concerns over some mid-power TV stations this opens up a few small f
 
 For best results in the theatre space as of March 2026, please [refer to this document for assignments](files/House-Channel-Assignment.pdf) of Frequencies or Groups and Channels for the available wireless mic systems. All intended mic channels should be clearly labelled in the PDF, though the SLX units show the H5 or J3 frequency band in the lower-right corner of each receiver. The BLX4R and all SLX units will only accept a Group/Channel selection while the QLXD units can be dialed in directly to a frequency.
 
-**Note:** For the BLX4R press and hold the Group or Channel button to allow selection of a specific value. If you quickly press either button the receiver will only perform a scan for an available group/channel.
+When utilizing mics for the house, the highest quality and most dependable units will be the QLXD's though these are not normally patched into the Yamaha TF-5. Among the SLX receivers use those marked in the H5 band first (WMic's 1, 2, 9, 10), followed by the J3 band units.
+
+> **Note:** For the BLX4R press and hold the Group or Channel button to allow selection of a specific value. If you quickly press either button the receiver will only perform a scan for an available group/channel.
