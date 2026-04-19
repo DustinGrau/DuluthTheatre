@@ -4,7 +4,7 @@
 
 **Software Version:** 3.3.2.36 (as of December 2025)
 
-[Product Info](https://www.etcconnect.com/Products/Consoles/Eos-Consoles/Ion-Xe/Features.aspx?LangType=1033)
+[Product Info](https://www.etcconnect.com/Products/Consoles/Eos-Consoles/Ion-Xe/Features.aspx)
 
 [Online Manual](https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en-us/Default.htm)
 
@@ -118,3 +118,8 @@ The Soft Focus Diffuser is a diffuser that is an accessory for Source Four LED f
 
 * `<channel number, combo, or thru> [At] [Out] [Park] [Enter]`
 * `[Park] [Enter]` - Prompts to un-park any parked channels
+
+
+## Older Consoles
+
+* [ETC Element](https://www.etcconnect.com/Products/Legacy/Console/Eos-Family/Element/Features.aspx)
