@@ -1,7 +1,60 @@
 # Video Streaming
 
-IP Cameras —> Network Switches —> OBS —> Network Switches —> HDMI over IP —> Monitors
+As of 2026 the DHS Theatre is equipped with a closed-circuit TV system which can be used to display videos feeds to monitors in the backstage wings and tech booth. The content for these monitors originates from an iMac running Open Broadcast Studio (OBS) which is a free video compositing suite familiar to many YouTubers and Vloggers on the Internet.
 
+## HDMI Streaming/Distribution
+
+Please refer to the diagrams below to understand the connections involved.
+
+### Tech Booth - Device Connection Diagram
+
+The iMac should be your first source of truth when troubleshooting or starting the workflow. When OBS is running it should be displaying the feeds from the 4 cameras--any problems at this stage is likely related to networking or power. If any cameras are blank, be sure that the network switches have been powered up and lights are illuminated for the ports.
+
+The next source of truth is the booth monitor which should show the direct video feed as it enters the streaming transmitter.
+
+```mermaid
+graph TB
+    A[48-Port Netgear Switch]
+    A -->|Ethernet - Port 4| B[iMac]
+    B -->|Mini-DisplayPort| D[MiniDP to HDMI<br/>Adapter]
+    D -->|HDMI| E[HDMI Splitter<br/>1 In - 1 Out]
+    E -->|HDMI| C
+    C -->|HDMI-1| F[Booth Monitor]
+    C[Monoprice Blackbird<br/>Streaming Transmitter] -->|Ethernet - Port 43| A
+
+    style A fill:#ffe1f5
+    style B fill:#e1f5ff
+    style C fill:#e1ffe1
+    style D fill:#fff4e1
+    style E fill:#fff4e1
+    style F fill:#f5e1ff
+```
+
+**Not Shown:** One AVer PTZ Camera should be connected to the 48-port Netgear Switch on either port 9 or 10. Another AVer PTZ Camera is labelled "USB" and must be connected directly to the iMac. For more details on the networking connections please refer to the [Audio-Video Network](network-av.md) guide.
+
+> **Monitor Setup Note:** If no video is shown on the monitor, press the button below the monitor to enter the menu mode. Follow the on-screen instructions to select the source and ensure that HDMI 1 is selected for use.
+
+> **OBS Output Note:** If the monitor shows what looks like an extension of the iMac desktop wallpaper, close OBS and restart the program. This should restore the live preview to the streaming transmitter/splitter. If this does not work automatically you may need to right-click on the preview in OBS and select the option to extend the preview to an external monitor, selecting the non-iMac display option.
+
+> **HDMI Splitter Note:** If no video can be seen on any monitor, check the connections to the HDMI splitter. This device allows the iMac to send a clean signal to the streaming transmitter. See the [HDMI Video Output](#hdmi-video-output) section below for more information.
+
+### Backstage - Wing Configurations
+
+Both the left and right wing configurations are the same, consisting of a networked camera and a streaming receiver connected to a monitor.
+
+```mermaid
+graph TB
+    A[16-Port Netgear Switch] -->|Ethernet - Ports 5/6| B[AVer PTZ Camera]
+    A -->|Ethernet - Ports 9/10| C[Monoprice Blackbird<br/>Streaming Receiver]
+    C -->|HDMI-1| D[Wing Monitor]
+
+    style A fill:#ffe1f5
+    style B fill:#e1f5ff
+    style C fill:#e1ffe1
+    style D fill:#f5e1ff
+```
+
+> Connections to the Netgear Switch are important, and do matter for whether the ethernet connection carries the live video from a camera (ports **5 & 6**) or the compressed output for streaming the composite video feed (ports **9 & 10**).
 
 ## AVer PTZ Camera Streaming
 
@@ -20,16 +73,18 @@ The AVer IP cameras are Pan-Tilt-Zoom (PTZ) models which can stream using either
 
 For purposes of non-broadcast, close-range distribution using 8Mbps is sufficient and has been configured on a per-camera basis already.
 
-## HDMI Streaming/Distribution
+### Streaming Configuration
 
 [Monoprice Blackbird H.265 Video Extender/Splitter over IP with HDMI](https://www.monoprice.com/product?p_id=43624)
 
-Using the VLC program open a Network stream to one of the following paths:
+These devices should not require any manual configuration or interventions, so long as the transmitter is given a valid HDMI feed. When powered on, the transmitter unit will automatically be set to the IP address 192.168.1.10 and will immediately begin transmitting.
 
-* rtsp://192.168.10.10/live/main/av_stream
-* rtsp://192.168.10.10/live/sub/av_stream
+Likewise, when powered on the receiver units will automatically assign themselves an IP address, typically starting at 192.168.10.11 and increments by 1 for each additional device. They will begin converting any available feed from the transmitter into a valid HDMI output signal.
 
-Receiver units will automatically assign themselves an IP address, typically starting at 192.168.10.11 and increments by 1 for each additional device.
+>**Optional Test:** Using the VLC program open a Network stream to one of the following paths:
+>
+> * rtsp://192.168.10.10/live/main/av_stream
+> * rtsp://192.168.10.10/live/sub/av_stream
 
 
 ## Streaming with OBS
@@ -99,7 +154,7 @@ brew install —-cask ndi-tools
 
 In order to get a video feed from OBS you must use a Mini-DisplayPort to HDMI adapter with the iMac, and select Full Screen Projector from the OBS menu (right-click in the preview screen for options). This will treat the HDMI output as a second monitor with a full-screen preview of the live feed shown in the OBS interface.
 
-**Note:** HDMI output from the iMac typically adds HDCP (HD Copy Protection) to the signal which CANNOT be propagated through the Blackbird devices. In order to bypass this a special HDMI splitter is used to help "strip" the HDCP from the HDMI signal. This works by leveraging a known issue with some cheap splitters which improperly implement HDCP and therefore acts as a "HDCP Bypass" and allows the transcoding device to get a clean signal that it can propagate.
+> **Note:** HDMI output from the iMac typically adds HDCP (HD Copy Protection) to the signal which CANNOT be propagated through the Blackbird devices. In order to bypass this a special HDMI splitter is used to help "strip" the HDCP from the HDMI signal. This works by leveraging a known issue with some cheap splitters which improperly implement HDCP and therefore acts as a "HDCP Bypass" and allows the transcoding device to get a clean signal that it can propagate.
 
 
 ### NDI Streaming Output
