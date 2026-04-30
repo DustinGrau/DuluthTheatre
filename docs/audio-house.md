@@ -272,8 +272,8 @@ graph TB
     direction TB
 
     C[UA844+SWB]
-    A --> C
-    B --> C
+    A --- C
+    B --- C
 
     subgraph Row 1
       direction LR
@@ -287,8 +287,8 @@ graph TB
     end
 
     D[UA844+SWB]
-    C --> D
-    C --> D
+    C --- D
+    C --- D
 
     subgraph Row 3
       direction LR
@@ -302,47 +302,47 @@ graph TB
     end
 
     E[UA844+SWB]
-    D --> E
-    D --> E
+    D --- E
+    D --- E
 
-    subgraph Row 5
-      direction LR
-      O[SLX4-J3]
-      P[SLX4-J3]
-    end
     subgraph Row 6
       direction LR
       Q[SLX4-J3]
       R[BLX4R-H9]
     end
+    subgraph Row 5
+      direction LR
+      O[SLX4-J3]
+      P[SLX4-J3]
+    end
   end
 
-  C[UA844+SWB] -->|A| G
-  C[UA844+SWB] -->|B| G
-  C[UA844+SWB] -->|A| H
-  C[UA844+SWB] -->|B| H
-  C[UA844+SWB] -->|A| I
-  C[UA844+SWB] -->|B| I
-  C[UA844+SWB] -->|A| J
-  C[UA844+SWB] -->|B| J
+  C[UA844+SWB] ---|A| G
+  C[UA844+SWB] ---|B| G
+  C[UA844+SWB] ---|A| H
+  C[UA844+SWB] ---|B| H
+  C[UA844+SWB] ---|A| I
+  C[UA844+SWB] ---|B| I
+  C[UA844+SWB] ---|A| J
+  C[UA844+SWB] ---|B| J
 
-  D[UA844+SWB] -->|A| K
-  D[UA844+SWB] -->|B| K
-  D[UA844+SWB] -->|A| L
-  D[UA844+SWB] -->|B| L
-  D[UA844+SWB] -->|A| M
-  D[UA844+SWB] -->|B| M
-  D[UA844+SWB] -->|A| N
-  D[UA844+SWB] -->|B| N
+  D[UA844+SWB] ---|A| K
+  D[UA844+SWB] ---|B| K
+  D[UA844+SWB] ---|A| L
+  D[UA844+SWB] ---|B| L
+  D[UA844+SWB] ---|A| M
+  D[UA844+SWB] ---|B| M
+  D[UA844+SWB] ---|A| N
+  D[UA844+SWB] ---|B| N
 
-  E[UA844+SWB] -->|A| O
-  E[UA844+SWB] -->|B| O
-  E[UA844+SWB] -->|A| P
-  E[UA844+SWB] -->|B| P
-  E[UA844+SWB] -->|A| Q
-  E[UA844+SWB] -->|B| Q
-  E[UA844+SWB] -->|A| R
-  E[UA844+SWB] -->|B| R
+  E[UA844+SWB] ---|A| O
+  E[UA844+SWB] ---|B| O
+  E[UA844+SWB] ---|A| P
+  E[UA844+SWB] ---|B| P
+  E[UA844+SWB] ---|A| Q
+  E[UA844+SWB] ---|B| Q
+  E[UA844+SWB] ---|A| R
+  E[UA844+SWB] ---|B| R
 
   style A fill:#e1f5ff
   style B fill:#e1f5ff
