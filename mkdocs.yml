@@ -57,6 +57,7 @@ nav:
     - House Audio: audio-house.md
     - Mobile Crates: audio-mobile.md
     - Room Tuning: audio-room-tuning.md
+    - Wireless Mics: audio-wireless.md
     - Mic Frequencies: audio-frequencies.md
     - Mic Checks: audio-mic-checks.md
     - Vocal Tuning: audio-vocal-tuning.md
@@ -65,8 +66,8 @@ nav:
     - Followspots: lighting-spotlights.md
   - Networking:
     - General Network: network-general.md
-    - AV Network: network-av.md
-  - Video Streaming: video-streaming.md
+    - Audio-Video Network: network-av.md
+    - Video Streaming: video-streaming.md
   - Other Equipment:
     - Accessories: accessories.md
   - Show Notes:

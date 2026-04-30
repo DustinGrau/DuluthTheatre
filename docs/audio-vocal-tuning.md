@@ -1,6 +1,5 @@
 # Vocal Tuning
 
-
 ## Mixer Audio Settings
 
 **Yamaha TF5 - High Pass Filters**
