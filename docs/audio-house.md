@@ -1,4 +1,30 @@
-# Audio Equipment
+# House Audio Equipment
+
+## House Audio - Signal Flow
+
+```mermaid
+graph TB
+  A[Yamaha TF5 Mixer] <-.->|Dante Audio| G[Tio1608-D]
+  A[Yamaha TF5 Mixer] -->|Main L/R Output| B[LEA Connect Amplifier]
+  subgraph Speakers
+    C[House Left<br/>- Wall -]
+    D[Floor Left<br/>- Optional -]
+    E[Floor Right<br/>- Optional -]
+    F[House Right<br/>- Wall -]
+  end
+  B -->|Main 1| C
+  B -->|Main 1| D
+  B -->|Main 2| E
+  B -->|Main 2| F
+
+  style A fill:#e1f5ff
+  style B fill:#e1ffe1
+  style C fill:#f5e1ff
+  style D fill:#fff4e1
+  style E fill:#fff4e1
+  style F fill:#f5e1ff
+  style G fill:#e1f5ff
+```
 
 ## [Yamaha TF5](https://usa.yamaha.com/products/proaudio/mixers/tf/index.html)
 
@@ -234,3 +260,93 @@ Standard 19" rackmount case with wireless microphone receivers and antenna distr
 | 1	| [Denon DN-300Z](https://www.denonpro.com/products/dn-300z.html) | CD Player + Aux Input |
 | 1	| [Clear-Com DX410](https://www.clearcom.com/product-family/hme-dx410-wireless/) | Headset Communication |
 | 1 | [Listen LT-800 FM](https://www.listentech.com/shop/product/stationary-rf-transmitter-72mhz/) | Assistive Listening |
+
+## Shure Antenna Distribution
+
+```mermaid
+graph TB
+  A[UA874US - Antenna A]
+  B[UA874US - Antenna B]
+
+  subgraph Rack
+    direction TB
+
+    C[UA844+SWB]
+    A --> C
+    B --> C
+
+    subgraph Row 1
+      direction LR
+      G[SLX4-H5]
+      H[SLX4-H5]
+    end
+    subgraph Row 2
+      direction LR
+      I[SLX4-H5]
+      J[SLX4-H5]
+    end
+
+    D[UA844+SWB]
+    C --> D
+    C --> D
+
+    subgraph Row 3
+      direction LR
+      K[SLX4-J3]
+      L[SLX4-J3]
+    end
+    subgraph Row 4
+      direction LR
+      M[SLX4-J3]
+      N[SLX4-J3]
+    end
+
+    E[UA844+SWB]
+    D --> E
+    D --> E
+
+    subgraph Row 5
+      direction LR
+      O[SLX4-J3]
+      P[SLX4-J3]
+    end
+    subgraph Row 6
+      direction LR
+      Q[SLX4-J3]
+      R[BLX4R-H9]
+    end
+  end
+
+  C[UA844+SWB] -->|A| G
+  C[UA844+SWB] -->|B| G
+  C[UA844+SWB] -->|A| H
+  C[UA844+SWB] -->|B| H
+  C[UA844+SWB] -->|A| I
+  C[UA844+SWB] -->|B| I
+  C[UA844+SWB] -->|A| J
+  C[UA844+SWB] -->|B| J
+
+  D[UA844+SWB] -->|A| K
+  D[UA844+SWB] -->|B| K
+  D[UA844+SWB] -->|A| L
+  D[UA844+SWB] -->|B| L
+  D[UA844+SWB] -->|A| M
+  D[UA844+SWB] -->|B| M
+  D[UA844+SWB] -->|A| N
+  D[UA844+SWB] -->|B| N
+
+  E[UA844+SWB] -->|A| O
+  E[UA844+SWB] -->|B| O
+  E[UA844+SWB] -->|A| P
+  E[UA844+SWB] -->|B| P
+  E[UA844+SWB] -->|A| Q
+  E[UA844+SWB] -->|B| Q
+  E[UA844+SWB] -->|A| R
+  E[UA844+SWB] -->|B| R
+
+  style A fill:#e1f5ff
+  style B fill:#e1f5ff
+  style C fill:#f5e1ff
+  style D fill:#f5e1ff
+  style E fill:#f5e1ff
+```
