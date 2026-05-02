@@ -64,6 +64,7 @@ nav:
   - Lighting:
     - House Lighting: lighting-house.md
     - Followspots: lighting-spotlights.md
+    - Tech Lab: lighting-techlab.md
   - Networking:
     - General Network: network-general.md
     - Audio-Video Network: network-av.md

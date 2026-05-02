@@ -118,8 +118,3 @@ The Soft Focus Diffuser is a diffuser that is an accessory for Source Four LED f
 
 * `<channel number, combo, or thru> [At] [Out] [Park] [Enter]`
 * `[Park] [Enter]` - Prompts to un-park any parked channels
-
-
-## Older Consoles
-
-* [ETC Element](https://www.etcconnect.com/Products/Legacy/Console/Eos-Family/Element/Features.aspx)
