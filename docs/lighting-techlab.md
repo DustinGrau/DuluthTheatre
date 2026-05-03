@@ -2,6 +2,8 @@
 
 ## ETC Element
 
+This is the former lighting console used in the DHS theatre up until 2023 when the lighting system was upgraded to use LED fixtures and a new Ion XE 20 console. The old console remains functional and represents a limited but consistent interface for ETC products both in terms of button layout and functions, as well as the ETC software itself. Learning the basics on this equipment will prepare you for understanding an industry-standard lighting system.
+
 **Software Version:** 2.3.9 (Final Release)
 
 > This console hardware is now obsolete and will receive no further updates from ETC. However, it exists in a fully-working condition that allows it to be used in limited capacity as a teaching tool as the control surface and user interface remains similar to later models.
@@ -64,4 +66,4 @@ To remember what each channel/address combination represetnts you can add a Labe
 
 ### Next Steps
 
-At this point you should have a working fixture which is controlled through the ETC console. Begin working on show cues to demonstrate fade-in's, blackouts, color changes, and other transitions. Try adding additional DMX fixtures and patching to channels to expand your setup!
+At this point you should have a working fixture which is controlled through the ETC console. Now you may begin working on show cues to demonstrate fade-in's, blackouts, color changes, and other transitions. Learn how to create a magic sheet and light plot, and manage show information with 2 displays and keyboard shortcuts. Try adding additional DMX fixtures and patching to channels to expand your setup!

@@ -62,6 +62,3 @@ Intended for use with the Peavey floor speakers used in the theatre, if needed f
 
 Shure SM58 (Wireless Handheld)
 
-## Older Mixers
-
-* [Behringer Xenyx X2222USB](https://www.behringer.com/product.html?modelCode=P0A0L)
