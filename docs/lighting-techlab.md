@@ -4,13 +4,11 @@
 
 This is the former lighting console used in the DHS theatre up until 2023 when the lighting system was upgraded to use LED fixtures and a new Ion XE 20 console. The old console remains functional and represents a limited but consistent interface for ETC products both in terms of button layout and functions, as well as the ETC software itself. Learning the basics on this equipment will prepare you for understanding an industry-standard lighting system.
 
-**Software Version:** 2.3.9 (Final Release)
-
-> This console hardware is now obsolete and will receive no further updates from ETC. However, it exists in a fully-working condition that allows it to be used in limited capacity as a teaching tool as the control surface and user interface remains similar to later models.
-
 [Product Info](https://www.etcconnect.com/Products/Legacy/Console/Eos-Family/Element/Features.aspx)
 
 [Online Manual](https://www.etcconnect.com/WorkArea/DownloadAsset.aspx?id=10737500524)
+
+> This console hardware is now obsolete and will receive no further updates from ETC. However, it exists in a fully-working condition that allows it to be used in limited capacity as a teaching tool as the control surface and user interface remains similar to later models. For more information about the hardware used in this lab see the [tech specs document](lighting-techlab-specs.md).
 
 ## Sample Fixture Configuration
 
