@@ -36,7 +36,8 @@ Within the ETC console you can perform manual patching of a fixture, which is es
 
 1. Ceate a new show file for your work, saving with a custom name to track your progress.
 2. Locate and press the `[Patch]` key on the console.
-3. Enter the text `1 thru 3 @ 10` and press `[Enter]`
+3. If the prompt says "Patch Address" press the `[Format]` key to switch to "Patch Channel"
+4. Enter the text `1 thru 3 @ 10` and press `[Enter]`
 
 **What does this do?**
 
@@ -52,7 +53,7 @@ Within the ETC console you can perform manual patching of a fixture, which is es
 
 To remember what each channel/address combination represetnts you can add a Label/Note to the patch assignment while in the Patch screen.
 
-1. `[Patch]`
+1. Press `[Patch]` and make sure you are in "Patch Channel" format.
 2. `1 [Label] Red [Enter]`
 3. `2 [Label] Green [Enter]`
 4. `3 [Label] Blue [Enter]`
@@ -78,18 +79,16 @@ Before proceeding with this step, be sure to complete the fixture configuration 
 
 In manual patching, you control each channel individually. With a fixture profile, the console groups those channels together and provides higher-level control. For this demonstration, we will use a generic RGB fixture profile rather than creating one from scratch.
 
-1. `[Patch]`
-2. Enter a channel number for the fixture: `1 [Enter]`
-3. Press the `{Type}` softkey
-4. Navigate to and select a Generic RGB fixture
-5. Assign the starting DMX address: `@ 10 [Enter]`
+1. Locate and press the `[Patch]` key on the console.
+2. If the prompt says "Patch Address" press the `[Format]` key to switch to "Patch Channel"
+3. Enter a channel number for the fixture: `1 [Enter]`
+4. Click on the `Type` box on the right-hand side of the screen
+5. Click on the `Search` button and look for "Generic > LED RGB > LED RGB 8b [3]"
+6. Assign the starting DMX address: `@ 10 [Enter]`
 
 **What does this do?**
 
-The console now understands that this fixture uses three DMX channels for color control.
-Channel 1 now represents the entire fixture, not just a single DMX address.
-
-The console automatically maps:
+The console now understands that this fixture is an LED RGB device which uses three [3] DMX channels for color control, with 8-bit (8b) values 0-255 for brightness. Channel 1 now represents the entire fixture, not just a single DMX address. You will now see that this type appears to immediately take 3 addresses because the console automatically maps:
 
 * Red = DMX 10
 * Green = DMX 11
@@ -98,9 +97,9 @@ The console automatically maps:
 Using the Fixture
 
 1. `[Live]`
-2. Select the fixture: `1 [Enter]`
-3. Adjust intensity using the fader or command line: `@ Full [Enter]`
-4. Use available color controls (if displayed) to select colors instead of manually mixing RGB values
+2. Show the new light at full intensity with `1 @ Full [Enter]`
+3. Alternatively, adjust intensity using the fader
+4. Use available color controls (if displayed) to select colors instead of defaulting to all @ full
 
 **Benefits of Using a Fixture Profile**
 
@@ -113,9 +112,7 @@ Using the Fixture
 
 **Important Note**
 
-Do not patch both manual channels and a fixture profile to the same DMX addresses.
-
-Choose one method:
+You cannot patch both manual channels and a fixture profile to the same DMX addresses. Choose one method:
 
 * Manual patching for learning fundamentals
 * Fixture profiles for practical operation
