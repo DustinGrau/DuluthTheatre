@@ -12,9 +12,7 @@ This is the former lighting console used in the DHS theatre up until 2023 when t
 
 [Online Manual](https://www.etcconnect.com/WorkArea/DownloadAsset.aspx?id=10737500524)
 
-## Patching Demo
-
-### Fixture Configuration
+## Sample Fixture Configuration
 
 The following demonstration will use a generic 7-channel RGB LED light bar. We will only utilize the Red, Green, and Blue channels of this device to make those lights available to the ETC console.
 
@@ -30,6 +28,10 @@ The following demonstration will use a generic 7-channel RGB LED light bar. We w
 
 > This fixture provides built-in effects but we will not be using those program modes through the ETC console. By patching through DMX we will have control over the individual RGB LEDs and will use the console to set levels.
 
+## Patching Demo - Raw DMX
+
+Within the ETC console you can perform manual patching of a fixture, which is essentially treating each DMX channel as an individual control (such as separate dimmers for red, green, and blue), or you can apply a fixture profile, which allows the console to treat a group of DMX channels as a single light with multiple controllable attributes such as color and intensity. Before we run we need to walk, so let’s look at the concept of manual patching first.
+
 ### EOS Element Configuration
 
 1. Ceate a new show file for your work, saving with a custom name to track your progress.
@@ -42,9 +44,9 @@ The following demonstration will use a generic 7-channel RGB LED light bar. We w
 * The fixture offers 3 direct controls for the Red, Green, and Blue LED lights, each as a distinct address where Red = 10, Green = 11, and Blue=12.
 * The `1 thru3 ` represents the channels on the ETC console where we want those 3 colors to be accessible.
 * The `@ 10` tells the console to begin the patching of the 3 channels to addresses in sequential order:
-	* 1=10
-	* 2=11
-	* 3=12
+	* Channel 1 = DMX 10
+	* Channel 2 = DMX 11
+	* Channel 3 = DMX 12
 
 **Adding Labels (Optional):**
 
@@ -64,6 +66,75 @@ To remember what each channel/address combination represetnts you can add a Labe
 2. Set the Grand Master above zero (0) or to full so you can see any effects.
 3. Use the sliders for channels 1-3 to adjust the Red, Green, and Blue lights of the fixture.
 
-### Next Steps
+## Patching Demo - Fixture Profile
+
+Instead of manually patching each DMX channel, the ETC console can use a fixture profile to understand how a light behaves. This allows the console to treat multiple DMX channels as a single fixture with defined attributes such as color and intensity.
+
+Before proceeding with this step, be sure to complete the fixture configuration step as outlined above to give your fixture a unique DMX starting address. The following steps will continue to assume an address of `10` was set for the same RGB LED light bar.
+
+> Be sure to start a new show file for this exercise to avoid conflicts with prior patching. For any DMX address you can only patch it once to a channel or fixture.
+
+### EOS Element Configuration
+
+In manual patching, you control each channel individually. With a fixture profile, the console groups those channels together and provides higher-level control. For this demonstration, we will use a generic RGB fixture profile rather than creating one from scratch.
+
+1. `[Patch]`
+2. Enter a channel number for the fixture: `1 [Enter]`
+3. Press the `{Type}` softkey
+4. Navigate to and select a Generic RGB fixture
+5. Assign the starting DMX address: `@ 10 [Enter]`
+
+**What does this do?**
+
+The console now understands that this fixture uses three DMX channels for color control.
+Channel 1 now represents the entire fixture, not just a single DMX address.
+
+The console automatically maps:
+
+* Red = DMX 10
+* Green = DMX 11
+* Blue = DMX 12
+
+Using the Fixture
+
+1. `[Live]`
+2. Select the fixture: `1 [Enter]`
+3. Adjust intensity using the fader or command line: `@ Full [Enter]`
+4. Use available color controls (if displayed) to select colors instead of manually mixing RGB values
+
+**Benefits of Using a Fixture Profile**
+
+* Simplifies control by grouping related DMX channels
+* Allows direct color selection instead of manual RGB mixing
+* Enables use of:
+  * Color palettes
+  * Effects
+  * More advanced console features
+
+**Important Note**
+
+Do not patch both manual channels and a fixture profile to the same DMX addresses.
+
+Choose one method:
+
+* Manual patching for learning fundamentals
+* Fixture profiles for practical operation
+* Optional: Creating a Custom Fixture Profile
+
+> For advanced use, you can define your own fixture profile using the console’s fixture editor. This allows you to map DMX channels exactly as defined by the device, including additional controls such as strobe or program modes.
+
+For this exercise, the generic RGB fixture provides all required functionality.
+
+## Next Steps
 
 At this point you should have a working fixture which is controlled through the ETC console. Now you may begin working on show cues to demonstrate fade-in's, blackouts, color changes, and other transitions. Learn how to create a magic sheet and light plot, and manage show information with 2 displays and keyboard shortcuts. Try adding additional DMX fixtures and patching to channels to expand your setup!
+
+## Universes
+
+Up until now we have not discussed the concept of a Universe in DMX, which is a collection of up to 512 address spaces.
+
+Patching so far has used a single number for both the fixture and the ETC console. Technically, we have been working within Universe 1, using addresses such as 1/10 through 1/12, where 1/ designates the Universe and the number represents the DMX address within that Universe.
+
+In larger systems, multiple Universes are used to expand the number of controllable devices. These may be organized by physical areas such as Front of House (FOH), stage electrics (1st electric, 2nd electric, etc.), or other logical groupings.
+
+While the ETC Element lighting console supports only a single Universe, larger consoles such as the ETC Ion Xe 20 used in the theatre space supports multiple Universes.
