@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Mic Checks - Duluth Wildcat Theatre</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Mic Checks";
+        var mkdocs_page_input_path = "audio-mic-checks.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../images/WildcatTheatre.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../troubleshooting/">Troubleshooting</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Electrical</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../electrical-breakers/">Breakers</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Sound</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-terms/">Common Terms</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-house/">House Audio</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-mobile/">Mobile Crates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-room-tuning/">Room Tuning</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-wireless/">Wireless Mics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-frequencies/">Mic Frequencies</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Mic Checks</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#eq-fundamentals">EQ Fundamentals</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#what-is-eq">What is EQ?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#common-eq-terms">Common EQ Terms</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#key-principles-for-live-vocal-mixing">Key Principles for Live Vocal Mixing</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#typical-eq-settings-for-vocals">Typical EQ Settings for Vocals</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#vocal-eq-general-starting-point">Vocal EQ - General Starting Point</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#frequency-specific-problem-solving">Frequency-Specific Problem Solving</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#compression-fundamentals">Compression Fundamentals</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#what-is-compression">What is Compression?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#common-compressor-terms">Common Compressor Terms</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#using-a-compressor-for-live-vocals">Using a Compressor for Live Vocals</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#why-compress-vocals-in-live-sound">Why Compress Vocals in Live Sound?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#live-vocal-compression-settings">Live Vocal Compression Settings</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#setting-threshold-for-live-vocals">Setting Threshold for Live Vocals</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#advanced-two-compressor-chain">Advanced: Two-Compressor Chain</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#what-compression-cannot-do">What Compression Cannot Do</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#practical-workflow-for-vocal-soundcheck">Practical Workflow for Vocal Soundcheck</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-start-with-gain-staging-no-eqcompression-yet">1. Start with Gain Staging (No EQ/Compression Yet)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-apply-high-pass-filter">2. Apply High-Pass Filter</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-cut-problem-frequencies">3. Cut Problem Frequencies</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-add-compression">4. Add Compression</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-add-presence-if-needed">5. Add Presence (If Needed)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#6-check-in-context-of-full-mix">6. Check in Context of Full Mix</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#7-walk-the-room">7. Walk the Room</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#common-mistakes-to-avoid">Common Mistakes to Avoid</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#quick-reference-chart">Quick Reference Chart</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#eq-frequency-guide-for-vocals">EQ Frequency Guide for Vocals</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#compression-settings-quick-reference">Compression Settings Quick Reference</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#not-covered">Not Covered</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#see-also">See Also</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-vocal-tuning/">Vocal Tuning</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Lighting</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-house/">House Lighting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-spotlights/">Followspots</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-techlab/">Tech Lab</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Networking</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../network-general/">General Network</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../network-av/">Audio-Video Network</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../video-streaming/">Video Streaming</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Other Equipment</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../accessories/">Accessories</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Show Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >West Side Story</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-audio/">Audio Setup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-scenes/">Audio Scenes</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Duluth Wildcat Theatre</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Sound</li>
+      <li class="breadcrumb-item active">Mic Checks</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="performing-mic-checks">Performing Mic Checks</h1>
+<p>One of the key tasks for a live performance is vocal mixing, though before a show begins you must perform an effective mic check. This involves setting the gain, an acceptable volume plus overhead room, performing EQ for clarity, and enabling compression for comfort.</p>
+<p>Before you worry about EQ or compression it is absolutely important to first ensure that a performer's microphone is delivering a suitable signal to the mixer. Begin by isolating only their microphone (press the ON button for the Yamaha TF-5 channel), turn off all other mics or sources, and ask the room for quiet so you can clearly hear the performer.</p>
+<h2 id="overview">Overview</h2>
+<p>This is the heart of the process you will follow for mic checks so it comes before all other content. Once you know what to expect you can return here to review as needed.</p>
+<ol>
+<li>Turn ON the performer's channel and begin with the fader at infinity (all the way down).</li>
+<li>Have the performer confirm their microphone (handheld or body-pack) is turned on, and is not muted.</li>
+<li>Ask them to speak normally but also to PROJECT as they would during their performance.</li>
+<li>Select the INPUT configuration area for the channel and watch the gain indicator markers.</li>
+<li>Raise the gain until the performer's speaking causes the middle indicator to remain green most of the time.</li>
+<li>Slowly raise the fader to Unity (0) and listen for any obvious feedback, and continue to adjust gain if needed.</li>
+<li>The goal at this point is to ensure the performer is at a consistent level which has "headroom" for further boosting.</li>
+<li>They will not sound the best at this point if no EQ or compression settings have yet been applied, and that's OK.</li>
+</ol>
+<p>Once a consistent volume is set you can now adjust the EQ and compressor settings, alternating between spoken and sung lines to ensure they sound clear. To ensure feedback-free operation during the performance, push the fader higher than expected (+10dB or +20dB) to ensure the added volume does not suddenly change the performer's profile. Adjust the EQ as needed if you begin to hear an immediate high squealing or the slow building of a low rumble as these indicate the potential for feedback.</p>
+<blockquote>
+<p>Why push the performer's mic volume so high? A performer may become over-amplified either due to a need during the show, or if they become double-amplified (such as singing closely to another performer's mic). Pre-stressing the system now helps to avoid problems during the show!</p>
+</blockquote>
+<p><strong>Additional Resources:</strong></p>
+<ul>
+<li><a href="https://www.musicguymixing.com/eq-presets-for-vocals/">MusicMixingGuy - EQ Presets for Vocals</a></li>
+<li><a href="https://www.musicguymixing.com/vocal-compression-settings-live/">MusicMixingGuy - Vocal Compression Settings</a></li>
+<li><a href="https://www.sweetwater.com/insync/essential-eq-tips-for-live-sound/">MusicMixingGuy - Essential EQ Tips for Live Sound</a></li>
+<li><a href="../files/EQ-Cheat-Sheet-From-Music-Guy-Mixing.pdf">MusicMixingGuy - EQ Cheat Sheet</a></li>
+<li><a href="../files/Compression-Cheat-Sheet-From-Music-Guy-Mixing.pdf">MusicMixingGuy - Compression Cheat Sheet</a></li>
+</ul>
+<hr />
+<h2 id="eq-fundamentals">EQ Fundamentals</h2>
+<h3 id="what-is-eq">What is EQ?</h3>
+<p><strong>EQ (Equalizer)</strong> adjusts the balance of different frequency ranges in an audio signal. Think of it as tone control - like bass and treble knobs, but with much more precision and control over specific frequency ranges.</p>
+<h3 id="common-eq-terms">Common EQ Terms</h3>
+<p><strong>HPF (High-Pass Filter)</strong> / <strong>Low-Cut Filter</strong></p>
+<ul>
+<li>Removes frequencies below a set point (typically 80-100 Hz for vocals)</li>
+<li>Cleans up rumble, handling noise, stage vibrations, and low-end mud</li>
+<li><strong>Use on vocals:</strong> Always! Start around 80-100 Hz and adjust to taste</li>
+<li>Does NOT affect the high frequencies - it lets high frequencies "pass" through</li>
+</ul>
+<p><strong>Frequency Bands</strong></p>
+<ul>
+<li><strong>Lows (20-250 Hz)</strong>: Bass, body, rumble, mud</li>
+<li><strong>Low-Mids (250-500 Hz)</strong>: Warmth or muddiness - the problem zone</li>
+<li><strong>Mids (500 Hz-2 kHz)</strong>: Presence, fullness, can sound nasal</li>
+<li><strong>Upper-Mids/Presence (2-5 kHz)</strong>: Clarity, intelligibility, articulation</li>
+<li><strong>Highs (5-20 kHz)</strong>: Brilliance, air, sibilance</li>
+</ul>
+<p><strong>Cut vs. Boost</strong></p>
+<ul>
+<li><strong>Cut</strong>: Reduces level at a specific frequency (preferred method)</li>
+<li><strong>Boost</strong>: Increases level at a specific frequency (use sparingly)</li>
+</ul>
+<p><strong>Q (Bandwidth)</strong></p>
+<ul>
+<li>How wide or narrow the affected frequency range is</li>
+<li><strong>Narrow Q</strong>: Surgical cuts for specific problems (feedback, harsh resonances)</li>
+<li><strong>Wide Q</strong>: Broad tonal shaping (warmth, presence)</li>
+</ul>
+<p><strong>Parametric EQ</strong></p>
+<ul>
+<li>EQ that applies curves across the available frequency bands</li>
+<li>Adjusting any point will "bend" the response curve to nearby points</li>
+<li>The type of EQ you will use for a single channel</li>
+</ul>
+<p><strong>Graphic EQ</strong></p>
+<ul>
+<li>EQ that affects only distinct frequency bands when adjusted</li>
+<li>Offers an immediate adjustment (cut or boost) at a specific frequency</li>
+<li>The type of EQ you may see on a house amplifier or mixer's Main outputs</li>
+</ul>
+<hr />
+<h2 id="key-principles-for-live-vocal-mixing">Key Principles for Live Vocal Mixing</h2>
+<ol>
+<li><strong>Cut first, boost second</strong> - Remove problem frequencies before adding desired ones</li>
+<li><strong>Focus on the mix</strong> - Make channels work together, not perfect in isolation</li>
+<li><strong>Less is more</strong> - Subtle adjustments are better than drastic changes in live settings</li>
+<li><strong>Use your ears</strong> - Numbers are ONLY provided as guides, but the sound is what matters</li>
+<li><strong>Start with flat EQs</strong> - Always reset the EQ and Compressor for a channel when changing performers</li>
+</ol>
+<hr />
+<h2 id="typical-eq-settings-for-vocals">Typical EQ Settings for Vocals</h2>
+<h3 id="vocal-eq-general-starting-point">Vocal EQ - General Starting Point</h3>
+<p>This is by no means a "set-it and forget-it" range of adjustments but a basic starting point for vocals. Always adjust beyond these defaults from in the house, listening from various locations though you can always start from the middle of the audience if time is a factor. Once you apply this default to the first vocal channel you can use the Yamaha's TF-5 menu to easily copy and paste EQ settings to other vocal channels.</p>
+<pre><code>HPF (High-Pass):   80-300 Hz (adjust based on voice depth, eg. lower range)
+Lows (500 Hz):     Cut 2-10 dB (reduces mud and cloudiness) using low Q (~0.7)
+Low-Mid (1.5 kHz): Cut at least 10 dB using a narrow Q of 1.4-1.8 for precision
+Hi-Mid (4 kHz):    Cut 2-10 dB (for presence and clarity) using low Q (~0.7)
+Highs (10 kHz):    Cut 1-2 dB (for breathiness) using low Q (~0.7)
+</code></pre>
+<p>High-Pass Filter Example:</p>
+<p><img alt="" src="../images/eq_hpf.jpg" /></p>
+<p>EQ Lows Example:</p>
+<p><img alt="" src="../images/eq_lows.jpg" /></p>
+<p>EQ Low-Mid Example:</p>
+<p><img alt="" src="../images/eq_low-mid.jpg" /></p>
+<p>EQ High-Mid Example:</p>
+<p><img alt="" src="../images/eq_high-mid.jpg" /></p>
+<p>EQ Highs Example:</p>
+<p><img alt="" src="../images/eq_highs.jpg" /></p>
+<blockquote>
+<p><strong>Note:</strong> On the Yamaha TF-5 the EQ curve pattern for the Lows should look like this <code>=&gt;-</code> indicating the EQ curve will NOT affect frequencies prior to what is selected. All other EQ points will use a symbol which looks like this <code>-&lt;=&gt;-</code> indicating the EQ curve will follow through from frequencies before and after what is selected.</p>
+</blockquote>
+<h3 id="frequency-specific-problem-solving">Frequency-Specific Problem Solving</h3>
+<p>Many of the following suggestions will help you identify which point on the EQ needs adjustments but you should always let your ears be the guide! If something does not sound pleasing then you can use the following suggestions to make changes. If a tablet with the TF StageMix app is available, this will be the easiest way to perform EQ adjustments as you can just slide your finger on the screen to make adjustments rather than with knobs or tapping alone.</p>
+<p><strong>Muddiness / Lack of Clarity</strong></p>
+<ul>
+<li><strong>Problem area:</strong> 200-500 Hz (low-mids)</li>
+<li><strong>Solution:</strong> Cut 2-4 dB around 300-500 Hz with moderate Q</li>
+<li><strong>Also try:</strong> HPF higher (100-120 Hz if voice can handle it)</li>
+</ul>
+<p><strong>Nasal / Honky Sound</strong></p>
+<ul>
+<li><strong>Problem area:</strong> 1-3 kHz  </li>
+<li><strong>Solution:</strong> Cut 2-3 dB around 1.5-2 kHz (use dynamic cut if intermittent)</li>
+<li><strong>Be careful:</strong> Too much cut creates a hollow, distant sound</li>
+</ul>
+<p><strong>Hollow / Thin Sound</strong></p>
+<ul>
+<li><strong>Problem area:</strong> Missing 1-2 kHz</li>
+<li><strong>Solution:</strong> Boost 1-2 dB around 1-1.5 kHz to add fullness</li>
+<li><strong>Also try:</strong> Boost 200-300 Hz for more body</li>
+</ul>
+<p><strong>Harshness</strong></p>
+<ul>
+<li><strong>Problem area:</strong> 3-5 kHz (upper-mids)</li>
+<li><strong>Solution:</strong> Dynamic cut 2-4 dB around 3.5-4 kHz</li>
+<li><strong>Why dynamic:</strong> Harshness often comes and goes with different words/notes</li>
+</ul>
+<p><strong>Sibilance</strong> (Excessive "S" sounds)</p>
+<ul>
+<li><strong>Problem area:</strong> 5-10 kHz (often centered around 6-7 kHz)</li>
+<li><strong>Solution:</strong> Dynamic cut 3-6 dB in the 5-8 kHz range</li>
+<li><strong>Best tool:</strong> De-esser (specialized compressor for sibilance)</li>
+<li><strong>Alternative:</strong> Dynamic EQ targeting the specific sibilant frequency</li>
+<li><strong>Set threshold:</strong> Use the worst "S" sound to set your threshold</li>
+</ul>
+<p><strong>Plosives</strong> (Booming "P" and "B" sounds)</p>
+<ul>
+<li><strong>Problem area:</strong> 150 Hz</li>
+<li><strong>Solution:</strong> Dynamic cut 3-6 dB at 150 Hz with narrow Q</li>
+<li><strong>Why dynamic:</strong> Targets plosives without thinning out the entire vocal</li>
+<li><strong>Prevention:</strong> Good mic technique and pop filters help</li>
+</ul>
+<p><strong>Lack of Presence / Gets Lost in Mix</strong></p>
+<ul>
+<li><strong>Problem area:</strong> Not enough 3-5 kHz</li>
+<li><strong>Solution:</strong> Boost 2-3 dB around 4 kHz (presence frequency)</li>
+<li><strong>Also try:</strong> Small high shelf boost at 10 kHz (1-2 dB)</li>
+<li><strong>Caution:</strong> Don't push too hard - harsh vocals are worse than buried vocals</li>
+</ul>
+<hr />
+<h2 id="compression-fundamentals">Compression Fundamentals</h2>
+<h3 id="what-is-compression">What is Compression?</h3>
+<p><strong>Compression</strong> automatically reduces the volume of loud parts of a signal, making the overall level more consistent. It's like an automatic volume control that brings peaks down, making it easier to keep vocals present in the mix without constant fader riding. Thought of another way, compression ensures that the dynamic range of a performer does not exceed an acceptable upper bound for comfortable listening.</p>
+<h3 id="common-compressor-terms">Common Compressor Terms</h3>
+<p><strong>Threshold</strong></p>
+<ul>
+<li>The level at which compression begins</li>
+<li>Signal below threshold = unaffected</li>
+<li>Signal above threshold = compressed</li>
+<li><strong>Setting it:</strong> Adjust so the compressor engages on the louder notes, not constant background</li>
+</ul>
+<p><strong>Ratio</strong></p>
+<ul>
+<li>How much the signal is reduced once it crosses the threshold</li>
+<li><strong>2:1</strong> = gentle (2 dB over threshold becomes 1 dB over)</li>
+<li><strong>4:1</strong> = moderate (4 dB over threshold becomes 1 dB over)  </li>
+<li><strong>8:1</strong> = aggressive limiting (8 dB over threshold becomes 1 dB over)</li>
+<li><strong>Higher ratio</strong> = more dramatic compression</li>
+</ul>
+<p><strong>Attack</strong></p>
+<ul>
+<li>How quickly compression engages after signal crosses threshold</li>
+<li><strong>Fast attack (1-5ms)</strong>: Catches transients immediately, smooths everything</li>
+<li><strong>Slow attack (10-30ms)</strong>: Lets initial transient through (punch, clarity), then compresses</li>
+<li><strong>For vocals:</strong> 3-10ms is typical</li>
+</ul>
+<p><strong>Release</strong></p>
+<ul>
+<li>How quickly compression stops after signal drops below threshold</li>
+<li><strong>Fast release (10-50ms)</strong>: Compression stops quickly, follows dynamics closely</li>
+<li><strong>Slow release (100-200ms)</strong>: Smooth, musical, less obvious compression</li>
+<li><strong>For vocals:</strong> 100ms is a good starting point for live</li>
+</ul>
+<p><strong>Knee</strong></p>
+<ul>
+<li>How gradually compression ratio increases as signal approaches threshold</li>
+<li><strong>Hard knee (0 dB)</strong>: Full ratio exactly at threshold - more obvious</li>
+<li><strong>Soft knee (12 dB)</strong>: Gentle increase in ratio before/after threshold - transparent</li>
+<li><strong>For live vocals:</strong> Soft or Moderate knee (6-12 dB) for smooth, natural sound</li>
+</ul>
+<p><strong>Gain Reduction (GR)</strong></p>
+<ul>
+<li>How much the compressor is reducing the signal in real-time</li>
+<li>Shown on meter with negative numbers (-3 dB, -6 dB, etc.)</li>
+<li><strong>Goal for live vocals:</strong> 5-10 dB average, 20 dB maximum</li>
+</ul>
+<p><strong>Make-up Gain / Output Gain</strong></p>
+<ul>
+<li>Adds gain after compression to compensate for reduced level</li>
+<li>Keeps the fader position/mix balance accurate</li>
+<li>Regardless of gain reduction, avoid using output gain or do so <strong>sparingly</strong></li>
+</ul>
+<hr />
+<h2 id="using-a-compressor-for-live-vocals">Using a Compressor for Live Vocals</h2>
+<h3 id="why-compress-vocals-in-live-sound">Why Compress Vocals in Live Sound?</h3>
+<ul>
+<li>Smooths inconsistent mic technique (moving toward/away from mic)</li>
+<li>Keeps vocals present without constant fader adjustments  </li>
+<li>Controls sudden peaks that could cause distortion or feedback</li>
+<li>Adds perceived loudness without increasing actual peak level</li>
+</ul>
+<h3 id="live-vocal-compression-settings">Live Vocal Compression Settings</h3>
+<p><strong>IMPORTANT:</strong> Live compression is LIGHTER than studio compression due to:</p>
+<ul>
+<li>More unpredictable dynamics</li>
+<li>Mic bleed from other instruments</li>
+<li>Risk of amplifying background noise</li>
+<li>Need for natural, energetic sound</li>
+</ul>
+<p><strong>Typical Starting Settings:</strong></p>
+<p>Use these settings as a baseline for vocals and adjust as needed for each performer.</p>
+<pre><code>Threshold:     Set (reduce) by -10 or -20 as a starting point
+               (Make sure the actor covers both normal speaking lines and their loudest singing voice)
+
+Ratio:         3:1 or 4:1 as necessary for a vocalist, or 5:1 at a maximum
+               (Expect to use a higher value for a very powerful singer)
+
+Knee:          Opt for the Soft knee to prevent noticeable changes
+
+Attack:        4-6ms (lets consonants punch through before compressing)
+
+Release:       50-100ms (longer = smoother and less obvious)
+
+Output Gain:   0 unless you absolutely need to boost!
+</code></pre>
+<p><img alt="" src="../images/compressor.jpg" /></p>
+<h3 id="setting-threshold-for-live-vocals">Setting Threshold for Live Vocals</h3>
+<ol>
+<li>
+<p><strong>Watch the performer's technique:</strong></p>
+</li>
+<li>
+<p>Stationary (acoustic guitar player) = more predictable</p>
+</li>
+<li>
+<p>Moving around (energetic vocalist) = less predictable</p>
+</li>
+<li>
+<p><strong>Set threshold to average level, not quietest level</strong></p>
+</li>
+<li>
+<p>Too low = compresses everything including bleed and noise</p>
+</li>
+<li>
+<p>Too high = only catches extreme peaks, defeating the purpose</p>
+</li>
+<li>
+<p><strong>Use gain reduction meter:</strong></p>
+</li>
+<li>
+<p>Should show 4-5 dB on average phrases</p>
+</li>
+<li>Peaks hitting 8 dB maximum</li>
+<li>Not constantly engaged</li>
+</ol>
+<h3 id="advanced-two-compressor-chain">Advanced: Two-Compressor Chain</h3>
+<p>Why yes, you CAN apply compressors to compressed channels! In cases where a group of performers may exist on a single channel, such as a DCA (group) assignment. Compression can be applied for an individual vocalist to match their performance while a compressor on the DCA will ensure a group of vocalists remains within an expected range.</p>
+<p>For vocalists who belt or scream occasionally:</p>
+<p><strong>Compressor 1 (Main):</strong></p>
+<pre><code>Threshold:     Average level
+Ratio:         3:1
+Attack:        3ms
+Release:       100ms
+Purpose:       Smooth overall dynamics
+</code></pre>
+<p><strong>Compressor 2 (Safety Limiting):</strong></p>
+<pre><code>Threshold:     Much higher (only catches belts/screams)
+Ratio:         8:1 (aggressive limiting)
+Attack:        1ms (catch it immediately)
+Release:       50ms (quick recovery)
+Purpose:       Protect against extreme peaks and audience ear damage
+</code></pre>
+<h3 id="what-compression-cannot-do">What Compression Cannot Do</h3>
+<ul>
+<li><strong>Fix bad mic placement</strong> - Get the mic positioned correctly first</li>
+<li><strong>Replace good mic technique</strong> - Work with performer on consistency</li>
+<li><strong>Eliminate feedback</strong> - Use EQ, mic placement, and monitor positioning</li>
+<li><strong>Make a bad mix good</strong> - Get fader balance and EQ right first</li>
+</ul>
+<hr />
+<h2 id="practical-workflow-for-vocal-soundcheck">Practical Workflow for Vocal Soundcheck</h2>
+<h3 id="1-start-with-gain-staging-no-eqcompression-yet">1. Start with Gain Staging (No EQ/Compression Yet)</h3>
+<ul>
+<li>Have vocalist sing at performance volume</li>
+<li>Set input gain so meter shows healthy signal (-12 to -6 dB)</li>
+<li>Fader at unity (0 dB)  </li>
+<li>No clipping/red lights</li>
+</ul>
+<h3 id="2-apply-high-pass-filter">2. Apply High-Pass Filter</h3>
+<ul>
+<li>Engage HPF at 80-100 Hz</li>
+<li>Listen while adjusting - stop before it thins out the voice</li>
+<li>Male vocals might need lower (80 Hz), female higher (100-120 Hz)</li>
+</ul>
+<h3 id="3-cut-problem-frequencies">3. Cut Problem Frequencies</h3>
+<p>Listen for issues and address them <strong>in this priority order:</strong></p>
+<ol>
+<li><strong>Mud</strong> (500 Hz) - Makes everything cloudy</li>
+<li><strong>Sibilance</strong> (5-8 kHz) - Painful on larger systems  </li>
+<li><strong>Harshness</strong> (3-5 kHz) - Listener fatigue</li>
+<li><strong>Nasality</strong> (1-3 kHz) - Annoying but less critical</li>
+</ol>
+<p>Use <strong>narrow Q for surgical cuts</strong>, <strong>wide Q for broad tone shaping</strong>.</p>
+<h3 id="4-add-compression">4. Add Compression</h3>
+<ul>
+<li>Set threshold to average level (aim for 4-5 dB GR)</li>
+<li>Start with 3:1 ratio</li>
+<li>3ms attack, 100ms release</li>
+<li>Add output gain to compensate</li>
+</ul>
+<h3 id="5-add-presence-if-needed">5. Add Presence (If Needed)</h3>
+<p>Only after fixing problems:</p>
+<ul>
+<li>Small boost at 4 kHz for clarity (2-3 dB max)</li>
+<li>High shelf at 10 kHz for sparkle (1-2 dB)</li>
+</ul>
+<h3 id="6-check-in-context-of-full-mix">6. Check in Context of Full Mix</h3>
+<ul>
+<li>Bring up band/backing tracks</li>
+<li>Adjust vocal level for proper balance</li>
+<li>Re-check EQ moves in context (solo'd sounds can be misleading)</li>
+<li>Make sure vocals sit on top of the mix without being too loud</li>
+</ul>
+<h3 id="7-walk-the-room">7. Walk the Room</h3>
+<ul>
+<li>Check vocal intelligibility from different positions</li>
+<li>Front, back, sides, under balcony if applicable</li>
+<li>Adjust as needed for coverage</li>
+</ul>
+<hr />
+<h2 id="common-mistakes-to-avoid">Common Mistakes to Avoid</h2>
+<ol>
+<li><strong>Boosting too much at 4 kHz</strong> - Creates harsh, fatiguing vocals</li>
+<li><strong>Setting threshold too low</strong> - Compresses everything including noise and bleed</li>
+<li><strong>Using studio ratios (8:1) for main compression</strong> - Kills dynamics and amplifies noise</li>
+<li><strong>Not using HPF</strong> - Wastes headroom on useless low frequencies</li>
+<li><strong>Forgetting to add output gain</strong> - Compression reduces level, must compensate</li>
+<li><strong>EQing in solo</strong> - Always check moves in context of full mix</li>
+<li><strong>Over-compressing</strong> - Live shows need dynamics for energy and excitement</li>
+</ol>
+<hr />
+<h2 id="quick-reference-chart">Quick Reference Chart</h2>
+<h3 id="eq-frequency-guide-for-vocals">EQ Frequency Guide for Vocals</h3>
+<table>
+<thead>
+<tr>
+<th>Frequency</th>
+<th>Name</th>
+<th>Cut to Fix</th>
+<th>Boost to Add</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;100 Hz</td>
+<td>Sub/Rumble</td>
+<td>HPF: Always filter</td>
+<td>Never boost</td>
+</tr>
+<tr>
+<td>200-300 Hz</td>
+<td>Body/Warmth</td>
+<td>Muddiness, boominess</td>
+<td>Warmth, fullness</td>
+</tr>
+<tr>
+<td>500 Hz</td>
+<td>Low-Mids</td>
+<td>Mud, cloudiness</td>
+<td>(Rarely needed)</td>
+</tr>
+<tr>
+<td>1-2 kHz</td>
+<td>Mids</td>
+<td>Nasal, honky sound</td>
+<td>Fullness, hollow fix</td>
+</tr>
+<tr>
+<td>3-5 kHz</td>
+<td>Presence</td>
+<td>Harshness</td>
+<td>Clarity, intelligibility</td>
+</tr>
+<tr>
+<td>5-8 kHz</td>
+<td>Upper</td>
+<td>Sibilance, shrillness</td>
+<td>(Rarely needed)</td>
+</tr>
+<tr>
+<td>10+ kHz</td>
+<td>Air</td>
+<td>(Rarely needed)</td>
+<td>Sparkle, openness</td>
+</tr>
+</tbody>
+</table>
+<h3 id="compression-settings-quick-reference">Compression Settings Quick Reference</h3>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Studio</th>
+<th>Live</th>
+<th>Why Different?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Lower</td>
+<td>Higher</td>
+<td>Avoid compressing bleed/noise</td>
+</tr>
+<tr>
+<td>Ratio</td>
+<td>6-8:1</td>
+<td>2-3:1</td>
+<td>Preserve natural dynamics</td>
+</tr>
+<tr>
+<td>Attack</td>
+<td>Variable</td>
+<td>3ms</td>
+<td>Let consonants punch through</td>
+</tr>
+<tr>
+<td>Release</td>
+<td>30-60ms</td>
+<td>100ms</td>
+<td>Smoother, less obvious</td>
+</tr>
+<tr>
+<td>Knee</td>
+<td>Hard/Med</td>
+<td>Soft (12dB)</td>
+<td>More transparent</td>
+</tr>
+<tr>
+<td>GR Target</td>
+<td>6-10 dB</td>
+<td>4-5 dB</td>
+<td>Less aggressive overall</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="not-covered">Not Covered</h2>
+<p>Obviously one area not covered here is how to EQ for musical instruments. The process is much the same but may omit features such as the High-Pass Filter or may utilize other tools such as a Gate.</p>
+<hr />
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../audio-terms/">Audio Terms</a> - Comprehensive audio terminology reference</li>
+<li><a href="../audio-house/">Audio House System</a> - Main theatre audio equipment</li>
+<li><a href="../audio-vocal-tuning/">Audio Vocal Tuning</a> - Advanced vocal mixing techniques</li>
+<li><a href="../audio-room-tuning/">Audio Room Tuning</a> - Acoustic optimization</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../audio-frequencies/" class="btn btn-neutral float-left" title="Mic Frequencies"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../audio-vocal-tuning/" class="btn btn-neutral float-right" title="Vocal Tuning">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../audio-frequencies/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../audio-vocal-tuning/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

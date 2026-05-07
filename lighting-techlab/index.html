@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Tech Lab - Duluth Wildcat Theatre</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Tech Lab";
+        var mkdocs_page_input_path = "lighting-techlab.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../images/WildcatTheatre.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../troubleshooting/">Troubleshooting</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Electrical</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../electrical-breakers/">Breakers</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Sound</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-terms/">Common Terms</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-house/">House Audio</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-mobile/">Mobile Crates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-room-tuning/">Room Tuning</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-wireless/">Wireless Mics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-frequencies/">Mic Frequencies</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-mic-checks/">Mic Checks</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-vocal-tuning/">Vocal Tuning</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Lighting</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-house/">House Lighting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lighting-spotlights/">Followspots</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Tech Lab</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#etc-element">ETC Element</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sample-fixture-configuration">Sample Fixture Configuration</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#patching-demo-raw-dmx">Patching Demo - Raw DMX</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#eos-element-configuration">EOS Element Configuration</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#testing-the-lights">Testing the Lights</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#patching-demo-fixture-profile">Patching Demo - Fixture Profile</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#eos-element-configuration_1">EOS Element Configuration</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#next-steps">Next Steps</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#universes">Universes</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Networking</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../network-general/">General Network</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../network-av/">Audio-Video Network</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../video-streaming/">Video Streaming</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Other Equipment</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../accessories/">Accessories</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Show Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >West Side Story</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-audio/">Audio Setup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../show-wss-scenes/">Audio Scenes</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Duluth Wildcat Theatre</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Lighting</li>
+      <li class="breadcrumb-item active">Tech Lab</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="lighting-tech-lab">Lighting Tech Lab</h1>
+<h2 id="etc-element">ETC Element</h2>
+<p>This is the former lighting console used in the DHS theatre up until 2023 when the lighting system was upgraded to use LED fixtures and a new Ion XE 20 console. The old console remains functional and represents a limited but consistent interface for ETC products both in terms of button layout and functions, as well as the ETC software itself. Learning the basics on this equipment will prepare you for understanding an industry-standard lighting system.</p>
+<p><a href="https://www.etcconnect.com/Products/Legacy/Console/Eos-Family/Element/Features.aspx">Product Info</a></p>
+<p><a href="https://www.etcconnect.com/WorkArea/DownloadAsset.aspx?id=10737500524">Online Manual</a></p>
+<blockquote>
+<p>This console hardware is now obsolete and will receive no further updates from ETC. However, it exists in a fully-working condition that allows it to be used in limited capacity as a teaching tool as the control surface and user interface remains similar to later models. For more information about the hardware used in this lab see the <a href="../lighting-techlab-specs/">tech specs document</a>.</p>
+</blockquote>
+<h2 id="sample-fixture-configuration">Sample Fixture Configuration</h2>
+<p>The following demonstration will use a generic 7-channel RGB LED light bar. We will only utilize the Red, Green, and Blue channels of this device to make those lights available to the ETC console.</p>
+<p><strong>Device Configuration:</strong></p>
+<ol>
+<li>Press up/down to get to the “d” prefix options.</li>
+<li>Use inc/dec to set to “d010”</li>
+</ol>
+<p><strong>What does this do?</strong></p>
+<ul>
+<li>The “d” prefix is the correct one for this particular device which gives us DMX control.</li>
+<li>We set an address of “010” as the starting point for the fixture’s DMX channels.</li>
+</ul>
+<blockquote>
+<p>This fixture provides built-in effects but we will not be using those program modes through the ETC console. By patching through DMX we will have control over the individual RGB LEDs and will use the console to set levels.</p>
+</blockquote>
+<h2 id="patching-demo-raw-dmx">Patching Demo - Raw DMX</h2>
+<p>Within the ETC console you can perform manual patching of a fixture, which is essentially treating each DMX channel as an individual control (such as separate dimmers for red, green, and blue), or you can apply a fixture profile, which allows the console to treat a group of DMX channels as a single light with multiple controllable attributes such as color and intensity. Before we run we need to walk, so let’s look at the concept of manual patching first.</p>
+<h3 id="eos-element-configuration">EOS Element Configuration</h3>
+<ol>
+<li>Ceate a new show file for your work, saving with a custom name to track your progress.</li>
+<li>Locate and press the <code>[Patch]</code> key on the console.</li>
+<li>If the prompt says "Patch Address" press the <code>[Format]</code> key to switch to "Patch Channel"</li>
+<li>Enter the text <code>1 thru 3 @ 10</code> and press <code>[Enter]</code></li>
+</ol>
+<p><strong>What does this do?</strong></p>
+<ul>
+<li>Since we selected “010” as the address of the fixture, this becomes the starting point for any assignment to channels.</li>
+<li>The fixture offers 3 direct controls for the Red, Green, and Blue LED lights, each as a distinct address where Red = 10, Green = 11, and Blue=12.</li>
+<li>The <code>1 thru3</code> represents the channels on the ETC console where we want those 3 colors to be accessible.</li>
+<li>The <code>@ 10</code> tells the console to begin the patching of the 3 channels to addresses in sequential order:<ul>
+<li>Channel 1 = DMX 10</li>
+<li>Channel 2 = DMX 11</li>
+<li>Channel 3 = DMX 12</li>
+</ul>
+</li>
+</ul>
+<p><strong>Adding Labels (Optional):</strong></p>
+<p>To remember what each channel/address combination represetnts you can add a Label/Note to the patch assignment while in the Patch screen.</p>
+<ol>
+<li>Press <code>[Patch]</code> and make sure you are in "Patch Channel" format.</li>
+<li><code>1 [Label] Red [Enter]</code></li>
+<li><code>2 [Label] Green [Enter]</code></li>
+<li><code>3 [Label] Blue [Enter]</code></li>
+</ol>
+<blockquote>
+<p>Note: If you need to clear everything previously patched on this console in order to start with a clean slate, use <code>[Patch] 1 thru 3 [Delete] [Enter]</code>.
+NEVER perform this action on a live or established ETC console without sufficient backups of show files!</p>
+</blockquote>
+<h3 id="testing-the-lights">Testing the Lights</h3>
+<ol>
+<li>Locate and press the <code>[Live]</code> key on the console.</li>
+<li>Set the Grand Master above zero (0) or to full so you can see any effects.</li>
+<li>Use the sliders for channels 1-3 to adjust the Red, Green, and Blue lights of the fixture.</li>
+</ol>
+<h2 id="patching-demo-fixture-profile">Patching Demo - Fixture Profile</h2>
+<p>Instead of manually patching each DMX channel, the ETC console can use a fixture profile to understand how a light behaves. This allows the console to treat multiple DMX channels as a single fixture with defined attributes such as color and intensity.</p>
+<p>Before proceeding with this step, be sure to complete the fixture configuration step as outlined above to give your fixture a unique DMX starting address. The following steps will continue to assume an address of <code>10</code> was set for the same RGB LED light bar.</p>
+<blockquote>
+<p>Be sure to start a new show file for this exercise to avoid conflicts with prior patching. For any DMX address you can only patch it once to a channel or fixture.</p>
+</blockquote>
+<h3 id="eos-element-configuration_1">EOS Element Configuration</h3>
+<p>In manual patching, you control each channel individually. With a fixture profile, the console groups those channels together and provides higher-level control. For this demonstration, we will use a generic RGB fixture profile rather than creating one from scratch.</p>
+<ol>
+<li>Locate and press the <code>[Patch]</code> key on the console.</li>
+<li>If the prompt says "Patch Address" press the <code>[Format]</code> key to switch to "Patch Channel"</li>
+<li>Enter a channel number for the fixture: <code>1 [Enter]</code></li>
+<li>Click on the <code>Type</code> box on the right-hand side of the screen</li>
+<li>Click on the <code>Search</code> button and look for "Generic &gt; LED RGB &gt; LED RGB 8b [3]"</li>
+<li>Assign the starting DMX address: <code>@ 10 [Enter]</code></li>
+</ol>
+<p><strong>What does this do?</strong></p>
+<p>The console now understands that this fixture is an LED RGB device which uses three [3] DMX channels for color control, with 8-bit (8b) values 0-255 for brightness. Channel 1 now represents the entire fixture, not just a single DMX address. You will now see that this type appears to immediately take 3 addresses because the console automatically maps:</p>
+<ul>
+<li>Red = DMX 10</li>
+<li>Green = DMX 11</li>
+<li>Blue = DMX 12</li>
+</ul>
+<p>Using the Fixture</p>
+<ol>
+<li><code>[Live]</code></li>
+<li>Show the new light at full intensity with <code>1 @ Full [Enter]</code></li>
+<li>Alternatively, adjust intensity using the fader</li>
+<li>Use available color controls (if displayed) to select colors instead of defaulting to all @ full</li>
+</ol>
+<p><strong>Benefits of Using a Fixture Profile</strong></p>
+<ul>
+<li>Simplifies control by grouping related DMX channels</li>
+<li>Allows direct color selection instead of manual RGB mixing</li>
+<li>Enables use of:</li>
+<li>Color palettes</li>
+<li>Effects</li>
+<li>More advanced console features</li>
+</ul>
+<p><strong>Important Note</strong></p>
+<p>You cannot patch both manual channels and a fixture profile to the same DMX addresses. Choose one method:</p>
+<ul>
+<li>Manual patching for learning fundamentals</li>
+<li>Fixture profiles for practical operation</li>
+<li>Optional: Creating a Custom Fixture Profile</li>
+</ul>
+<blockquote>
+<p>For advanced use, you can define your own fixture profile using the console’s fixture editor. This allows you to map DMX channels exactly as defined by the device, including additional controls such as strobe or program modes.</p>
+</blockquote>
+<p>For this exercise, the generic RGB fixture provides all required functionality.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>At this point you should have a working fixture which is controlled through the ETC console. Now you may begin working on show cues to demonstrate fade-in's, blackouts, color changes, and other transitions. Learn how to create a magic sheet and light plot, and manage show information with 2 displays and keyboard shortcuts. Try adding additional DMX fixtures and patching to channels to expand your setup!</p>
+<h2 id="universes">Universes</h2>
+<p>Up until now we have not discussed the concept of a Universe in DMX, which is a collection of up to 512 address spaces.</p>
+<p>Patching so far has used a single number for both the fixture and the ETC console. Technically, we have been working within Universe 1, using addresses such as 1/10 through 1/12, where 1/ designates the Universe and the number represents the DMX address within that Universe.</p>
+<p>In larger systems, multiple Universes are used to expand the number of controllable devices. These may be organized by physical areas such as Front of House (FOH), stage electrics (1st electric, 2nd electric, etc.), or other logical groupings.</p>
+<p>While the ETC Element lighting console supports only a single Universe, larger consoles such as the ETC Ion Xe 20 used in the theatre space supports multiple Universes.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../lighting-spotlights/" class="btn btn-neutral float-left" title="Followspots"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../network-general/" class="btn btn-neutral float-right" title="General Network">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../lighting-spotlights/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../network-general/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
