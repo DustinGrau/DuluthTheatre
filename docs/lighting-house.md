@@ -2,15 +2,17 @@
 
 ## ETC Ion XE 20
 
-**Software Version:** 3.3.2.36 (as of December 2025)
+**Software Version:** (as of April 2026)
 
-[Product Info](https://www.etcconnect.com/Products/Consoles/Eos-Consoles/Ion-Xe/Features.aspx)
+* Eos Family: 3.3.6.60
+* Fixture Library: 3.3.6.9
 
-[Online Manual](https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en-us/Default.htm)
+**Product Links:**
 
-[EOS Remote](https://apps.apple.com/us/app/eos-remote/id1479413314)
-
-[Eos Video Learning Series](https://youtu.be/4joUizLBXAg?feature=shared)
+* [Ion Xe Product Info](https://www.etcconnect.com/Products/Consoles/Eos-Consoles/Ion-Xe/Features.aspx)
+* [Eos Online Manual](https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en-us/Default.htm)
+* [Eos Video Learning Series](https://youtu.be/4joUizLBXAg?feature=shared)
+* [EOS Remote for iOS](https://apps.apple.com/us/app/eos-remote/id1479413314)
 
 ## Network
 
