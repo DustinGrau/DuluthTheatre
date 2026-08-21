@@ -2,7 +2,7 @@
 
 > **“An actor speaks into a mic as they're lit on stage. What do these things have in common?”**
 
-## One Basic Concept, Many Technologies
+## One Basic Concept
 
 Modern theatre can look like a collection of unrelated technical specialties: motion, sound, electrical signaling, networking, radio, and lighting. They do not all use the same physical medium, but they can be approached through the same basic ideas from nature: **motion, energy, change, waves, frequency, information, and conversion from one form to another.**
 
@@ -39,7 +39,7 @@ A dancer's **8-count is not literally an EM frequency**, but tempo is still repe
 
 ---
 
-## 2. Signaling — Moving Power, Control, and Data
+## 2. Signaling — Power and Data
 
 ```mermaid
 flowchart LR
@@ -55,7 +55,7 @@ DMX512 is the backbone of modern lighting. It sends digital electrical data over
 
 ---
 
-## 3. Sound — From the Audible Spectrum to the Human Voice
+## 3. The Audible Spectrum
 
 First, divide the audible range into the broad regions an audio engineer works with:
 
@@ -66,7 +66,7 @@ flowchart LR
 
 Those boundaries are deliberately broad rather than rigid. The point is to make **20 Hz–20 kHz** manageable: audio engineers do not think about twenty thousand individual frequencies. They think about useful regions and what changing them does to what we hear.
 
-### The human voice
+### The Human Voice
 
 ```mermaid
 flowchart LR
@@ -75,11 +75,11 @@ flowchart LR
 
 An actor's voice occupies only part of the full audible spectrum, but it contains much more than one frequency. The **fundamental** contributes strongly to perceived pitch, while harmonics and higher-frequency components give the voice its character and make words understandable.
 
-That is why theatre audio is not simply about making a microphone louder. The engineer manages the spectrum so the actor is **clear, natural, and intelligible** without creating feedback or competing with music and other sounds.
+Theatre audio is not simply about making an actor louder via a microphone. The engineer manages the spectrum so the actor is **clear, natural, and intelligible** without creating feedback or competing with music and other sounds.
 
 ---
 
-## 4. Broadcast / RF — Wireless Microphones
+## 4. Broadcast & Radio Frequencies
 
 ```mermaid
 flowchart LR
@@ -92,7 +92,7 @@ This spectrum overlaps with television broadcasting, so not every frequency in t
 
 ---
 
-## 5. Light — The Visible Spectrum
+## 5. The Visible Spectrum
 
 ```mermaid
 flowchart LR
@@ -100,8 +100,6 @@ flowchart LR
 ```
 
 Our **visual system** interprets different wavelengths of visible light as color. A lighting designer then applies **color theory** to use those colors intentionally: creating contrast, complementing costumes and scenery, directing attention, establishing mood, and helping tell the story.
-
-Modern LED fixtures produce and mix selected colors electronically, but the result is still the same physical phenomenon: electromagnetic radiation reaching our eyes.
 
 ---
 
@@ -112,11 +110,11 @@ Modern LED fixtures produce and mix selected colors electronically, but the resu
 | Dancing / walking cadence | ~0.5–3 Hz | Mechanical motion / timing |
 | 120 BPM beat | 2 Hz | Repetition in time |
 | US mains electricity | 60 Hz | Alternating voltage/current |
-| Voice fundamental | ~80–300 Hz | Air pressure; then represented electrically |
-| Human hearing / theatre audio | 20 Hz–20 kHz | Air pressure or represented waveform |
+| Voice fundamental | ~80–300 Hz | Air pressure; represented electrically |
+| Human hearing / theatre audio | 20 Hz–20 kHz | Air pressure as a waveform |
 | Fast/Gigabit copper Ethernet | ~100 MHz scale | Encoded electrical signaling; standard-dependent |
 | Wireless microphones | ~hundreds of MHz | Electromagnetic RF carrier |
-| Wi-Fi | 2.4 / 5 / 6 GHz | Electromagnetic RF carrier |
+| Wi-Fi | 2.4 / 5 GHz | Electromagnetic RF carrier |
 | Visible red light | ~400–484 THz | Electromagnetic field |
 | Visible violet light | ~668–790 THz | Electromagnetic field |
 
@@ -126,10 +124,10 @@ Modern LED fixtures produce and mix selected colors electronically, but the resu
 
 One actor standing onstage can simultaneously sit at the intersection of:
 
-**movement → sound → electrical signals → digital data → networking → RF → embedded computers → light → human perception**
+**movement → sound → digital data → radio waves → computer control → lighting → human perception**
 
 No single person has to master every piece at once.
 
 The useful starting point is recognizing that these are not unrelated boxes of magic. They are technologies built from the same basic physical ideas. Once those fundamentals make sense, the individual systems become much easier to approach.
 
-**The goal is not to make every student an RF engineer, network engineer, audio engineer, and lighting designer. It is to show that none of these systems has to be mysterious once you understand the fundamentals they share.**
+**The goal is not to make every tech an RF engineer, network engineer, audio engineer, and lighting designer. It is to show that none of these systems has to be mysterious once you understand the fundamentals they share.**
